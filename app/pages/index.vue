@@ -35,6 +35,14 @@ const categories = computed(() => [
     name: t('home.categoryPdf'),
     tools: [
       { name: t('tools.pdfCompressor.name'), description: t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' },
+      { name: 'Merge PDF', description: 'Combine multiple PDF files into one', icon: '📎', path: '/tools/pdf/merge', category: 'PDF' },
+      { name: 'PDF to JPG', description: 'Convert PDF pages to JPG images', icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' },
+    ],
+  },
+  {
+    name: 'Image Tools',
+    tools: [
+      { name: 'Image Compressor', description: 'Compress JPG, PNG, WebP images', icon: '🖼️', path: '/tools/image/compress', category: 'Image' },
     ],
   },
   {

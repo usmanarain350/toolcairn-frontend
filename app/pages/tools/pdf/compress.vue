@@ -179,7 +179,7 @@ useSchemaOrg([
   }),
 ])
 
-const { uploadPdf, compressPdf, getDownloadUrl } = useToolApi()
+const { uploadPdf, compressPdf, getPdfDownloadUrl } = useToolApi()
 
 const step = ref<'upload' | 'result'>('upload')
 const selectedFile = ref<File | null>(null)
@@ -244,7 +244,7 @@ async function startCompression() {
       compressed_size: compressResult.compressed_size,
       reduction_percent: compressResult.reduction_percent,
     }
-    downloadUrl.value = getDownloadUrl(compressResult.compressed_file_id)
+    downloadUrl.value = getPdfDownloadUrl(compressResult.compressed_file_id)
     step.value = 'result'
   } catch (e: any) {
     if (e?.data?.message) {
