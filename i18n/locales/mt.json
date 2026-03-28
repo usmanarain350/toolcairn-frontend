@@ -26,7 +26,8 @@
     "categoryUtility": "Għodod ta' utilità",
     "categoryDeveloper": "Għodod tal-iżviluppatur",
     "categoryText": "Għodod tat-test",
-    "categorySeo": "Għodod SEO"
+    "categorySeo": "Għodod SEO",
+    "categoryImage": "Għodod tal-immaġni"
   },
   "tools": {
     "pdfCompressor": {
@@ -199,11 +200,59 @@
     },
     "mergePdf": {
       "name": "Għaqqad PDF",
-      "description": "Għaqqad diversi fajls PDF f'wieħed"
+      "description": "Għaqqad diversi fajls PDF f'wieħed",
+      "pageTitle": "Merge PDF Files Online",
+      "pageSubtitle": "Combine multiple PDF files into one document. Free, no signup required.",
+      "seoTitle": "Merge PDF Files Online — Free, No Signup | ToolFlare",
+      "seoDescription": "Combine multiple PDF files into one document for free. No signup, fast, and secure.",
+      "dragDrop": "Drag & drop PDF files here",
+      "orBrowse": "or click to browse — select multiple PDFs",
+      "maxInfo": "PDF files only — Max 50MB each, up to 20 files",
+      "filesSelected": "{count} file(s) selected — drag to reorder",
+      "mergeBtn": "Merge {count} PDFs",
+      "merging": "Merging...",
+      "minFiles": "Select at least 2 PDFs to merge",
+      "complete": "Merge Complete!",
+      "mergedInfo": "{count} PDFs merged into one",
+      "downloadBtn": "Download Merged PDF",
+      "mergeMore": "Merge More Files"
     },
     "imageCompressor": {
       "name": "Kompressur tal-immaġni",
-      "description": "Naqqas id-daqs tal-fajl tal-immaġni mingħajr ma titlef il-kwalità"
+      "description": "Naqqas id-daqs tal-fajl tal-immaġni mingħajr ma titlef il-kwalità",
+      "smallestFile": "Smallest file",
+      "compressing": "Compressing...",
+      "compressAnother": "Compress Another Image",
+      "pageTitle": "Free Image Compressor Online",
+      "bestQuality": "Best quality",
+      "pageSubtitle": "Compress JPG, PNG, and WebP images without losing quality. No signup required.",
+      "quality": "Quality",
+      "complete": "Compression Complete!",
+      "downloadBtn": "Download Compressed Image",
+      "seoTitle": "Free Image Compressor Online — JPG, PNG, WebP | ToolFlare",
+      "seoDescription": "Compress JPG, PNG, and WebP images online for free. Reduce image file size without losing quality.",
+      "compressBtn": "Compress Image"
+    },
+    "pdfToJpg": {
+      "name": "PDF to JPG",
+      "description": "Convert PDF pages to JPG images",
+      "pageTitle": "Convert PDF to JPG Online",
+      "pageSubtitle": "Convert each page of your PDF to high-quality JPG images. Free, no signup.",
+      "seoTitle": "Convert PDF to JPG Online — Free, High Quality | ToolFlare",
+      "seoDescription": "Convert PDF pages to JPG or PNG images for free. High quality up to 300 DPI.",
+      "outputFormat": "Output Format",
+      "quality": "Quality",
+      "convertBtn": "Convert to {format}",
+      "converting": "Converting...",
+      "complete": "Conversion Complete!",
+      "pagesConverted": "{count} page(s) converted",
+      "zipInfo": "Downloaded as ZIP archive",
+      "singleInfo": "Single image file",
+      "downloadBtn": "Download {type}",
+      "convertAnother": "Convert Another PDF",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standard)",
+      "dpiPrint": "300 DPI (Print)"
     }
   },
   "fileDropZone": {
@@ -219,7 +268,11 @@
     "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova.",
     "copySuccess": "Ikkopjat fil-clipboard!",
     "download": "Niżżel",
-    "languageSelector": "Lingwa"
+    "languageSelector": "Lingwa",
+    "before": "Qabel",
+    "after": "Wara",
+    "fileSizeReduced": "Id-daqs tal-fajl tnaqqas",
+    "remove": "Neħħi"
   },
   "error404": {
     "title": "Il-paġna ma nstabitx",

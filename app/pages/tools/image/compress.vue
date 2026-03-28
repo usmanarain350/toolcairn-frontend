@@ -2,8 +2,8 @@
   <div>
     <NuxtLayout name="tool">
       <ToolLayout>
-        <template #title>Free Image Compressor Online</template>
-        <template #subtitle>Compress JPG, PNG, and WebP images without losing quality. No signup required.</template>
+        <template #title>{{ $t('tools.imageCompressor.pageTitle') }}</template>
+        <template #subtitle>{{ $t('tools.imageCompressor.pageSubtitle') }}</template>
 
         <!-- Step 1: Upload -->
         <div v-if="step === 'upload'">
@@ -16,7 +16,7 @@
           />
 
           <div v-if="selectedFile" class="mt-6">
-            <h3 class="text-sm font-semibold text-gray-700 mb-3">Quality ({{ quality }}%)</h3>
+            <h3 class="text-sm font-semibold text-gray-700 mb-3">{{ $t('tools.imageCompressor.quality') }} ({{ quality }}%)</h3>
             <input
               v-model.number="quality"
               type="range"
@@ -26,8 +26,8 @@
               class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-orange-500"
             />
             <div class="flex justify-between text-xs text-gray-400 mt-1">
-              <span>Smallest file</span>
-              <span>Best quality</span>
+              <span>{{ $t('tools.imageCompressor.smallestFile') }}</span>
+              <span>{{ $t('tools.imageCompressor.bestQuality') }}</span>
             </div>
 
             <button
@@ -35,13 +35,13 @@
               :disabled="isCompressing"
               @click="startCompression"
             >
-              <span v-if="!isCompressing">Compress Image</span>
+              <span v-if="!isCompressing">{{ $t('tools.imageCompressor.compressBtn') }}</span>
               <span v-else class="flex items-center justify-center gap-2">
                 <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24">
                   <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" />
                   <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
-                Compressing...
+                {{ $t('tools.imageCompressor.compressing') }}
               </span>
             </button>
           </div>
@@ -53,24 +53,24 @@
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
             </svg>
-            <span class="font-medium">Compression Complete!</span>
+            <span class="font-medium">{{ $t('tools.imageCompressor.complete') }}</span>
           </div>
 
           <div class="flex items-center justify-center gap-4 md:gap-8 mb-6">
             <div class="text-center">
-              <p class="text-sm text-gray-500 mb-1">Before</p>
+              <p class="text-sm text-gray-500 mb-1">{{ $t('common.before') }}</p>
               <p class="text-xl font-bold text-gray-400">{{ formatSize(result.original_size) }}</p>
             </div>
             <div class="text-3xl text-orange-500">→</div>
             <div class="text-center">
-              <p class="text-sm text-gray-500 mb-1">After</p>
+              <p class="text-sm text-gray-500 mb-1">{{ $t('common.after') }}</p>
               <p class="text-xl font-bold text-gray-900">{{ formatSize(result.compressed_size) }}</p>
             </div>
           </div>
 
           <div class="bg-orange-50 rounded-xl p-6 mb-6 inline-block">
             <p class="text-4xl font-bold text-orange-500">{{ result.reduction_percent }}%</p>
-            <p class="text-sm text-orange-600 mt-1">File size reduced</p>
+            <p class="text-sm text-orange-600 mt-1">{{ $t('common.fileSizeReduced') }}</p>
           </div>
 
           <div class="space-y-3">
@@ -79,13 +79,13 @@
               class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
-              Download Compressed Image
+              {{ $t('tools.imageCompressor.downloadBtn') }}
             </a>
             <button
               class="w-full border border-gray-300 hover:border-gray-400 text-gray-700 font-medium py-3 px-6 rounded-xl transition"
               @click="resetTool"
             >
-              Compress Another Image
+              {{ $t('tools.imageCompressor.compressAnother') }}
             </button>
           </div>
         </div>
@@ -121,9 +121,9 @@
         </template>
 
         <template #related>
-          <ToolCard :tool="{ name: 'PDF Compressor', description: 'Reduce PDF file size without losing quality', icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'PDF to JPG', description: 'Convert PDF pages to JPG images', icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'QR Code Generator', description: 'Generate QR codes for any URL or text', icon: '📱', path: '/tools/utility/qr-code', category: 'Utility' }" />
+          <ToolCard :tool="{ name: $t('tools.pdfCompressor.name'), description: $t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.pdfToJpg.name'), description: $t('tools.pdfToJpg.description'), icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.qrCode.name'), description: $t('tools.qrCode.description'), icon: '📱', path: '/tools/utility/qr-code', category: 'Utility' }" />
         </template>
       </ToolLayout>
     </NuxtLayout>
@@ -131,9 +131,13 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Free Image Compressor Online — JPG, PNG, WebP | ToolFlare',
-  description: 'Compress JPG, PNG, and WebP images online for free. Reduce image file size without losing quality. No signup required.',
+  title: t('tools.imageCompressor.seoTitle'),
+  description: t('tools.imageCompressor.seoDescription'),
+  ogTitle: t('tools.imageCompressor.seoTitle'),
+  ogDescription: t('tools.imageCompressor.pageSubtitle'),
 })
 
 useSchemaOrg([
@@ -181,7 +185,7 @@ async function startCompression() {
     downloadUrl.value = getImageDownloadUrl(compressResult.compressed_file_id)
     step.value = 'result'
   } catch (e: any) {
-    errorMessage.value = e?.data?.message || e?.message || 'Something went wrong. Please try again.'
+    errorMessage.value = e?.data?.message || e?.message || t('common.error')
   } finally {
     isCompressing.value = false
   }

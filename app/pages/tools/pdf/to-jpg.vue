@@ -2,8 +2,8 @@
   <div>
     <NuxtLayout name="tool">
       <ToolLayout>
-        <template #title>Convert PDF to JPG Online</template>
-        <template #subtitle>Convert each page of your PDF to high-quality JPG images. Free, no signup.</template>
+        <template #title>{{ $t('tools.pdfToJpg.pageTitle') }}</template>
+        <template #subtitle>{{ $t('tools.pdfToJpg.pageSubtitle') }}</template>
 
         <!-- Step 1: Upload -->
         <div v-if="step === 'upload'">
@@ -18,7 +18,7 @@
           <div v-if="selectedFile" class="mt-6">
             <!-- Format -->
             <div class="mb-4">
-              <h3 class="text-sm font-semibold text-gray-700 mb-2">Output Format</h3>
+              <h3 class="text-sm font-semibold text-gray-700 mb-2">{{ $t('tools.pdfToJpg.outputFormat') }}</h3>
               <div class="flex gap-3">
                 <button
                   v-for="fmt in ['jpg', 'png']"
@@ -34,7 +34,7 @@
 
             <!-- DPI -->
             <div class="mb-6">
-              <h3 class="text-sm font-semibold text-gray-700 mb-2">Quality ({{ dpi }} DPI)</h3>
+              <h3 class="text-sm font-semibold text-gray-700 mb-2">{{ $t('tools.pdfToJpg.quality') }} ({{ dpi }} DPI)</h3>
               <div class="flex gap-3">
                 <button
                   v-for="opt in dpiOptions"
@@ -53,13 +53,13 @@
               :disabled="isConverting"
               @click="startConversion"
             >
-              <span v-if="!isConverting">Convert to {{ format.toUpperCase() }}</span>
+              <span v-if="!isConverting">{{ $t('tools.pdfToJpg.convertBtn', { format: format.toUpperCase() }) }}</span>
               <span v-else class="flex items-center justify-center gap-2">
                 <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24">
                   <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" />
                   <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
-                Converting...
+                {{ $t('tools.pdfToJpg.converting') }}
               </span>
             </button>
           </div>
@@ -71,13 +71,13 @@
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
             </svg>
-            <span class="font-medium">Conversion Complete!</span>
+            <span class="font-medium">{{ $t('tools.pdfToJpg.complete') }}</span>
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
-            <p class="text-lg font-semibold text-gray-900">{{ result.page_count }} page(s) converted</p>
+            <p class="text-lg font-semibold text-gray-900">{{ $t('tools.pdfToJpg.pagesConverted', { count: result.page_count }) }}</p>
             <p class="text-sm text-gray-500 mt-1">
-              {{ result.type === 'zip' ? 'Downloaded as ZIP archive' : 'Single image file' }}
+              {{ result.type === 'zip' ? $t('tools.pdfToJpg.zipInfo') : $t('tools.pdfToJpg.singleInfo') }}
               — {{ formatSize(result.size) }}
             </p>
           </div>
@@ -88,13 +88,13 @@
               class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
-              Download {{ result.type === 'zip' ? 'ZIP' : format.toUpperCase() }}
+              {{ $t('tools.pdfToJpg.downloadBtn', { type: result.type === 'zip' ? 'ZIP' : format.toUpperCase() }) }}
             </a>
             <button
               class="w-full border border-gray-300 hover:border-gray-400 text-gray-700 font-medium py-3 px-6 rounded-xl transition"
               @click="resetTool"
             >
-              Convert Another PDF
+              {{ $t('tools.pdfToJpg.convertAnother') }}
             </button>
           </div>
         </div>
@@ -127,9 +127,9 @@
         </template>
 
         <template #related>
-          <ToolCard :tool="{ name: 'PDF Compressor', description: 'Reduce PDF file size', icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'Merge PDF', description: 'Combine multiple PDFs', icon: '📎', path: '/tools/pdf/merge', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'Image Compressor', description: 'Compress images online', icon: '🖼️', path: '/tools/image/compress', category: 'Image' }" />
+          <ToolCard :tool="{ name: $t('tools.pdfCompressor.name'), description: $t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.mergePdf.name'), description: $t('tools.mergePdf.description'), icon: '📎', path: '/tools/pdf/merge', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.imageCompressor.name'), description: $t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' }" />
         </template>
       </ToolLayout>
     </NuxtLayout>
@@ -137,9 +137,13 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Convert PDF to JPG Online — Free, High Quality | ToolFlare',
-  description: 'Convert PDF pages to JPG or PNG images for free. High quality up to 300 DPI. No signup required.',
+  title: t('tools.pdfToJpg.seoTitle'),
+  description: t('tools.pdfToJpg.seoDescription'),
+  ogTitle: t('tools.pdfToJpg.seoTitle'),
+  ogDescription: t('tools.pdfToJpg.pageSubtitle'),
 })
 
 useSchemaOrg([
@@ -162,11 +166,11 @@ const errorMessage = ref('')
 const downloadUrl = ref('')
 const result = ref<{ page_count: number; type: string; size: number } | null>(null)
 
-const dpiOptions = [
-  { value: 72, label: '72 DPI (Web)' },
-  { value: 150, label: '150 DPI (Standard)' },
-  { value: 300, label: '300 DPI (Print)' },
-]
+const dpiOptions = computed(() => [
+  { value: 72, label: t('tools.pdfToJpg.dpiWeb') },
+  { value: 150, label: t('tools.pdfToJpg.dpiStandard') },
+  { value: 300, label: t('tools.pdfToJpg.dpiPrint') },
+])
 
 function onFileSelected(file: File) {
   selectedFile.value = file
@@ -193,7 +197,7 @@ async function startConversion() {
     downloadUrl.value = getConvertDownloadUrl(convertResult.convert_id)
     step.value = 'result'
   } catch (e: any) {
-    errorMessage.value = e?.data?.message || e?.message || 'Conversion failed. Please try again.'
+    errorMessage.value = e?.data?.message || e?.message || t('common.error')
   } finally {
     isConverting.value = false
   }

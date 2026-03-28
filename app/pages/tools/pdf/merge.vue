@@ -2,8 +2,8 @@
   <div>
     <NuxtLayout name="tool">
       <ToolLayout>
-        <template #title>Merge PDF Files Online</template>
-        <template #subtitle>Combine multiple PDF files into one document. Free, no signup required.</template>
+        <template #title>{{ $t('tools.mergePdf.pageTitle') }}</template>
+        <template #subtitle>{{ $t('tools.mergePdf.pageSubtitle') }}</template>
 
         <!-- Step 1: Upload multiple files -->
         <div v-if="step === 'upload'">
@@ -17,14 +17,14 @@
           >
             <input ref="fileInput" type="file" accept=".pdf" multiple class="hidden" @change="onFileSelect" />
             <div class="text-4xl mb-3">📑</div>
-            <p class="text-gray-700 font-medium">Drag & drop PDF files here</p>
-            <p class="text-sm text-gray-400 mt-1">or click to browse — select multiple PDFs</p>
-            <p class="text-xs text-gray-400 mt-2">PDF files only — Max 50MB each, up to 20 files</p>
+            <p class="text-gray-700 font-medium">{{ $t('tools.mergePdf.dragDrop') }}</p>
+            <p class="text-sm text-gray-400 mt-1">{{ $t('tools.mergePdf.orBrowse') }}</p>
+            <p class="text-xs text-gray-400 mt-2">{{ $t('tools.mergePdf.maxInfo') }}</p>
           </div>
 
           <!-- File list -->
           <div v-if="files.length > 0" class="mt-6 space-y-2">
-            <h3 class="text-sm font-semibold text-gray-700 mb-3">{{ files.length }} file(s) selected — drag to reorder</h3>
+            <h3 class="text-sm font-semibold text-gray-700 mb-3">{{ $t('tools.mergePdf.filesSelected', { count: files.length }) }}</h3>
             <div
               v-for="(file, index) in files"
               :key="index"
@@ -36,7 +36,7 @@
                 <p class="text-sm font-medium text-gray-900 truncate">{{ file.name }}</p>
                 <p class="text-xs text-gray-500">{{ formatSize(file.size) }}</p>
               </div>
-              <button class="text-red-400 hover:text-red-600 text-sm" @click="removeFile(index)">Remove</button>
+              <button class="text-red-400 hover:text-red-600 text-sm" @click="removeFile(index)">{{ $t('common.remove') }}</button>
             </div>
 
             <button
@@ -44,16 +44,16 @@
               :disabled="files.length < 2 || isMerging"
               @click="startMerge"
             >
-              <span v-if="!isMerging">Merge {{ files.length }} PDFs</span>
+              <span v-if="!isMerging">{{ $t('tools.mergePdf.mergeBtn', { count: files.length }) }}</span>
               <span v-else class="flex items-center justify-center gap-2">
                 <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24">
                   <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" />
                   <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
-                Merging...
+                {{ $t('tools.mergePdf.merging') }}
               </span>
             </button>
-            <p v-if="files.length < 2" class="text-center text-sm text-gray-400 mt-2">Select at least 2 PDFs to merge</p>
+            <p v-if="files.length < 2" class="text-center text-sm text-gray-400 mt-2">{{ $t('tools.mergePdf.minFiles') }}</p>
           </div>
         </div>
 
@@ -63,11 +63,11 @@
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
             </svg>
-            <span class="font-medium">Merge Complete!</span>
+            <span class="font-medium">{{ $t('tools.mergePdf.complete') }}</span>
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
-            <p class="text-lg font-semibold text-gray-900">{{ result.file_count }} PDFs merged into one</p>
+            <p class="text-lg font-semibold text-gray-900">{{ $t('tools.mergePdf.mergedInfo', { count: result.file_count }) }}</p>
             <p class="text-sm text-gray-500 mt-1">Output size: {{ formatSize(result.merged_size) }}</p>
           </div>
 
@@ -77,13 +77,13 @@
               class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
-              Download Merged PDF
+              {{ $t('tools.mergePdf.downloadBtn') }}
             </a>
             <button
               class="w-full border border-gray-300 hover:border-gray-400 text-gray-700 font-medium py-3 px-6 rounded-xl transition"
               @click="resetTool"
             >
-              Merge More Files
+              {{ $t('tools.mergePdf.mergeMore') }}
             </button>
           </div>
         </div>
@@ -116,9 +116,9 @@
         </template>
 
         <template #related>
-          <ToolCard :tool="{ name: 'PDF Compressor', description: 'Reduce PDF file size', icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'PDF to JPG', description: 'Convert PDF pages to images', icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' }" />
-          <ToolCard :tool="{ name: 'Image Compressor', description: 'Compress images online', icon: '🖼️', path: '/tools/image/compress', category: 'Image' }" />
+          <ToolCard :tool="{ name: $t('tools.pdfCompressor.name'), description: $t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.pdfToJpg.name'), description: $t('tools.pdfToJpg.description'), icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' }" />
+          <ToolCard :tool="{ name: $t('tools.imageCompressor.name'), description: $t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' }" />
         </template>
       </ToolLayout>
     </NuxtLayout>
@@ -126,9 +126,13 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Merge PDF Files Online — Free, No Signup | ToolFlare',
-  description: 'Combine multiple PDF files into one document for free. No signup, fast, and secure. Up to 20 PDFs at once.',
+  title: t('tools.mergePdf.seoTitle'),
+  description: t('tools.mergePdf.seoDescription'),
+  ogTitle: t('tools.mergePdf.seoTitle'),
+  ogDescription: t('tools.mergePdf.pageSubtitle'),
 })
 
 useSchemaOrg([
@@ -193,7 +197,7 @@ async function startMerge() {
     downloadUrl.value = getMergeDownloadUrl(mergeResult.merge_id)
     step.value = 'result'
   } catch (e: any) {
-    errorMessage.value = e?.data?.message || e?.message || 'Merge failed. Please try again.'
+    errorMessage.value = e?.data?.message || e?.message || t('common.error')
   } finally {
     isMerging.value = false
   }

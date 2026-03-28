@@ -26,7 +26,8 @@
     "categoryUtility": "ইউটিলিটি টুল",
     "categoryDeveloper": "ডেভেলপার টুল",
     "categoryText": "টেক্সট টুল",
-    "categorySeo": "SEO টুল"
+    "categorySeo": "SEO টুল",
+    "categoryImage": "ইমেজ টুলস"
   },
   "tools": {
     "pdfCompressor": {
@@ -199,11 +200,59 @@
     },
     "mergePdf": {
       "name": "PDF মার্জ করুন",
-      "description": "একাধিক PDF ফাইলকে একটিতে একত্রিত করুন"
+      "description": "একাধিক PDF ফাইলকে একটিতে একত্রিত করুন",
+      "pageTitle": "Merge PDF Files Online",
+      "pageSubtitle": "Combine multiple PDF files into one document. Free, no signup required.",
+      "seoTitle": "Merge PDF Files Online — Free, No Signup | ToolFlare",
+      "seoDescription": "Combine multiple PDF files into one document for free. No signup, fast, and secure.",
+      "dragDrop": "Drag & drop PDF files here",
+      "orBrowse": "or click to browse — select multiple PDFs",
+      "maxInfo": "PDF files only — Max 50MB each, up to 20 files",
+      "filesSelected": "{count} file(s) selected — drag to reorder",
+      "mergeBtn": "Merge {count} PDFs",
+      "merging": "Merging...",
+      "minFiles": "Select at least 2 PDFs to merge",
+      "complete": "Merge Complete!",
+      "mergedInfo": "{count} PDFs merged into one",
+      "downloadBtn": "Download Merged PDF",
+      "mergeMore": "Merge More Files"
     },
     "imageCompressor": {
       "name": "ছবি কম্প্রেসর",
-      "description": "গুণমান না হারিয়ে ছবির ফাইল আকার কমান"
+      "description": "গুণমান না হারিয়ে ছবির ফাইল আকার কমান",
+      "smallestFile": "Smallest file",
+      "compressing": "Compressing...",
+      "compressAnother": "Compress Another Image",
+      "pageTitle": "Free Image Compressor Online",
+      "bestQuality": "Best quality",
+      "pageSubtitle": "Compress JPG, PNG, and WebP images without losing quality. No signup required.",
+      "quality": "Quality",
+      "complete": "Compression Complete!",
+      "downloadBtn": "Download Compressed Image",
+      "seoTitle": "Free Image Compressor Online — JPG, PNG, WebP | ToolFlare",
+      "seoDescription": "Compress JPG, PNG, and WebP images online for free. Reduce image file size without losing quality.",
+      "compressBtn": "Compress Image"
+    },
+    "pdfToJpg": {
+      "name": "PDF to JPG",
+      "description": "Convert PDF pages to JPG images",
+      "pageTitle": "Convert PDF to JPG Online",
+      "pageSubtitle": "Convert each page of your PDF to high-quality JPG images. Free, no signup.",
+      "seoTitle": "Convert PDF to JPG Online — Free, High Quality | ToolFlare",
+      "seoDescription": "Convert PDF pages to JPG or PNG images for free. High quality up to 300 DPI.",
+      "outputFormat": "Output Format",
+      "quality": "Quality",
+      "convertBtn": "Convert to {format}",
+      "converting": "Converting...",
+      "complete": "Conversion Complete!",
+      "pagesConverted": "{count} page(s) converted",
+      "zipInfo": "Downloaded as ZIP archive",
+      "singleInfo": "Single image file",
+      "downloadBtn": "Download {type}",
+      "convertAnother": "Convert Another PDF",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standard)",
+      "dpiPrint": "300 DPI (Print)"
     }
   },
   "fileDropZone": {
@@ -219,7 +268,11 @@
     "error": "কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
     "copySuccess": "ক্লিপবোর্ডে কপি হয়েছে!",
     "download": "ডাউনলোড",
-    "languageSelector": "ভাষা"
+    "languageSelector": "ভাষা",
+    "before": "আগে",
+    "after": "পরে",
+    "fileSizeReduced": "ফাইলের আকার কমানো হয়েছে",
+    "remove": "সরান"
   },
   "error404": {
     "title": "পৃষ্ঠা পাওয়া যায়নি",

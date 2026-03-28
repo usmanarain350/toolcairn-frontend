@@ -1,24 +1,32 @@
+interface ApiSuccessResponse<T> {
+  error: false
+  message: string
+  data: T
+}
+
 export function useToolApi() {
   const config = useRuntimeConfig()
   const apiBase = config.public.apiBase
+
+  async function api<T>(url: string, options: Parameters<typeof $fetch>[1] = {}): Promise<T> {
+    const response = await $fetch<ApiSuccessResponse<T>>(url, options)
+    return response.data
+  }
 
   // PDF Compress
   async function uploadPdf(file: File) {
     const formData = new FormData()
     formData.append('file', file)
 
-    return await $fetch<{
+    return api<{
       file_id: string
       original_name: string
       original_size: number
-    }>(`${apiBase}/pdf/upload`, {
-      method: 'POST',
-      body: formData,
-    })
+    }>(`${apiBase}/pdf/upload`, { method: 'POST', body: formData })
   }
 
   async function compressPdf(fileId: string, level: 'low' | 'medium' | 'high') {
-    return await $fetch<{
+    return api<{
       compressed_file_id: string
       compressed_size: number
       original_size: number
@@ -39,19 +47,16 @@ export function useToolApi() {
     const formData = new FormData()
     formData.append('file', file)
 
-    return await $fetch<{
+    return api<{
       file_id: string
       original_name: string
       original_size: number
       format: string
-    }>(`${apiBase}/image/upload`, {
-      method: 'POST',
-      body: formData,
-    })
+    }>(`${apiBase}/image/upload`, { method: 'POST', body: formData })
   }
 
   async function compressImage(fileId: string, quality: number) {
-    return await $fetch<{
+    return api<{
       compressed_file_id: string
       compressed_size: number
       original_size: number
@@ -72,16 +77,13 @@ export function useToolApi() {
     const formData = new FormData()
     files.forEach(file => formData.append('files[]', file))
 
-    return await $fetch<{
+    return api<{
       merge_id: string
       file_count: number
       total_input_size: number
       merged_size: number
       download_url: string
-    }>(`${apiBase}/pdf/merge`, {
-      method: 'POST',
-      body: formData,
-    })
+    }>(`${apiBase}/pdf/merge`, { method: 'POST', body: formData })
   }
 
   function getMergeDownloadUrl(mergeId: string): string {
@@ -95,16 +97,13 @@ export function useToolApi() {
     formData.append('format', format)
     formData.append('dpi', dpi.toString())
 
-    return await $fetch<{
+    return api<{
       convert_id: string
       page_count: number
       type: 'single' | 'zip'
       size: number
       download_url: string
-    }>(`${apiBase}/pdf/to-image`, {
-      method: 'POST',
-      body: formData,
-    })
+    }>(`${apiBase}/pdf/to-image`, { method: 'POST', body: formData })
   }
 
   function getConvertDownloadUrl(convertId: string): string {

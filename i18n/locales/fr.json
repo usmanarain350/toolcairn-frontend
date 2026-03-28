@@ -26,7 +26,8 @@
     "categoryUtility": "Outils utilitaires",
     "categoryDeveloper": "Outils développeur",
     "categoryText": "Outils texte",
-    "categorySeo": "Outils SEO"
+    "categorySeo": "Outils SEO",
+    "categoryImage": "Outils d'image"
   },
   "tools": {
     "pdfCompressor": {
@@ -198,12 +199,60 @@
       "description": "Convertissez des fichiers PDF en documents Word modifiables"
     },
     "mergePdf": {
-      "name": "Fusionner des PDF",
-      "description": "Combinez plusieurs fichiers PDF en un seul"
+      "name": "Fusionner PDF",
+      "description": "Combiner plusieurs fichiers PDF en un seul",
+      "pageTitle": "Fusionner des fichiers PDF en ligne",
+      "pageSubtitle": "Combinez plusieurs fichiers PDF en un seul document. Gratuit, sans inscription.",
+      "seoTitle": "Fusionner des fichiers PDF en ligne — Gratuit | ToolFlare",
+      "seoDescription": "Combinez plusieurs fichiers PDF en un seul document gratuitement.",
+      "dragDrop": "Glissez-déposez vos fichiers PDF ici",
+      "orBrowse": "ou cliquez pour parcourir — sélectionnez plusieurs PDFs",
+      "maxInfo": "Fichiers PDF uniquement — Max. 50 Mo chacun, jusqu'à 20 fichiers",
+      "filesSelected": "{count} fichier(s) sélectionné(s)",
+      "mergeBtn": "Fusionner {count} PDFs",
+      "merging": "Fusion...",
+      "minFiles": "Sélectionnez au moins 2 PDFs à fusionner",
+      "complete": "Fusion terminée !",
+      "mergedInfo": "{count} PDFs fusionnés en un seul",
+      "downloadBtn": "Télécharger le PDF fusionné",
+      "mergeMore": "Fusionner d'autres fichiers"
     },
     "imageCompressor": {
       "name": "Compresseur d'images",
-      "description": "Réduisez la taille des images sans perte de qualité"
+      "description": "Compresser les images JPG, PNG, WebP",
+      "pageTitle": "Compresseur d'images gratuit",
+      "pageSubtitle": "Compressez les images JPG, PNG et WebP sans perte de qualité. Sans inscription.",
+      "seoTitle": "Compresseur d'images en ligne gratuit | ToolFlare",
+      "seoDescription": "Compressez les images JPG, PNG et WebP gratuitement en ligne.",
+      "quality": "Qualité",
+      "smallestFile": "Fichier le plus petit",
+      "bestQuality": "Meilleure qualité",
+      "compressBtn": "Compresser l'image",
+      "compressing": "Compression...",
+      "complete": "Compression terminée !",
+      "downloadBtn": "Télécharger l'image compressée",
+      "compressAnother": "Compresser une autre image"
+    },
+    "pdfToJpg": {
+      "name": "PDF en JPG",
+      "description": "Convertir les pages PDF en images JPG",
+      "pageTitle": "Convertir PDF en JPG en ligne",
+      "pageSubtitle": "Convertissez chaque page de votre PDF en images JPG de haute qualité.",
+      "seoTitle": "Convertir PDF en JPG en ligne — Gratuit | ToolFlare",
+      "seoDescription": "Convertissez les pages PDF en images JPG ou PNG gratuitement.",
+      "outputFormat": "Format de sortie",
+      "quality": "Qualité",
+      "convertBtn": "Convertir en {format}",
+      "converting": "Conversion...",
+      "complete": "Conversion terminée !",
+      "pagesConverted": "{count} page(s) convertie(s)",
+      "zipInfo": "Téléchargé en archive ZIP",
+      "singleInfo": "Fichier image unique",
+      "downloadBtn": "Télécharger {type}",
+      "convertAnother": "Convertir un autre PDF",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standard)",
+      "dpiPrint": "300 DPI (Impression)"
     }
   },
   "fileDropZone": {
@@ -219,7 +268,11 @@
     "error": "Une erreur s'est produite. Veuillez réessayer.",
     "copySuccess": "Copié dans le presse-papiers !",
     "download": "Télécharger",
-    "languageSelector": "Langue"
+    "languageSelector": "Langue",
+    "before": "Avant",
+    "after": "Après",
+    "fileSizeReduced": "Taille réduite",
+    "remove": "Supprimer"
   },
   "error404": {
     "title": "Page non trouvée",

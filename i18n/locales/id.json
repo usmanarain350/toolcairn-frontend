@@ -26,7 +26,8 @@
     "categoryUtility": "Alat Utilitas",
     "categoryDeveloper": "Alat Pengembang",
     "categoryText": "Alat Teks",
-    "categorySeo": "Alat SEO"
+    "categorySeo": "Alat SEO",
+    "categoryImage": "Alat Gambar"
   },
   "tools": {
     "pdfCompressor": {
@@ -199,11 +200,59 @@
     },
     "mergePdf": {
       "name": "Gabung PDF",
-      "description": "Gabungkan beberapa file PDF menjadi satu"
+      "description": "Gabungkan beberapa file PDF menjadi satu",
+      "pageTitle": "Gabung File PDF Online",
+      "pageSubtitle": "Gabungkan beberapa file PDF menjadi satu dokumen. Gratis, tanpa perlu daftar.",
+      "seoTitle": "Gabung File PDF Online — Gratis, Tanpa Daftar | ToolFlare",
+      "seoDescription": "Gabungkan beberapa file PDF menjadi satu dokumen secara gratis. Tanpa daftar, cepat, dan aman.",
+      "dragDrop": "Seret & lepas file PDF di sini",
+      "orBrowse": "atau klik untuk menjelajah — pilih beberapa PDF",
+      "maxInfo": "File PDF saja — Maks 50MB per file, hingga 20 file",
+      "filesSelected": "{count} file dipilih — seret untuk mengurutkan",
+      "mergeBtn": "Gabung {count} PDF",
+      "merging": "Menggabungkan...",
+      "minFiles": "Pilih minimal 2 PDF untuk digabung",
+      "complete": "Penggabungan Selesai!",
+      "mergedInfo": "{count} PDF digabung menjadi satu",
+      "downloadBtn": "Unduh PDF Gabungan",
+      "mergeMore": "Gabung File Lainnya"
     },
     "imageCompressor": {
       "name": "Kompresor Gambar",
-      "description": "Kurangi ukuran file gambar tanpa kehilangan kualitas"
+      "description": "Kompres gambar JPG, PNG, WebP",
+      "pageTitle": "Kompresor Gambar Online Gratis",
+      "pageSubtitle": "Kompres gambar JPG, PNG, dan WebP tanpa kehilangan kualitas. Tanpa perlu daftar.",
+      "seoTitle": "Kompresor Gambar Online Gratis — JPG, PNG, WebP | ToolFlare",
+      "seoDescription": "Kompres gambar JPG, PNG, dan WebP secara online gratis. Kurangi ukuran file gambar tanpa kehilangan kualitas.",
+      "quality": "Kualitas",
+      "smallestFile": "File terkecil",
+      "bestQuality": "Kualitas terbaik",
+      "compressBtn": "Kompres Gambar",
+      "compressing": "Mengompres...",
+      "complete": "Kompresi Selesai!",
+      "downloadBtn": "Unduh Gambar Terkompresi",
+      "compressAnother": "Kompres Gambar Lain"
+    },
+    "pdfToJpg": {
+      "name": "PDF ke JPG",
+      "description": "Ubah halaman PDF menjadi gambar JPG",
+      "pageTitle": "Ubah PDF ke JPG Online",
+      "pageSubtitle": "Ubah setiap halaman PDF Anda menjadi gambar JPG berkualitas tinggi. Gratis, tanpa daftar.",
+      "seoTitle": "Ubah PDF ke JPG Online — Gratis, Kualitas Tinggi | ToolFlare",
+      "seoDescription": "Ubah halaman PDF menjadi gambar JPG atau PNG secara gratis. Kualitas tinggi hingga 300 DPI.",
+      "outputFormat": "Format Output",
+      "quality": "Kualitas",
+      "convertBtn": "Ubah ke {format}",
+      "converting": "Mengonversi...",
+      "complete": "Konversi Selesai!",
+      "pagesConverted": "{count} halaman dikonversi",
+      "zipInfo": "Diunduh sebagai arsip ZIP",
+      "singleInfo": "File gambar tunggal",
+      "downloadBtn": "Unduh {type}",
+      "convertAnother": "Ubah PDF Lain",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standar)",
+      "dpiPrint": "300 DPI (Cetak)"
     }
   },
   "fileDropZone": {
@@ -219,7 +268,11 @@
     "error": "Terjadi kesalahan. Silakan coba lagi.",
     "copySuccess": "Disalin ke papan klip!",
     "download": "Unduh",
-    "languageSelector": "Bahasa"
+    "languageSelector": "Bahasa",
+    "before": "Sebelum",
+    "after": "Sesudah",
+    "fileSizeReduced": "Ukuran file berkurang",
+    "remove": "Hapus"
   },
   "error404": {
     "title": "Halaman Tidak Ditemukan",

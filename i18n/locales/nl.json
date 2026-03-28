@@ -26,7 +26,8 @@
     "categoryUtility": "Hulpmiddelen",
     "categoryDeveloper": "Ontwikkelaarstools",
     "categoryText": "Teksttools",
-    "categorySeo": "SEO-tools"
+    "categorySeo": "SEO-tools",
+    "categoryImage": "Afbeeldingstools"
   },
   "tools": {
     "pdfCompressor": {
@@ -199,11 +200,59 @@
     },
     "mergePdf": {
       "name": "PDF samenvoegen",
-      "description": "Combineer meerdere PDF-bestanden tot één"
+      "description": "Meerdere PDF-bestanden samenvoegen",
+      "pageTitle": "PDF-bestanden online samenvoegen",
+      "pageSubtitle": "Combineer meerdere PDF-bestanden tot één document. Gratis, zonder registratie.",
+      "seoTitle": "PDF-bestanden online samenvoegen — Gratis | ToolFlare",
+      "seoDescription": "Combineer meerdere PDF-bestanden gratis tot één document.",
+      "dragDrop": "Sleep PDF-bestanden hierheen",
+      "orBrowse": "of klik om te bladeren",
+      "maxInfo": "Alleen PDF — Max 50MB per bestand, tot 20 bestanden",
+      "filesSelected": "{count} bestand(en) geselecteerd",
+      "mergeBtn": "{count} PDFs samenvoegen",
+      "merging": "Samenvoegen...",
+      "minFiles": "Selecteer minimaal 2 PDFs",
+      "complete": "Samenvoegen voltooid!",
+      "mergedInfo": "{count} PDFs samengevoegd",
+      "downloadBtn": "Samengevoegd PDF downloaden",
+      "mergeMore": "Meer bestanden samenvoegen"
     },
     "imageCompressor": {
       "name": "Afbeeldingscompressor",
-      "description": "Verklein de afbeeldingsgrootte zonder kwaliteitsverlies"
+      "description": "JPG, PNG, WebP afbeeldingen comprimeren",
+      "pageTitle": "Gratis online afbeeldingscompressor",
+      "pageSubtitle": "Comprimeer JPG, PNG en WebP afbeeldingen zonder kwaliteitsverlies.",
+      "seoTitle": "Gratis online afbeeldingscompressor | ToolFlare",
+      "seoDescription": "Comprimeer JPG, PNG en WebP afbeeldingen gratis online.",
+      "quality": "Kwaliteit",
+      "smallestFile": "Kleinste bestand",
+      "bestQuality": "Beste kwaliteit",
+      "compressBtn": "Afbeelding comprimeren",
+      "compressing": "Comprimeren...",
+      "complete": "Compressie voltooid!",
+      "downloadBtn": "Gecomprimeerde afbeelding downloaden",
+      "compressAnother": "Nog een afbeelding comprimeren"
+    },
+    "pdfToJpg": {
+      "name": "PDF naar JPG",
+      "description": "PDF-pagina's naar JPG converteren",
+      "pageTitle": "PDF online naar JPG converteren",
+      "pageSubtitle": "Converteer elke pagina van uw PDF naar JPG-afbeeldingen.",
+      "seoTitle": "PDF naar JPG converteren — Gratis | ToolFlare",
+      "seoDescription": "Converteer PDF-pagina's gratis naar JPG of PNG.",
+      "outputFormat": "Uitvoerformaat",
+      "quality": "Kwaliteit",
+      "convertBtn": "Converteren naar {format}",
+      "converting": "Converteren...",
+      "complete": "Conversie voltooid!",
+      "pagesConverted": "{count} pagina('s) geconverteerd",
+      "zipInfo": "Gedownload als ZIP",
+      "singleInfo": "Enkel afbeeldingsbestand",
+      "downloadBtn": "{type} downloaden",
+      "convertAnother": "Nog een PDF converteren",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standaard)",
+      "dpiPrint": "300 DPI (Afdruk)"
     }
   },
   "fileDropZone": {
@@ -219,7 +268,11 @@
     "error": "Er is iets misgegaan. Probeer het opnieuw.",
     "copySuccess": "Gekopieerd naar klembord!",
     "download": "Downloaden",
-    "languageSelector": "Taal"
+    "languageSelector": "Taal",
+    "before": "Voor",
+    "after": "Na",
+    "fileSizeReduced": "Bestandsgrootte verkleind",
+    "remove": "Verwijderen"
   },
   "error404": {
     "title": "Pagina niet gevonden",
