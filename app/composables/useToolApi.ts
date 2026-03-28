@@ -176,6 +176,24 @@ export function useToolApi() {
     return `${apiBase}/pdf/protect/download/${protectId}`
   }
 
+  // Word to PDF
+  async function convertWordToPdf(file: File) {
+    const formData = new FormData()
+    formData.append('file', file)
+
+    return api<{
+      convert_id: string
+      original_name: string
+      original_size: number
+      pdf_size: number
+      download_url: string
+    }>(`${apiBase}/word/to-pdf`, { method: 'POST', body: formData })
+  }
+
+  function getWordToPdfDownloadUrl(convertId: string): string {
+    return `${apiBase}/word/to-pdf/download/${convertId}`
+  }
+
   return {
     uploadPdf,
     compressPdf,
@@ -194,5 +212,7 @@ export function useToolApi() {
     getProtectDownloadUrl,
     convertImagesToPdf,
     getImageToPdfDownloadUrl,
+    convertWordToPdf,
+    getWordToPdfDownloadUrl,
   }
 }

@@ -76,5 +76,11 @@ const categories = computed(() => [
       { name: t('tools.slugGenerator.name'), description: t('tools.slugGenerator.description'), icon: '🔗', path: '/tools/seo/slug-generator', category: 'SEO' },
     ],
   },
+  {
+    name: t('home.categoryWord'),
+    tools: [
+      { name: t('tools.wordToPdf.name'), description: t('tools.wordToPdf.description'), icon: '📝', path: '/tools/word/to-pdf', category: 'Word' },
+    ],
+  },
 ])
 </script>

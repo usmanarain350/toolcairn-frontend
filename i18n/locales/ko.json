@@ -27,7 +27,8 @@
     "categoryDeveloper": "개발자 도구",
     "categoryText": "텍스트 도구",
     "categorySeo": "SEO 도구",
-    "categoryImage": "이미지 도구"
+    "categoryImage": "이미지 도구",
+    "categoryWord": "Word Tools"
   },
   "tools": {
     "pdfCompressor": {
@@ -341,6 +342,23 @@
       "resultInfo": "{count} image(s) converted to PDF",
       "downloadBtn": "Download PDF",
       "convertAnother": "Convert More Images"
+    },
+    "wordToPdf": {
+      "name": "Word to PDF",
+      "description": "Convert Word documents (DOCX, DOC) to PDF",
+      "pageTitle": "Convert Word to PDF Online",
+      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
+      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
+      "dragDrop": "Drag & drop your document here",
+      "orBrowse": "or click to browse",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
+      "convertBtn": "Convert to PDF",
+      "converting": "Converting...",
+      "complete": "Conversion Complete!",
+      "resultInfo": "Your document has been converted to PDF",
+      "downloadBtn": "Download PDF",
+      "convertAnother": "Convert Another Document"
     }
   },
   "fileDropZone": {
