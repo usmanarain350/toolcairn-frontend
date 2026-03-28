@@ -141,7 +141,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare Image Compressor',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

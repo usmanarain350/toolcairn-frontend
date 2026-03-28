@@ -136,7 +136,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare PDF Merger',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

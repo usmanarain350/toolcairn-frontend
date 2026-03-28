@@ -113,7 +113,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare Word Counter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

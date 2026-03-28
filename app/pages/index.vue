@@ -35,14 +35,15 @@ const categories = computed(() => [
     name: t('home.categoryPdf'),
     tools: [
       { name: t('tools.pdfCompressor.name'), description: t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' },
-      { name: 'Merge PDF', description: 'Combine multiple PDF files into one', icon: '📎', path: '/tools/pdf/merge', category: 'PDF' },
-      { name: 'PDF to JPG', description: 'Convert PDF pages to JPG images', icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' },
+      { name: t('tools.mergePdf.name'), description: t('tools.mergePdf.description'), icon: '📎', path: '/tools/pdf/merge', category: 'PDF' },
+      { name: t('tools.pdfToJpg.name'), description: t('tools.pdfToJpg.description'), icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' },
+      { name: t('tools.splitPdf.name'), description: t('tools.splitPdf.description'), icon: '✂️', path: '/tools/pdf/split', category: 'PDF' },
     ],
   },
   {
-    name: 'Image Tools',
+    name: t('home.categoryImage'),
     tools: [
-      { name: 'Image Compressor', description: 'Compress JPG, PNG, WebP images', icon: '🖼️', path: '/tools/image/compress', category: 'Image' },
+      { name: t('tools.imageCompressor.name'), description: t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' },
     ],
   },
   {

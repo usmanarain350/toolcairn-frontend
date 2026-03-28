@@ -149,7 +149,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare Password Generator',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

@@ -156,7 +156,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare Base64 Encoder/Decoder',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',

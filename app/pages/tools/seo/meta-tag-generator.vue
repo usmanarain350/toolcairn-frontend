@@ -282,7 +282,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare Meta Tag Generator',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',

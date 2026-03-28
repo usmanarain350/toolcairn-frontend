@@ -165,7 +165,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare JSON Formatter',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',

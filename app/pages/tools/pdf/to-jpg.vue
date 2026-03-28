@@ -147,7 +147,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare PDF to JPG Converter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

@@ -110,6 +110,36 @@ export function useToolApi() {
     return `${apiBase}/pdf/to-image/download/${convertId}`
   }
 
+  // PDF Split
+  async function uploadPdfForSplit(file: File) {
+    const formData = new FormData()
+    formData.append('file', file)
+
+    return api<{
+      file_id: string
+      original_name: string
+      original_size: number
+      page_count: number
+    }>(`${apiBase}/pdf/split/upload`, { method: 'POST', body: formData })
+  }
+
+  async function splitPdf(fileId: string, mode: 'all' | 'range', fromPage?: number, toPage?: number) {
+    return api<{
+      split_id: string
+      page_count: number
+      type: 'zip' | 'pdf'
+      size: number
+      download_url: string
+    }>(`${apiBase}/pdf/split`, {
+      method: 'POST',
+      body: { file_id: fileId, mode, from_page: fromPage, to_page: toPage },
+    })
+  }
+
+  function getSplitDownloadUrl(splitId: string): string {
+    return `${apiBase}/pdf/split/download/${splitId}`
+  }
+
   return {
     uploadPdf,
     compressPdf,
@@ -121,5 +151,8 @@ export function useToolApi() {
     getMergeDownloadUrl,
     convertPdfToImage,
     getConvertDownloadUrl,
+    uploadPdfForSplit,
+    splitPdf,
+    getSplitDownloadUrl,
   }
 }

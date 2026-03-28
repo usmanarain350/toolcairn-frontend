@@ -139,7 +139,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare QR Code Generator',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',

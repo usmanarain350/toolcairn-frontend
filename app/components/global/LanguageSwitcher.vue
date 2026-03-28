@@ -52,7 +52,7 @@ const currentLocaleName = computed(() => {
 })
 
 function switchLocale(code: string) {
-  const path = switchLocalePath(code)
+  const path = switchLocalePath(code as any)
   navigateTo(path)
   isOpen.value = false
 }

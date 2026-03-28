@@ -154,7 +154,7 @@ useSeoMeta({
 })
 
 useSchemaOrg([
-  defineSoftwareApplication({
+  defineSoftwareApp({
     name: 'ToolFlare URL Slug Generator',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',
