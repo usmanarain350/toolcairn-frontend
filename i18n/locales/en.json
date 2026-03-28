@@ -266,6 +266,26 @@
       "errorRangeOrder": "\"From Page\" must be less than or equal to \"To Page\".",
       "errorRangeExceeds": "\"To Page\" cannot exceed {max}."
     },
+    "pdfToPng": {
+      "name": "PDF to PNG",
+      "description": "Convert PDF pages to high-quality PNG images",
+      "pageTitle": "Convert PDF to PNG Online",
+      "pageSubtitle": "Convert each page of your PDF to lossless PNG images. Free, no signup required.",
+      "seoTitle": "Convert PDF to PNG Online — Free, High Quality | ToolFlare",
+      "seoDescription": "Convert PDF pages to PNG images for free. Lossless quality, up to 300 DPI. No signup required.",
+      "quality": "Quality",
+      "convertBtn": "Convert to PNG",
+      "converting": "Converting...",
+      "complete": "Conversion Complete!",
+      "pagesConverted": "{count} page(s) converted",
+      "zipInfo": "Downloaded as ZIP archive",
+      "singleInfo": "Single PNG file",
+      "downloadBtn": "Download {type}",
+      "convertAnother": "Convert Another PDF",
+      "dpiWeb": "72 DPI (Web)",
+      "dpiStandard": "150 DPI (Standard)",
+      "dpiPrint": "300 DPI (Print)"
+    },
     "pdfToJpg": {
       "name": "PDF to JPG",
       "description": "Convert PDF pages to JPG images",
