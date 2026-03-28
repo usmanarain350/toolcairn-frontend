@@ -160,13 +160,12 @@
     },
     "metaTagGenerator": {
       "name": "Meta Tag Generator",
-      "description": "Generate SEO meta tags for your website",
+      "description": "Description",
       "pageTitle": "Meta Tag Generator",
       "pageSubtitle": "Generate SEO-optimized meta tags for your website. Copy and paste into your HTML.",
       "seoTitle": "Free Meta Tag Generator for SEO | ToolFlare",
       "seoDescription": "Generate SEO meta tags, Open Graph tags, and Twitter Card tags for free.",
       "title": "Page Title",
-      "description": "Description",
       "keywords": "Keywords",
       "author": "Author",
       "ogTitle": "OG Title",
@@ -221,5 +220,11 @@
     "copySuccess": "Copied to clipboard!",
     "download": "Download",
     "languageSelector": "Language"
+  },
+  "error404": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home",
+    "seoTitle": "404 — Page Not Found | ToolFlare"
   }
 }

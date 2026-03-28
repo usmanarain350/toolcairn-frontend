@@ -220,5 +220,11 @@
     "copySuccess": "クリップボードにコピーしました！",
     "download": "ダウンロード",
     "languageSelector": "言語"
+  },
+  "error404": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動されました。",
+    "backHome": "ホームに戻る",
+    "seoTitle": "404 — ページが見つかりません | ToolFlare"
   }
 }

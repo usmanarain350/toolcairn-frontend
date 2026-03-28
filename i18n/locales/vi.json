@@ -220,5 +220,11 @@
     "copySuccess": "Đã sao chép vào clipboard!",
     "download": "Tải xuống",
     "languageSelector": "Ngôn ngữ"
+  },
+  "error404": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+    "backHome": "Về trang chủ",
+    "seoTitle": "404 — Không tìm thấy trang | ToolFlare"
   }
 }

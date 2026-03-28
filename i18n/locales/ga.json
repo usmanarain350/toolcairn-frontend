@@ -220,5 +220,11 @@
     "copySuccess": "Cóipeáilte chuig an ngearrthaisce!",
     "download": "Íoslódáil",
     "languageSelector": "Teanga"
+  },
+  "error404": {
+    "title": "Leathanach gan aimsiú",
+    "description": "Níl an leathanach atá á lorg agat ann nó bogadh é.",
+    "backHome": "Ar ais chuig an mBaile",
+    "seoTitle": "404 — Leathanach gan aimsiú | ToolFlare"
   }
 }

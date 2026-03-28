@@ -220,5 +220,11 @@
     "copySuccess": "Copié dans le presse-papiers !",
     "download": "Télécharger",
     "languageSelector": "Langue"
+  },
+  "error404": {
+    "title": "Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil",
+    "seoTitle": "404 — Page non trouvée | ToolFlare"
   }
 }

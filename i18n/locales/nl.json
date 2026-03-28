@@ -220,5 +220,11 @@
     "copySuccess": "Gekopieerd naar klembord!",
     "download": "Downloaden",
     "languageSelector": "Taal"
+  },
+  "error404": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "backHome": "Terug naar home",
+    "seoTitle": "404 — Pagina niet gevonden | ToolFlare"
   }
 }

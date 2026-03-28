@@ -220,5 +220,11 @@
     "copySuccess": "Kopiert til utklippstavlen!",
     "download": "Last ned",
     "languageSelector": "Språk"
+  },
+  "error404": {
+    "title": "Side ikke funnet",
+    "description": "Siden du leter etter finnes ikke eller har blitt flyttet.",
+    "backHome": "Tilbake til forsiden",
+    "seoTitle": "404 — Side ikke funnet | ToolFlare"
   }
 }

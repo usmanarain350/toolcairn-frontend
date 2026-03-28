@@ -220,5 +220,11 @@
     "copySuccess": "已复制到剪贴板！",
     "download": "下载",
     "languageSelector": "语言"
+  },
+  "error404": {
+    "title": "页面未找到",
+    "description": "您正在寻找的页面不存在或已被移动。",
+    "backHome": "返回首页",
+    "seoTitle": "404 — 页面未找到 | ToolFlare"
   }
 }

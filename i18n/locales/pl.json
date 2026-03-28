@@ -220,5 +220,11 @@
     "copySuccess": "Skopiowano do schowka!",
     "download": "Pobierz",
     "languageSelector": "Język"
+  },
+  "error404": {
+    "title": "Strona nie znaleziona",
+    "description": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "backHome": "Wróć na stronę główną",
+    "seoTitle": "404 — Strona nie znaleziona | ToolFlare"
   }
 }

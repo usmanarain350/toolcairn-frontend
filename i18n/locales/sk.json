@@ -220,5 +220,11 @@
     "copySuccess": "Skopírované do schránky!",
     "download": "Stiahnuť",
     "languageSelector": "Jazyk"
+  },
+  "error404": {
+    "title": "Stránka nenájdená",
+    "description": "Stránka, ktorú hľadáte, neexistuje alebo bola presunutá.",
+    "backHome": "Späť na hlavnú stránku",
+    "seoTitle": "404 — Stránka nenájdená | ToolFlare"
   }
 }

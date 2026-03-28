@@ -220,5 +220,11 @@
     "copySuccess": "Ikkopjat fil-clipboard!",
     "download": "Niżżel",
     "languageSelector": "Lingwa"
+  },
+  "error404": {
+    "title": "Il-paġna ma nstabitx",
+    "description": "Il-paġna li qed tfittex ma teżistix jew ġiet imċaqalqa.",
+    "backHome": "Lura għall-paġna ewlenija",
+    "seoTitle": "404 — Il-paġna ma nstabitx | ToolFlare"
   }
 }

@@ -220,5 +220,11 @@
     "copySuccess": "Kopeeritud lõikelauale!",
     "download": "Laadi alla",
     "languageSelector": "Keel"
+  },
+  "error404": {
+    "title": "Lehte ei leitud",
+    "description": "Otsitavat lehte ei ole olemas või see on teisaldatud.",
+    "backHome": "Tagasi avalehele",
+    "seoTitle": "404 — Lehte ei leitud | ToolFlare"
   }
 }

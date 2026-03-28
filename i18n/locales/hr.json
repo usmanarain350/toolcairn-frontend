@@ -220,5 +220,11 @@
     "copySuccess": "Kopirano u međuspremnik!",
     "download": "Preuzmi",
     "languageSelector": "Jezik"
+  },
+  "error404": {
+    "title": "Stranica nije pronađena",
+    "description": "Stranica koju tražite ne postoji ili je premještena.",
+    "backHome": "Natrag na početnu",
+    "seoTitle": "404 — Stranica nije pronađena | ToolFlare"
   }
 }

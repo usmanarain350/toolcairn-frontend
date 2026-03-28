@@ -220,5 +220,11 @@
     "copySuccess": "הועתק ללוח!",
     "download": "הורדה",
     "languageSelector": "שפה"
+  },
+  "error404": {
+    "title": "הדף לא נמצא",
+    "description": "הדף שאתה מחפש אינו קיים או הועבר.",
+    "backHome": "חזרה לדף הבית",
+    "seoTitle": "404 — הדף לא נמצא | ToolFlare"
   }
 }

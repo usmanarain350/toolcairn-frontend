@@ -220,5 +220,11 @@
     "copySuccess": "Vágólapra másolva!",
     "download": "Letöltés",
     "languageSelector": "Nyelv"
+  },
+  "error404": {
+    "title": "Az oldal nem található",
+    "description": "A keresett oldal nem létezik vagy áthelyezésre került.",
+    "backHome": "Vissza a főoldalra",
+    "seoTitle": "404 — Az oldal nem található | ToolFlare"
   }
 }

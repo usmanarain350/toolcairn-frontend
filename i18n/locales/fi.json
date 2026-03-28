@@ -220,5 +220,11 @@
     "copySuccess": "Kopioitu leikepöydälle!",
     "download": "Lataa",
     "languageSelector": "Kieli"
+  },
+  "error404": {
+    "title": "Sivua ei löydy",
+    "description": "Etsimääsi sivua ei ole olemassa tai se on siirretty.",
+    "backHome": "Takaisin etusivulle",
+    "seoTitle": "404 — Sivua ei löydy | ToolFlare"
   }
 }

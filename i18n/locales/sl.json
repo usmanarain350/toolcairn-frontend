@@ -220,5 +220,11 @@
     "copySuccess": "Kopirano v odložišče!",
     "download": "Prenesi",
     "languageSelector": "Jezik"
+  },
+  "error404": {
+    "title": "Stran ni najdena",
+    "description": "Stran, ki jo iščete, ne obstaja ali je bila premaknjena.",
+    "backHome": "Nazaj na domačo stran",
+    "seoTitle": "404 — Stran ni najdena | ToolFlare"
   }
 }

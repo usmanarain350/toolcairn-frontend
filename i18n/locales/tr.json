@@ -220,5 +220,11 @@
     "copySuccess": "Panoya kopyalandı!",
     "download": "İndir",
     "languageSelector": "Dil"
+  },
+  "error404": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana sayfaya dön",
+    "seoTitle": "404 — Sayfa bulunamadı | ToolFlare"
   }
 }

@@ -220,5 +220,11 @@
     "copySuccess": "¡Copiado al portapapeles!",
     "download": "Descargar",
     "languageSelector": "Idioma"
+  },
+  "error404": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al inicio",
+    "seoTitle": "404 — Página no encontrada | ToolFlare"
   }
 }

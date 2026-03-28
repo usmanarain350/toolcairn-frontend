@@ -220,5 +220,11 @@
     "copySuccess": "Nukopijuota į iškarpinę!",
     "download": "Atsisiųsti",
     "languageSelector": "Kalba"
+  },
+  "error404": {
+    "title": "Puslapis nerastas",
+    "description": "Puslapis, kurio ieškote, neegzistuoja arba buvo perkeltas.",
+    "backHome": "Grįžti į pradžią",
+    "seoTitle": "404 — Puslapis nerastas | ToolFlare"
   }
 }

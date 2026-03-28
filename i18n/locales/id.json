@@ -220,5 +220,11 @@
     "copySuccess": "Disalin ke papan klip!",
     "download": "Unduh",
     "languageSelector": "Bahasa"
+  },
+  "error404": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "backHome": "Kembali ke Beranda",
+    "seoTitle": "404 — Halaman Tidak Ditemukan | ToolFlare"
   }
 }

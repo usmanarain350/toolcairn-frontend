@@ -220,5 +220,11 @@
     "copySuccess": "Afritað á klippiborð!",
     "download": "Sækja",
     "languageSelector": "Tungumál"
+  },
+  "error404": {
+    "title": "Síða fannst ekki",
+    "description": "Síðan sem þú leitar að er ekki til eða hefur verið flutt.",
+    "backHome": "Til baka á forsíðu",
+    "seoTitle": "404 — Síða fannst ekki | ToolFlare"
   }
 }

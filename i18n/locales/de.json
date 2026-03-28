@@ -220,5 +220,11 @@
     "copySuccess": "In die Zwischenablage kopiert!",
     "download": "Herunterladen",
     "languageSelector": "Sprache"
+  },
+  "error404": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zurück zur Startseite",
+    "seoTitle": "404 — Seite nicht gefunden | ToolFlare"
   }
 }

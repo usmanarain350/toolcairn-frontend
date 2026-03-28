@@ -220,5 +220,11 @@
     "copySuccess": "Nokopēts starpliktuvē!",
     "download": "Lejupielādēt",
     "languageSelector": "Valoda"
+  },
+  "error404": {
+    "title": "Lapa nav atrasta",
+    "description": "Lapa, kuru meklējat, nepastāv vai ir pārvietota.",
+    "backHome": "Atpakaļ uz sākumlapu",
+    "seoTitle": "404 — Lapa nav atrasta | ToolFlare"
   }
 }

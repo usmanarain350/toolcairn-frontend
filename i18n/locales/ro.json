@@ -220,5 +220,11 @@
     "copySuccess": "Copiat în clipboard!",
     "download": "Descarcă",
     "languageSelector": "Limbă"
+  },
+  "error404": {
+    "title": "Pagina nu a fost găsită",
+    "description": "Pagina pe care o căutați nu există sau a fost mutată.",
+    "backHome": "Înapoi la pagina principală",
+    "seoTitle": "404 — Pagina nu a fost găsită | ToolFlare"
   }
 }
