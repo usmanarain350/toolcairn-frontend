@@ -39,6 +39,7 @@ const categories = computed(() => [
       { name: t('tools.pdfToJpg.name'), description: t('tools.pdfToJpg.description'), icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' },
       { name: t('tools.pdfToPng.name'), description: t('tools.pdfToPng.description'), icon: '🖼️', path: '/tools/pdf/to-png', category: 'PDF' },
       { name: t('tools.splitPdf.name'), description: t('tools.splitPdf.description'), icon: '✂️', path: '/tools/pdf/split', category: 'PDF' },
+      { name: t('tools.protectPdf.name'), description: t('tools.protectPdf.description'), icon: '🔒', path: '/tools/pdf/protect', category: 'PDF' },
     ],
   },
   {

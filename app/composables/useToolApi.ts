@@ -140,6 +140,24 @@ export function useToolApi() {
     return `${apiBase}/pdf/split/download/${splitId}`
   }
 
+  // PDF Protect
+  async function protectPdf(file: File, password: string) {
+    const formData = new FormData()
+    formData.append('file', file)
+    formData.append('password', password)
+
+    return api<{
+      protect_id: string
+      original_size: number
+      protected_size: number
+      download_url: string
+    }>(`${apiBase}/pdf/protect`, { method: 'POST', body: formData })
+  }
+
+  function getProtectDownloadUrl(protectId: string): string {
+    return `${apiBase}/pdf/protect/download/${protectId}`
+  }
+
   return {
     uploadPdf,
     compressPdf,
@@ -154,5 +172,7 @@ export function useToolApi() {
     uploadPdfForSplit,
     splitPdf,
     getSplitDownloadUrl,
+    protectPdf,
+    getProtectDownloadUrl,
   }
 }

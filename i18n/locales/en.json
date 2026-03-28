@@ -266,6 +266,23 @@
       "errorRangeOrder": "\"From Page\" must be less than or equal to \"To Page\".",
       "errorRangeExceeds": "\"To Page\" cannot exceed {max}."
     },
+    "protectPdf": {
+      "name": "Protect PDF",
+      "description": "Password protect your PDF with 128-bit encryption",
+      "pageTitle": "Password Protect PDF Online",
+      "pageSubtitle": "Add a password to your PDF instantly. 128-bit encryption, free, no signup required.",
+      "seoTitle": "Password Protect PDF Online — Free, 128-bit Encryption | ToolFlare",
+      "seoDescription": "Add password protection to any PDF for free. 128-bit encryption. No signup required.",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter a password...",
+      "passwordHint": "Minimum 4 characters. Anyone who wants to open the PDF will need this password.",
+      "protectBtn": "Protect PDF",
+      "protecting": "Protecting...",
+      "complete": "PDF Protected!",
+      "resultInfo": "Password protection applied",
+      "downloadBtn": "Download Protected PDF",
+      "protectAnother": "Protect Another PDF"
+    },
     "pdfToPng": {
       "name": "PDF to PNG",
       "description": "Convert PDF pages to high-quality PNG images",
