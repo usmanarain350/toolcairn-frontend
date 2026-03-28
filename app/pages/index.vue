@@ -46,6 +46,7 @@ const categories = computed(() => [
     name: t('home.categoryImage'),
     tools: [
       { name: t('tools.imageCompressor.name'), description: t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' },
+      { name: t('tools.imageToPdf.name'), description: t('tools.imageToPdf.description'), icon: '📄', path: '/tools/image/to-pdf', category: 'Image' },
     ],
   },
   {

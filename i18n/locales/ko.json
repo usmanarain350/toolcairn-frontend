@@ -323,6 +323,24 @@
       "resultInfo": "Password protection applied",
       "downloadBtn": "Download Protected PDF",
       "protectAnother": "Protect Another PDF"
+    },
+    "imageToPdf": {
+      "name": "Image to PDF",
+      "description": "Convert JPG, PNG, or WebP images into a PDF",
+      "pageTitle": "Convert Images to PDF Online",
+      "pageSubtitle": "Turn JPG, PNG, or WebP images into a single PDF. Up to 20 images, free, no signup.",
+      "seoTitle": "Convert Image to PDF Online — Free, JPG PNG WebP | ToolFlare",
+      "seoDescription": "Convert JPG, PNG, and WebP images to PDF for free. Combine multiple images into one PDF. No signup required.",
+      "dragDrop": "Drag & drop images here",
+      "orBrowse": "or click to browse — select multiple images",
+      "maxInfo": "JPG, PNG, WebP — Max 10MB each, up to 20 images",
+      "filesSelected": "{count} image(s) selected",
+      "convertBtn": "Convert {count} Image(s) to PDF",
+      "converting": "Converting...",
+      "complete": "Conversion Complete!",
+      "resultInfo": "{count} image(s) converted to PDF",
+      "downloadBtn": "Download PDF",
+      "convertAnother": "Convert More Images"
     }
   },
   "fileDropZone": {

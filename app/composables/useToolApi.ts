@@ -140,6 +140,24 @@ export function useToolApi() {
     return `${apiBase}/pdf/split/download/${splitId}`
   }
 
+  // Image to PDF
+  async function convertImagesToPdf(files: File[]) {
+    const formData = new FormData()
+    files.forEach(file => formData.append('files[]', file))
+
+    return api<{
+      convert_id: string
+      image_count: number
+      total_input_size: number
+      pdf_size: number
+      download_url: string
+    }>(`${apiBase}/image/to-pdf`, { method: 'POST', body: formData })
+  }
+
+  function getImageToPdfDownloadUrl(convertId: string): string {
+    return `${apiBase}/image/to-pdf/download/${convertId}`
+  }
+
   // PDF Protect
   async function protectPdf(file: File, password: string) {
     const formData = new FormData()
@@ -174,5 +192,7 @@ export function useToolApi() {
     getSplitDownloadUrl,
     protectPdf,
     getProtectDownloadUrl,
+    convertImagesToPdf,
+    getImageToPdfDownloadUrl,
   }
 }
