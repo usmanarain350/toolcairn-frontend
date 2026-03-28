@@ -28,7 +28,7 @@
     "categoryText": "כלי טקסט",
     "categorySeo": "כלי SEO",
     "categoryImage": "כלי תמונה",
-    "categoryWord": "Word Tools"
+    "categoryWord": "כלי Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word ל-PDF",
+      "description": "המרת מסמכי Word (DOCX, DOC) ל-PDF",
+      "pageTitle": "המרת Word ל-PDF באינטרנט",
+      "pageSubtitle": "המירו קבצי DOCX, DOC, ODT או RTF ל-PDF מיידית. חינמי, ללא הרשמה.",
+      "seoTitle": "המרת Word ל-PDF באינטרנט — חינמי | ToolFlare",
+      "seoDescription": "המירו מסמכי Word ל-PDF חינם. תומך ב-DOCX, DOC, ODT ו-RTF. ללא הרשמה.",
+      "dragDrop": "גרור ושחרר את המסמך שלך כאן",
+      "orBrowse": "או לחץ לעיון",
+      "maxInfo": "DOCX, DOC, ODT, RTF — מקסימום 20MB",
+      "convertBtn": "המר ל-PDF",
+      "converting": "ממיר...",
+      "complete": "ההמרה הושלמה!",
+      "resultInfo": "המסמך שלך הומר ל-PDF",
+      "downloadBtn": "הורד PDF",
+      "convertAnother": "המר מסמך נוסף"
     }
   },
   "fileDropZone": {

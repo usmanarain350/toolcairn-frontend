@@ -28,7 +28,7 @@
     "categoryText": "मजकूर साधने",
     "categorySeo": "SEO साधने",
     "categoryImage": "प्रतिमा साधने",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word साधने"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word ते PDF",
+      "description": "Word दस्तऐवज (DOCX, DOC) PDF मध्ये रूपांतरित करा",
+      "pageTitle": "Word ते PDF ऑनलाइन रूपांतरण",
+      "pageSubtitle": "DOCX, DOC, ODT किंवा RTF फाइल्स त्वरित PDF मध्ये रूपांतरित करा. मोफत, नोंदणीशिवाय.",
+      "seoTitle": "Word ते PDF ऑनलाइन रूपांतरण — मोफत | ToolFlare",
+      "seoDescription": "Word दस्तऐवज मोफत PDF मध्ये रूपांतरित करा. DOCX, DOC, ODT आणि RTF समर्थित. नोंदणी नाही.",
+      "dragDrop": "आपला दस्तऐवज येथे ड्रॅग करा",
+      "orBrowse": "किंवा ब्राउझ करण्यासाठी क्लिक करा",
+      "maxInfo": "DOCX, DOC, ODT, RTF — कमाल 20MB",
+      "convertBtn": "PDF मध्ये रूपांतरित करा",
+      "converting": "रूपांतरित होत आहे...",
+      "complete": "रूपांतरण पूर्ण!",
+      "resultInfo": "आपला दस्तऐवज PDF मध्ये रूपांतरित झाला",
+      "downloadBtn": "PDF डाउनलोड करा",
+      "convertAnother": "दुसरा दस्तऐवज रूपांतरित करा"
     }
   },
   "fileDropZone": {

@@ -28,7 +28,7 @@
     "categoryText": "Tekstityökalut",
     "categorySeo": "SEO-työkalut",
     "categoryImage": "Kuvatyökalut",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word-työkalut"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word PDF:ksi",
+      "description": "Muunna Word-asiakirjat (DOCX, DOC) PDF:ksi",
+      "pageTitle": "Muunna Word PDF:ksi verkossa",
+      "pageSubtitle": "Muunna DOCX-, DOC-, ODT- tai RTF-tiedostot PDF:ksi heti. Ilmainen, ei rekisteröintiä.",
+      "seoTitle": "Muunna Word PDF:ksi verkossa — Ilmainen | ToolFlare",
+      "seoDescription": "Muunna Word-asiakirjat ilmaiseksi PDF:ksi. Tukee DOCX-, DOC-, ODT- ja RTF-tiedostoja. Ei rekisteröintiä.",
+      "dragDrop": "Vedä ja pudota asiakirjasi tähän",
+      "orBrowse": "tai selaa napsauttamalla",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 Mt",
+      "convertBtn": "Muunna PDF:ksi",
+      "converting": "Muunnetaan...",
+      "complete": "Muunnos valmis!",
+      "resultInfo": "Asiakirjasi on muunnettu PDF:ksi",
+      "downloadBtn": "Lataa PDF",
+      "convertAnother": "Muunna toinen asiakirja"
     }
   },
   "fileDropZone": {

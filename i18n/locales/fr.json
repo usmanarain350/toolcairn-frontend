@@ -28,7 +28,7 @@
     "categoryText": "Outils texte",
     "categorySeo": "Outils SEO",
     "categoryImage": "Outils d'image",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Outils Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word en PDF",
+      "description": "Convertir des documents Word (DOCX, DOC) en PDF",
+      "pageTitle": "Convertir Word en PDF en ligne",
+      "pageSubtitle": "Convertissez des fichiers DOCX, DOC, ODT ou RTF en PDF instantanément. Gratuit, sans inscription.",
+      "seoTitle": "Convertir Word en PDF en ligne — Gratuit, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Convertissez des documents Word en PDF gratuitement. Prend en charge DOCX, DOC, ODT et RTF. Sans inscription.",
+      "dragDrop": "Glissez-déposez votre document ici",
+      "orBrowse": "ou cliquez pour parcourir",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Max. 20 Mo",
+      "convertBtn": "Convertir en PDF",
+      "converting": "Conversion en cours...",
+      "complete": "Conversion terminée !",
+      "resultInfo": "Votre document a été converti en PDF",
+      "downloadBtn": "Télécharger le PDF",
+      "convertAnother": "Convertir un autre document"
     }
   },
   "fileDropZone": {

@@ -28,7 +28,7 @@
     "categoryText": "Text-Tools",
     "categorySeo": "SEO-Tools",
     "categoryImage": "Bildwerkzeuge",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word-Tools"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word zu PDF",
+      "description": "Word-Dokumente (DOCX, DOC) in PDF konvertieren",
+      "pageTitle": "Word in PDF umwandeln — Online",
+      "pageSubtitle": "DOCX, DOC, ODT oder RTF-Dateien sofort in PDF umwandeln. Kostenlos, keine Anmeldung.",
+      "seoTitle": "Word in PDF umwandeln — Kostenlos, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Word-Dokumente kostenlos in PDF umwandeln. Unterstützt DOCX, DOC, ODT und RTF. Keine Anmeldung erforderlich.",
+      "dragDrop": "Dokument hier ablegen",
+      "orBrowse": "oder zum Durchsuchen klicken",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Max. 20 MB",
+      "convertBtn": "In PDF umwandeln",
+      "converting": "Wird umgewandelt...",
+      "complete": "Umwandlung abgeschlossen!",
+      "resultInfo": "Ihr Dokument wurde in PDF umgewandelt",
+      "downloadBtn": "PDF herunterladen",
+      "convertAnother": "Weiteres Dokument umwandeln"
     }
   },
   "fileDropZone": {

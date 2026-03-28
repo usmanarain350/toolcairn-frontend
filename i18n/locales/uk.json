@@ -28,7 +28,7 @@
     "categoryText": "Текстові інструменти",
     "categorySeo": "SEO-інструменти",
     "categoryImage": "Інструменти для зображень",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Інструменти Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word у PDF",
+      "description": "Конвертувати документи Word (DOCX, DOC) у PDF",
+      "pageTitle": "Конвертувати Word у PDF онлайн",
+      "pageSubtitle": "Конвертуйте файли DOCX, DOC, ODT або RTF у PDF миттєво. Безкоштовно, без реєстрації.",
+      "seoTitle": "Конвертувати Word у PDF онлайн — Безкоштовно | ToolFlare",
+      "seoDescription": "Конвертуйте документи Word у PDF безкоштовно. Підтримує DOCX, DOC, ODT та RTF. Без реєстрації.",
+      "dragDrop": "Перетягніть документ сюди",
+      "orBrowse": "або натисніть для вибору файлу",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Макс. 20 МБ",
+      "convertBtn": "Конвертувати у PDF",
+      "converting": "Конвертування...",
+      "complete": "Конвертування завершено!",
+      "resultInfo": "Ваш документ конвертовано у PDF",
+      "downloadBtn": "Завантажити PDF",
+      "convertAnother": "Конвертувати інший документ"
     }
   },
   "fileDropZone": {

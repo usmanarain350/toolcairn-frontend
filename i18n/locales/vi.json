@@ -28,7 +28,7 @@
     "categoryText": "Công cụ văn bản",
     "categorySeo": "Công cụ SEO",
     "categoryImage": "Công cụ hình ảnh",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Công cụ Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word sang PDF",
+      "description": "Chuyển đổi tài liệu Word (DOCX, DOC) sang PDF",
+      "pageTitle": "Chuyển đổi Word sang PDF trực tuyến",
+      "pageSubtitle": "Chuyển đổi tệp DOCX, DOC, ODT hoặc RTF sang PDF ngay lập tức. Miễn phí, không cần đăng ký.",
+      "seoTitle": "Chuyển đổi Word sang PDF trực tuyến — Miễn phí | ToolFlare",
+      "seoDescription": "Chuyển đổi tài liệu Word sang PDF miễn phí. Hỗ trợ DOCX, DOC, ODT và RTF. Không cần đăng ký.",
+      "dragDrop": "Kéo và thả tài liệu của bạn vào đây",
+      "orBrowse": "hoặc nhấp để duyệt",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Tối đa 20MB",
+      "convertBtn": "Chuyển đổi sang PDF",
+      "converting": "Đang chuyển đổi...",
+      "complete": "Chuyển đổi hoàn tất!",
+      "resultInfo": "Tài liệu của bạn đã được chuyển đổi sang PDF",
+      "downloadBtn": "Tải xuống PDF",
+      "convertAnother": "Chuyển đổi tài liệu khác"
     }
   },
   "fileDropZone": {

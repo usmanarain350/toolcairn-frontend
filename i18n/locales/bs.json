@@ -28,7 +28,7 @@
     "categoryText": "Tekstualni alati",
     "categorySeo": "SEO alati",
     "categoryImage": "Alati za slike",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word alati"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word u PDF",
+      "description": "Konvertujte Word dokumente (DOCX, DOC) u PDF",
+      "pageTitle": "Konvertujte Word u PDF online",
+      "pageSubtitle": "Konvertujte DOCX, DOC, ODT ili RTF fajlove u PDF odmah. Besplatno, bez registracije.",
+      "seoTitle": "Konvertujte Word u PDF online — Besplatno | ToolFlare",
+      "seoDescription": "Konvertujte Word dokumente u PDF besplatno. Podržava DOCX, DOC, ODT i RTF. Bez registracije.",
+      "dragDrop": "Prevucite i pustite dokument ovdje",
+      "orBrowse": "ili kliknite za pretraživanje",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20MB",
+      "convertBtn": "Konvertuj u PDF",
+      "converting": "Konvertovanje...",
+      "complete": "Konvertovanje završeno!",
+      "resultInfo": "Vaš dokument je konvertovan u PDF",
+      "downloadBtn": "Preuzmi PDF",
+      "convertAnother": "Konvertuj drugi dokument"
     }
   },
   "fileDropZone": {

@@ -28,7 +28,7 @@
     "categoryText": "Tekstitööriistad",
     "categorySeo": "SEO tööriistad",
     "categoryImage": "Pilditööriistad",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Wordi tööriistad"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word PDF-iks",
+      "description": "Teisenda Wordi dokumendid (DOCX, DOC) PDF-iks",
+      "pageTitle": "Teisenda Word PDF-iks veebis",
+      "pageSubtitle": "Teisenda DOCX, DOC, ODT või RTF failid kohe PDF-iks. Tasuta, registreerimiseta.",
+      "seoTitle": "Teisenda Word PDF-iks veebis — Tasuta | ToolFlare",
+      "seoDescription": "Teisenda Wordi dokumendid tasuta PDF-iks. Toetab DOCX, DOC, ODT ja RTF. Registreerimiseta.",
+      "dragDrop": "Lohista oma dokument siia",
+      "orBrowse": "või klõpsa sirvimiseks",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 MB",
+      "convertBtn": "Teisenda PDF-iks",
+      "converting": "Teisendamine...",
+      "complete": "Teisendamine lõpetatud!",
+      "resultInfo": "Teie dokument on teisendatud PDF-iks",
+      "downloadBtn": "Laadi PDF alla",
+      "convertAnother": "Teisenda teine dokument"
     }
   },
   "fileDropZone": {

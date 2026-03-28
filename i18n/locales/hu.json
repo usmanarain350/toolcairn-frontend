@@ -28,7 +28,7 @@
     "categoryText": "Szöveges eszközök",
     "categorySeo": "SEO eszközök",
     "categoryImage": "Képeszközök",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word eszközök"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word PDF-be",
+      "description": "Word dokumentumok (DOCX, DOC) konvertálása PDF-be",
+      "pageTitle": "Word konvertálása PDF-be online",
+      "pageSubtitle": "Konvertálja a DOCX, DOC, ODT vagy RTF fájlokat azonnal PDF-be. Ingyenes, regisztráció nélkül.",
+      "seoTitle": "Word konvertálása PDF-be online — Ingyenes | ToolFlare",
+      "seoDescription": "Konvertálja a Word dokumentumokat PDF-be ingyenesen. Támogatja a DOCX, DOC, ODT és RTF formátumokat. Regisztráció nélkül.",
+      "dragDrop": "Húzza ide a dokumentumát",
+      "orBrowse": "vagy kattintson a böngészéshez",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Max. 20 MB",
+      "convertBtn": "Konvertálás PDF-be",
+      "converting": "Konvertálás...",
+      "complete": "Konvertálás kész!",
+      "resultInfo": "A dokumentuma PDF-be lett konvertálva",
+      "downloadBtn": "PDF letöltése",
+      "convertAnother": "Másik dokumentum konvertálása"
     }
   },
   "fileDropZone": {

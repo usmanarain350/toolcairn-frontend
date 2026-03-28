@@ -28,7 +28,7 @@
     "categoryText": "Tekstverktøy",
     "categorySeo": "SEO-verktøy",
     "categoryImage": "Bildeverktøy",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word-verktøy"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word til PDF",
+      "description": "Konverter Word-dokumenter (DOCX, DOC) til PDF",
+      "pageTitle": "Konverter Word til PDF på nett",
+      "pageSubtitle": "Konverter DOCX-, DOC-, ODT- eller RTF-filer til PDF umiddelbart. Gratis, ingen registrering.",
+      "seoTitle": "Konverter Word til PDF på nett — Gratis | ToolFlare",
+      "seoDescription": "Konverter Word-dokumenter til PDF gratis. Støtter DOCX, DOC, ODT og RTF. Ingen registrering.",
+      "dragDrop": "Dra og slipp dokumentet ditt her",
+      "orBrowse": "eller klikk for å bla gjennom",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 MB",
+      "convertBtn": "Konverter til PDF",
+      "converting": "Konverterer...",
+      "complete": "Konvertering fullført!",
+      "resultInfo": "Dokumentet ditt er konvertert til PDF",
+      "downloadBtn": "Last ned PDF",
+      "convertAnother": "Konverter et annet dokument"
     }
   },
   "fileDropZone": {

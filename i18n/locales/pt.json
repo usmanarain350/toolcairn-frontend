@@ -28,7 +28,7 @@
     "categoryText": "Ferramentas de texto",
     "categorySeo": "Ferramentas SEO",
     "categoryImage": "Ferramentas de imagem",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Ferramentas Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word para PDF",
+      "description": "Converter documentos Word (DOCX, DOC) em PDF",
+      "pageTitle": "Converter Word para PDF online",
+      "pageSubtitle": "Converta arquivos DOCX, DOC, ODT ou RTF em PDF instantaneamente. Grátis, sem cadastro.",
+      "seoTitle": "Converter Word para PDF online — Grátis, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Converta documentos Word em PDF gratuitamente. Suporta DOCX, DOC, ODT e RTF. Sem cadastro.",
+      "dragDrop": "Arraste e solte seu documento aqui",
+      "orBrowse": "ou clique para procurar",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Máx. 20 MB",
+      "convertBtn": "Converter para PDF",
+      "converting": "Convertendo...",
+      "complete": "Conversão concluída!",
+      "resultInfo": "Seu documento foi convertido para PDF",
+      "downloadBtn": "Baixar PDF",
+      "convertAnother": "Converter outro documento"
     }
   },
   "fileDropZone": {

@@ -28,7 +28,7 @@
     "categoryText": "Metin Araçları",
     "categorySeo": "SEO Araçları",
     "categoryImage": "Görsel araçları",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word Araçları"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word'den PDF'e",
+      "description": "Word belgelerini (DOCX, DOC) PDF'e dönüştürün",
+      "pageTitle": "Word'ü PDF'e Çevirin Online",
+      "pageSubtitle": "DOCX, DOC, ODT veya RTF dosyalarını anında PDF'e dönüştürün. Ücretsiz, kayıt gerekmez.",
+      "seoTitle": "Word'ü PDF'e Çevirin Online — Ücretsiz, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Word belgelerini ücretsiz olarak PDF'e dönüştürün. DOCX, DOC, ODT ve RTF'yi destekler. Kayıt gerekmez.",
+      "dragDrop": "Belgenizi buraya sürükleyin ve bırakın",
+      "orBrowse": "veya göz atmak için tıklayın",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 MB",
+      "convertBtn": "PDF'e Dönüştür",
+      "converting": "Dönüştürülüyor...",
+      "complete": "Dönüştürme Tamamlandı!",
+      "resultInfo": "Belgeniz PDF'e dönüştürüldü",
+      "downloadBtn": "PDF İndir",
+      "convertAnother": "Başka Bir Belge Dönüştür"
     }
   },
   "fileDropZone": {

@@ -28,7 +28,7 @@
     "categoryText": "Текстовые инструменты",
     "categorySeo": "SEO-инструменты",
     "categoryImage": "Инструменты для изображений",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Инструменты Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word в PDF",
+      "description": "Конвертировать документы Word (DOCX, DOC) в PDF",
+      "pageTitle": "Конвертировать Word в PDF онлайн",
+      "pageSubtitle": "Конвертируйте файлы DOCX, DOC, ODT или RTF в PDF мгновенно. Бесплатно, без регистрации.",
+      "seoTitle": "Конвертировать Word в PDF онлайн — Бесплатно | ToolFlare",
+      "seoDescription": "Конвертируйте документы Word в PDF бесплатно. Поддерживает DOCX, DOC, ODT и RTF. Без регистрации.",
+      "dragDrop": "Перетащите документ сюда",
+      "orBrowse": "или нажмите для выбора файла",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Макс. 20 МБ",
+      "convertBtn": "Конвертировать в PDF",
+      "converting": "Конвертирование...",
+      "complete": "Конвертирование завершено!",
+      "resultInfo": "Ваш документ конвертирован в PDF",
+      "downloadBtn": "Скачать PDF",
+      "convertAnother": "Конвертировать другой документ"
     }
   },
   "fileDropZone": {

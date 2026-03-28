@@ -28,7 +28,7 @@
     "categoryText": "Teksta rīki",
     "categorySeo": "SEO rīki",
     "categoryImage": "Attēlu rīki",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word rīki"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word uz PDF",
+      "description": "Konvertēt Word dokumentus (DOCX, DOC) uz PDF",
+      "pageTitle": "Konvertēt Word uz PDF tiešsaistē",
+      "pageSubtitle": "Konvertējiet DOCX, DOC, ODT vai RTF failus uz PDF tūlīt. Bezmaksas, bez reģistrācijas.",
+      "seoTitle": "Konvertēt Word uz PDF tiešsaistē — Bezmaksas | ToolFlare",
+      "seoDescription": "Konvertējiet Word dokumentus uz PDF bezmaksas. Atbalsta DOCX, DOC, ODT un RTF. Bez reģistrācijas.",
+      "dragDrop": "Velciet un nometiet dokumentu šeit",
+      "orBrowse": "vai noklikšķiniet, lai pārlūkotu",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 MB",
+      "convertBtn": "Konvertēt uz PDF",
+      "converting": "Konvertē...",
+      "complete": "Konvertēšana pabeigta!",
+      "resultInfo": "Jūsu dokuments ir konvertēts uz PDF",
+      "downloadBtn": "Lejupielādēt PDF",
+      "convertAnother": "Konvertēt citu dokumentu"
     }
   },
   "fileDropZone": {

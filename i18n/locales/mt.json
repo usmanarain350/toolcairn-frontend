@@ -28,7 +28,7 @@
     "categoryText": "Għodod tat-test",
     "categorySeo": "Għodod SEO",
     "categoryImage": "Għodod tal-immaġni",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Għodod Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word għal PDF",
+      "description": "Ikkonverti dokumenti Word (DOCX, DOC) għal PDF",
+      "pageTitle": "Ikkonverti Word għal PDF online",
+      "pageSubtitle": "Ikkonverti fajls DOCX, DOC, ODT jew RTF għal PDF immedjatament. B'xejn, mingħajr reġistrazzjoni.",
+      "seoTitle": "Ikkonverti Word għal PDF online — B'xejn | ToolFlare",
+      "seoDescription": "Ikkonverti dokumenti Word għal PDF b'xejn. Jappoġġja DOCX, DOC, ODT u RTF. Mingħajr reġistrazzjoni.",
+      "dragDrop": "Agħmel drag u drop id-dokument tiegħek hawn",
+      "orBrowse": "jew ikklikkja biex tfittex",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20MB",
+      "convertBtn": "Ikkonverti għal PDF",
+      "converting": "Qed tikkonverti...",
+      "complete": "Konverżjoni Lesta!",
+      "resultInfo": "Id-dokument tiegħek ġie kkonvertit għal PDF",
+      "downloadBtn": "Niżżel PDF",
+      "convertAnother": "Ikkonverti Dokument Ieħor"
     }
   },
   "fileDropZone": {

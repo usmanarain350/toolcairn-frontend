@@ -28,7 +28,7 @@
     "categoryText": "Alat Teks",
     "categorySeo": "Alat SEO",
     "categoryImage": "Alat Gambar",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Alat Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word ke PDF",
+      "description": "Konversi dokumen Word (DOCX, DOC) ke PDF",
+      "pageTitle": "Konversi Word ke PDF Online",
+      "pageSubtitle": "Konversi file DOCX, DOC, ODT, atau RTF ke PDF secara instan. Gratis, tanpa daftar.",
+      "seoTitle": "Konversi Word ke PDF Online — Gratis, DOCX DOC ODT | ToolFlare",
+      "seoDescription": "Konversi dokumen Word ke PDF secara gratis. Mendukung DOCX, DOC, ODT, dan RTF. Tanpa daftar.",
+      "dragDrop": "Seret dan lepas dokumen Anda di sini",
+      "orBrowse": "atau klik untuk menelusuri",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Maks. 20 MB",
+      "convertBtn": "Konversi ke PDF",
+      "converting": "Mengonversi...",
+      "complete": "Konversi Selesai!",
+      "resultInfo": "Dokumen Anda telah dikonversi ke PDF",
+      "downloadBtn": "Unduh PDF",
+      "convertAnother": "Konversi Dokumen Lain"
     }
   },
   "fileDropZone": {

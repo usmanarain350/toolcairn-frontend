@@ -28,7 +28,7 @@
     "categoryText": "文本工具",
     "categorySeo": "SEO工具",
     "categoryImage": "图片工具",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Word 工具"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word 转 PDF",
+      "description": "将 Word 文档（DOCX、DOC）转换为 PDF",
+      "pageTitle": "在线将 Word 转换为 PDF",
+      "pageSubtitle": "即时将 DOCX、DOC、ODT 或 RTF 文件转换为 PDF。免费，无需注册。",
+      "seoTitle": "在线将 Word 转换为 PDF — 免费，DOCX DOC ODT | ToolFlare",
+      "seoDescription": "免费在线将 Word 文档转换为 PDF。支持 DOCX、DOC、ODT 和 RTF。无需注册。",
+      "dragDrop": "将文档拖放到此处",
+      "orBrowse": "或点击浏览",
+      "maxInfo": "DOCX、DOC、ODT、RTF — 最大 20MB",
+      "convertBtn": "转换为 PDF",
+      "converting": "转换中...",
+      "complete": "转换完成！",
+      "resultInfo": "您的文档已转换为 PDF",
+      "downloadBtn": "下载 PDF",
+      "convertAnother": "转换另一个文档"
     }
   },
   "fileDropZone": {

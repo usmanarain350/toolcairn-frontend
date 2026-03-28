@@ -28,7 +28,7 @@
     "categoryText": "Uirlisí téacs",
     "categorySeo": "Uirlisí SEO",
     "categoryImage": "Uirlisí íomhá",
-    "categoryWord": "Word Tools"
+    "categoryWord": "Uirlisí Word"
   },
   "tools": {
     "pdfCompressor": {
@@ -344,21 +344,21 @@
       "convertAnother": "Convert More Images"
     },
     "wordToPdf": {
-      "name": "Word to PDF",
-      "description": "Convert Word documents (DOCX, DOC) to PDF",
-      "pageTitle": "Convert Word to PDF Online",
-      "pageSubtitle": "Convert DOCX, DOC, ODT, or RTF files to PDF instantly. Free, no signup required.",
-      "seoTitle": "Convert Word to PDF Online — Free, DOCX DOC ODT | ToolFlare",
-      "seoDescription": "Convert Word documents to PDF for free online. Supports DOCX, DOC, ODT, and RTF. No signup required.",
-      "dragDrop": "Drag & drop your document here",
-      "orBrowse": "or click to browse",
-      "maxInfo": "DOCX, DOC, ODT, RTF — Max 20MB",
-      "convertBtn": "Convert to PDF",
-      "converting": "Converting...",
-      "complete": "Conversion Complete!",
-      "resultInfo": "Your document has been converted to PDF",
-      "downloadBtn": "Download PDF",
-      "convertAnother": "Convert Another Document"
+      "name": "Word go PDF",
+      "description": "Tiontaigh cáipéisí Word (DOCX, DOC) go PDF",
+      "pageTitle": "Tiontaigh Word go PDF ar líne",
+      "pageSubtitle": "Tiontaigh comhaid DOCX, DOC, ODT nó RTF go PDF láithreach. Saor in aisce, gan clárú.",
+      "seoTitle": "Tiontaigh Word go PDF ar líne — Saor in aisce | ToolFlare",
+      "seoDescription": "Tiontaigh cáipéisí Word go PDF saor in aisce. Tacaíonn sé le DOCX, DOC, ODT agus RTF. Gan clárú.",
+      "dragDrop": "Tarraing agus scaoil do cháipéis anseo",
+      "orBrowse": "nó cliceáil chun brabhsáil",
+      "maxInfo": "DOCX, DOC, ODT, RTF — Uasmhéid 20MB",
+      "convertBtn": "Tiontaigh go PDF",
+      "converting": "Ag tiontú...",
+      "complete": "Tiontú Críochnaithe!",
+      "resultInfo": "Tiontaíodh do cháipéis go PDF",
+      "downloadBtn": "Íosluchtaigh PDF",
+      "convertAnother": "Tiontaigh Cáipéis Eile"
     }
   },
   "fileDropZone": {
