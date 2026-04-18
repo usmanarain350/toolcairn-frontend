@@ -17,6 +17,14 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+    },
+  },
+
   i18n: {
     locales: [
       { code: 'en', name: 'English', file: 'en.json' },

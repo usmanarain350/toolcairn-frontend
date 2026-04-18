@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
-    "@takumi-rs/core": "^1.0.14"
+    "@takumi-rs/core": "^1.0.14",
+    "@takumi-rs/wasm": "^1.0.14",
+    "wrangler": "^4.83.0"
   }
 }
