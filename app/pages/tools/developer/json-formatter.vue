@@ -9,7 +9,7 @@
             <div class="flex items-center justify-between mb-2">
               <label for="json-input" class="text-sm font-semibold text-gray-700">{{ $t('tools.jsonFormatter.inputLabel') }}</label>
               <button
-                class="text-xs text-orange-500 hover:text-orange-600 font-medium"
+                class="text-xs text-orange-600 hover:text-orange-600 font-medium"
                 @click="loadSample"
               >
                 {{ $t('tools.jsonFormatter.loadSample') }}
@@ -46,7 +46,7 @@
           <!-- Action Buttons -->
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button
-              class="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-4 rounded-xl transition disabled:opacity-50"
+              class="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-4 rounded-xl transition disabled:opacity-50"
               :disabled="!inputJson.trim()"
               @click="formatJson"
             >
@@ -86,7 +86,7 @@
             <div class="flex items-center justify-between mb-2">
               <label class="text-sm font-semibold text-gray-700">{{ $t('tools.jsonFormatter.outputLabel') }}</label>
               <button
-                class="inline-flex items-center gap-1.5 text-sm text-orange-500 hover:text-orange-600 font-medium"
+                class="inline-flex items-center gap-1.5 text-sm text-orange-600 hover:text-orange-600 font-medium"
                 @click="copyResult"
               >
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

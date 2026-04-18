@@ -11,7 +11,7 @@
             </div>
             <button
               v-if="password"
-              class="absolute top-1/2 right-3 -translate-y-1/2 inline-flex items-center gap-1.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium px-3 py-2 rounded-lg transition"
+              class="absolute top-1/2 right-3 -translate-y-1/2 inline-flex items-center gap-1.5 bg-orange-600 hover:bg-orange-700 text-white text-sm font-medium px-3 py-2 rounded-lg transition"
               @click="copyPassword"
             >
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@
           <div>
             <div class="flex items-center justify-between mb-2">
               <label for="length" class="text-sm font-semibold text-gray-700">{{ $t('tools.passwordGenerator.length') }}</label>
-              <span class="text-sm font-bold text-orange-500 bg-orange-50 px-2.5 py-0.5 rounded-full">{{ length }}</span>
+              <span class="text-sm font-bold text-orange-700 bg-orange-50 px-2.5 py-0.5 rounded-full">{{ length }}</span>
             </div>
             <input
               id="length"
@@ -69,7 +69,7 @@
                 <input
                   v-model="opt.enabled.value"
                   type="checkbox"
-                  class="w-4 h-4 rounded border-gray-300 text-orange-500 focus:ring-orange-500"
+                  class="w-4 h-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500"
                   :disabled="isLastEnabled(opt.key)"
                 />
                 <div>
@@ -82,7 +82,7 @@
 
           <!-- Generate Button -->
           <button
-            class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg"
+            class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg"
             @click="generatePassword"
           >
             {{ $t('tools.passwordGenerator.generateBtn') }}

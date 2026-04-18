@@ -47,7 +47,7 @@
             </div>
 
             <button
-              class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+              class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
               :disabled="isConverting"
               @click="startConversion"
             >
@@ -83,7 +83,7 @@
           <div class="space-y-3">
             <a
               :href="downloadUrl"
-              class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
+              class="block w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
               {{ $t('tools.pdfToJpg.downloadBtn', { type: result.type === 'zip' ? 'ZIP' : format.toUpperCase() }) }}

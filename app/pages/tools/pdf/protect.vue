@@ -45,7 +45,7 @@
             </div>
 
             <button
-              class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+              class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
               :disabled="isProtecting || password.length < 4"
               @click="startProtect"
             >
@@ -72,7 +72,7 @@
 
           <div class="bg-gray-50 rounded-xl p-6 mb-6">
             <div class="flex items-center justify-center gap-2 mb-2">
-              <svg class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="w-6 h-6 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
               </svg>
               <p class="text-lg font-semibold text-gray-900">{{ $t('tools.protectPdf.resultInfo') }}</p>
@@ -83,7 +83,7 @@
           <div class="space-y-3">
             <a
               :href="downloadUrl"
-              class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
+              class="block w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
               {{ $t('tools.protectPdf.downloadBtn') }}

@@ -39,7 +39,7 @@
 
           <!-- Convert Button -->
           <button
-            class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+            class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
             :disabled="!inputText.trim()"
             @click="convert"
           >
@@ -58,7 +58,7 @@
                 {{ $t('tools.base64.outputLabel') }}
               </label>
               <button
-                class="inline-flex items-center gap-1.5 text-sm text-orange-500 hover:text-orange-600 font-medium"
+                class="inline-flex items-center gap-1.5 text-sm text-orange-600 hover:text-orange-600 font-medium"
                 @click="copyResult"
               >
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

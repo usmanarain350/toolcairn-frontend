@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section class="text-center mb-12">
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-        {{ $t('home.title', { highlight: '' }) }}<span class="text-orange-500">{{ $t('home.titleHighlight') }}</span>
+        {{ $t('home.title', { highlight: '' }) }}<span class="text-orange-600">{{ $t('home.titleHighlight') }}</span>
       </h1>
       <p class="text-lg text-gray-500 max-w-2xl mx-auto">
         {{ $t('home.subtitle') }}

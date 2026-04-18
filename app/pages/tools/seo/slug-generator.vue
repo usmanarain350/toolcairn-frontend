@@ -46,7 +46,7 @@
               <input
                 v-model="lowercase"
                 type="checkbox"
-                class="w-4 h-4 rounded border-gray-300 text-orange-500 focus:ring-orange-500"
+                class="w-4 h-4 rounded border-gray-300 text-orange-600 focus:ring-orange-500"
               />
               <span class="text-sm font-medium text-gray-700">{{ $t('tools.slugGenerator.lowercase') }}</span>
             </label>
@@ -58,7 +58,7 @@
               <label class="text-sm font-semibold text-gray-700">{{ $t('tools.slugGenerator.outputLabel') }}</label>
               <button
                 v-if="slug"
-                class="inline-flex items-center gap-1.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium px-3 py-1.5 rounded-lg transition"
+                class="inline-flex items-center gap-1.5 bg-orange-600 hover:bg-orange-700 text-white text-sm font-medium px-3 py-1.5 rounded-lg transition"
                 @click="copySlug"
               >
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

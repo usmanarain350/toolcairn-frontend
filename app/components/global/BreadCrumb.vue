@@ -2,14 +2,14 @@
   <nav class="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
     <ol class="flex items-center gap-1.5">
       <li>
-        <NuxtLink to="/" class="hover:text-orange-500 transition">{{ $t('nav.home') }}</NuxtLink>
+        <NuxtLink to="/" class="hover:text-orange-600 transition">{{ $t('nav.home') }}</NuxtLink>
       </li>
       <li v-for="(crumb, index) in crumbs" :key="crumb.path" class="flex items-center gap-1.5">
         <span class="text-gray-300">/</span>
         <NuxtLink
           v-if="index < crumbs.length - 1"
           :to="crumb.path"
-          class="hover:text-orange-500 transition capitalize"
+          class="hover:text-orange-600 transition capitalize"
         >
           {{ crumb.label }}
         </NuxtLink>

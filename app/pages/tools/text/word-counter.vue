@@ -32,7 +32,7 @@
               :key="stat.label"
               class="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center"
             >
-              <p class="text-2xl font-bold text-orange-500">{{ stat.value }}</p>
+              <p class="text-2xl font-bold text-orange-600">{{ stat.value }}</p>
               <p class="text-xs text-gray-500 mt-1 font-medium">{{ stat.label }}</p>
             </div>
           </div>

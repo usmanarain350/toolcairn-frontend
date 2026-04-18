@@ -42,7 +42,7 @@
 
             <!-- Compress Button -->
             <button
-              class="mt-6 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+              class="mt-6 w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
               :disabled="isCompressing"
               @click="startCompression"
             >
@@ -75,7 +75,7 @@
               <p class="text-sm text-gray-500 mb-1">{{ $t('tools.pdfCompressor.before') }}</p>
               <p class="text-xl font-bold text-gray-400">{{ formatSize(result.original_size) }}</p>
             </div>
-            <div class="text-3xl text-orange-500">→</div>
+            <div class="text-3xl text-orange-600">→</div>
             <div class="text-center">
               <p class="text-sm text-gray-500 mb-1">{{ $t('tools.pdfCompressor.after') }}</p>
               <p class="text-xl font-bold text-gray-900">{{ formatSize(result.compressed_size) }}</p>
@@ -84,7 +84,7 @@
 
           <!-- Reduction Percentage -->
           <div class="bg-orange-50 rounded-xl p-6 mb-6 inline-block">
-            <p class="text-4xl font-bold text-orange-500">{{ result.reduction_percent }}%</p>
+            <p class="text-4xl font-bold text-orange-600">{{ result.reduction_percent }}%</p>
             <p class="text-sm text-orange-600 mt-1">{{ $t('tools.pdfCompressor.fileSizeReduced') }}</p>
           </div>
 
@@ -92,7 +92,7 @@
           <div class="space-y-3">
             <a
               :href="downloadUrl"
-              class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
+              class="block w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
               {{ $t('tools.pdfCompressor.downloadBtn') }}

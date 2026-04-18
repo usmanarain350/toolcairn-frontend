@@ -1,7 +1,7 @@
 <template>
   <div class="relative" ref="dropdownRef">
     <button
-      class="flex items-center gap-1.5 text-sm text-gray-600 hover:text-orange-500 transition px-2 py-1 rounded-lg hover:bg-gray-50"
+      class="flex items-center gap-1.5 text-sm text-gray-600 hover:text-orange-600 transition px-2 py-1 rounded-lg hover:bg-gray-50"
       @click="isOpen = !isOpen"
     >
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

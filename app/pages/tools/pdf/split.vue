@@ -21,7 +21,7 @@
           </div>
 
           <div v-if="isUploading" class="mt-6 flex items-center justify-center gap-3 text-gray-500">
-            <svg class="animate-spin h-5 w-5 text-orange-500" viewBox="0 0 24 24">
+            <svg class="animate-spin h-5 w-5 text-orange-600" viewBox="0 0 24 24">
               <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" />
               <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
@@ -93,7 +93,7 @@
           </div>
 
           <button
-            class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+            class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition disabled:opacity-50 disabled:cursor-not-allowed text-lg"
             :disabled="isSplitting"
             @click="startSplit"
           >
@@ -132,7 +132,7 @@
           <div class="space-y-3">
             <a
               :href="downloadUrl"
-              class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
+              class="block w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3.5 px-6 rounded-xl transition text-lg text-center"
               download
             >
               {{ splitResult.type === 'zip' ? $t('tools.splitPdf.downloadZip') : $t('tools.splitPdf.downloadPdf') }}
