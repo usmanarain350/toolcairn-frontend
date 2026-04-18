@@ -10,7 +10,9 @@
     "utility": "Yardımcı",
     "seo": "SEO",
     "home": "Ana Sayfa",
-    "text": "Metin"
+    "text": "Metin",
+    "image": "Görsel",
+    "word": "Word"
   },
   "footer": {
     "description": "Herkes için ücretsiz çevrimiçi araçlar. Kayıt gerektirmez. Hızlı, güvenli ve kullanımı kolay.",

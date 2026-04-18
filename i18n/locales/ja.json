@@ -10,7 +10,9 @@
     "utility": "ユーティリティ",
     "seo": "SEO",
     "home": "ホーム",
-    "text": "テキスト"
+    "text": "テキスト",
+    "image": "画像",
+    "word": "Word"
   },
   "footer": {
     "description": "誰でも使える無料オンラインツール。登録不要。高速、安全、使いやすい。",

@@ -10,7 +10,9 @@
     "utility": "Utility",
     "seo": "SEO",
     "text": "Text",
-    "home": "Home"
+    "home": "Home",
+    "image": "Image",
+    "word": "Word"
   },
   "footer": {
     "description": "Free online tools for everyone. No signup required. Fast, secure, and easy to use.",

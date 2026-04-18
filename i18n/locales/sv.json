@@ -10,7 +10,9 @@
     "utility": "Verktyg",
     "seo": "SEO",
     "home": "Hem",
-    "text": "Text"
+    "text": "Text",
+    "image": "Bild",
+    "word": "Word"
   },
   "footer": {
     "description": "Gratis onlineverktyg för alla. Ingen registrering krävs. Snabba, säkra och enkla att använda.",

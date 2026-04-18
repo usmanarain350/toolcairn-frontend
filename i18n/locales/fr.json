@@ -10,7 +10,9 @@
     "utility": "Utilitaires",
     "seo": "SEO",
     "home": "Accueil",
-    "text": "Texte"
+    "text": "Texte",
+    "image": "Image",
+    "word": "Word"
   },
   "footer": {
     "description": "Outils en ligne gratuits pour tous. Sans inscription. Rapides, sécurisés et faciles à utiliser.",

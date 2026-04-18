@@ -10,7 +10,9 @@
     "utility": "유틸리티",
     "seo": "SEO",
     "home": "홈",
-    "text": "텍스트"
+    "text": "텍스트",
+    "image": "이미지",
+    "word": "Word"
   },
   "footer": {
     "description": "모두를 위한 무료 온라인 도구. 가입 불필요. 빠르고, 안전하며, 사용이 간편합니다.",

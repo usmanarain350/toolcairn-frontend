@@ -10,7 +10,9 @@
     "utility": "Utiliidid",
     "seo": "SEO",
     "home": "Avaleht",
-    "text": "Tekst"
+    "text": "Tekst",
+    "image": "Pilt",
+    "word": "Word"
   },
   "footer": {
     "description": "Tasuta veebitööriistad kõigile. Registreerimine pole vajalik. Kiire, turvaline ja lihtne kasutada.",

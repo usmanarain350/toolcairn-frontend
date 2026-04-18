@@ -10,7 +10,9 @@
     "utility": "Hilfsmittel",
     "seo": "SEO",
     "home": "Startseite",
-    "text": "Text"
+    "text": "Text",
+    "image": "Bild",
+    "word": "Word"
   },
   "footer": {
     "description": "Kostenlose Online-Tools für alle. Keine Anmeldung erforderlich. Schnell, sicher und einfach zu bedienen.",

@@ -10,7 +10,9 @@
     "utility": "Apuohjelmat",
     "seo": "SEO",
     "home": "Etusivu",
-    "text": "Teksti"
+    "text": "Teksti",
+    "image": "Kuva",
+    "word": "Word"
   },
   "footer": {
     "description": "Ilmaiset verkkotyökalut kaikille. Ei rekisteröitymistä. Nopeat, turvalliset ja helppokäyttöiset.",

@@ -10,7 +10,9 @@
     "utility": "Utilitários",
     "seo": "SEO",
     "home": "Início",
-    "text": "Texto"
+    "text": "Texto",
+    "image": "Imagem",
+    "word": "Word"
   },
   "footer": {
     "description": "Ferramentas online gratuitas para todos. Sem registo. Rápidas, seguras e fáceis de usar.",

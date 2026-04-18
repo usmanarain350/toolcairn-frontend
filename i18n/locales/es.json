@@ -10,7 +10,9 @@
     "utility": "Utilidades",
     "seo": "SEO",
     "home": "Inicio",
-    "text": "Texto"
+    "text": "Texto",
+    "image": "Imagen",
+    "word": "Word"
   },
   "footer": {
     "description": "Herramientas en línea gratuitas para todos. Sin registro. Rápidas, seguras y fáciles de usar.",

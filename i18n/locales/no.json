@@ -10,7 +10,9 @@
     "utility": "Verktøy",
     "seo": "SEO",
     "home": "Hjem",
-    "text": "Tekst"
+    "text": "Tekst",
+    "image": "Bilde",
+    "word": "Word"
   },
   "footer": {
     "description": "Gratis nettverktøy for alle. Ingen registrering nødvendig. Raskt, sikkert og enkelt å bruke.",

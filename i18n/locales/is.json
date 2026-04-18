@@ -10,7 +10,9 @@
     "utility": "Hjálpartæki",
     "seo": "SEO",
     "home": "Heim",
-    "text": "Texti"
+    "text": "Texti",
+    "image": "Mynd",
+    "word": "Word"
   },
   "footer": {
     "description": "Ókeypis netverkfæri fyrir alla. Engin skráning nauðsynleg. Hröð, örugg og auðveld í notkun.",

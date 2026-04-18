@@ -10,7 +10,9 @@
     "utility": "实用工具",
     "seo": "SEO",
     "home": "首页",
-    "text": "文本"
+    "text": "文本",
+    "image": "图片",
+    "word": "Word"
   },
   "footer": {
     "description": "人人可用的免费在线工具。无需注册。快速、安全且易于使用。",
