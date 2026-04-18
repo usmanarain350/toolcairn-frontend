@@ -2,6 +2,7 @@
   "name": "toolcairn-frontend",
   "type": "module",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -22,6 +23,7 @@
     "@tailwindcss/vite": "^4.2.2",
     "@takumi-rs/core": "^1.0.14",
     "@takumi-rs/wasm": "^1.0.14",
+    "vite": "^7.3.1",
     "wrangler": "^4.83.0"
   }
 }
