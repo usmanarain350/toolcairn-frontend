@@ -102,7 +102,7 @@
       "uppercase": "Maiúsculas (A-Z)",
       "lowercase": "Minúsculas (a-z)",
       "numbers": "Números (0-9)",
-      "symbols": "Símbolos (!@#$...)",
+      "symbols": "Símbolos (! # & *)",
       "generateBtn": "Gerar palavra-passe",
       "copyBtn": "Copiar",
       "copied": "Copiado!",
@@ -175,7 +175,7 @@
       "ogImage": "URL da imagem OG",
       "ogUrl": "URL OG",
       "twitterCard": "Tipo de Twitter Card",
-      "twitterSite": "Twitter @utilizador",
+      "twitterSite": "Twitter utilizador",
       "preview": "HTML gerado",
       "copyBtn": "Copiar HTML"
     },

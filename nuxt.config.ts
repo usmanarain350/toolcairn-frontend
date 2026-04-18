@@ -1,14 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
     '@pinia/nuxt',
   ],
+
+  css: ['~/assets/css/main.css'],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
   i18n: {
     locales: [
@@ -57,7 +64,7 @@ export default defineNuxtConfig({
       { code: 'ko', name: '한국어', file: 'ko.json' },
     ],
     defaultLocale: 'en',
-    langDir: 'i18n/locales',
+    langDir: 'locales',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,

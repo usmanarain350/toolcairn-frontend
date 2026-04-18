@@ -102,7 +102,7 @@
       "uppercase": "Didžiosios raidės (A-Z)",
       "lowercase": "Mažosios raidės (a-z)",
       "numbers": "Skaičiai (0-9)",
-      "symbols": "Simboliai (!@#$...)",
+      "symbols": "Simboliai (! # & *)",
       "generateBtn": "Generuoti slaptažodį",
       "copyBtn": "Kopijuoti",
       "copied": "Nukopijuota!",
@@ -175,7 +175,7 @@
       "ogImage": "OG paveikslėlio URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card tipas",
-      "twitterSite": "Twitter @vartotojo_vardas",
+      "twitterSite": "Twitter vartotojo_vardas",
       "preview": "Sugeneruotas HTML",
       "copyBtn": "Kopijuoti HTML"
     },

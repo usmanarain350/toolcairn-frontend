@@ -102,7 +102,7 @@
       "uppercase": "Заглавные буквы (A-Z)",
       "lowercase": "Строчные буквы (a-z)",
       "numbers": "Цифры (0-9)",
-      "symbols": "Символы (!@#$...)",
+      "symbols": "Символы (! # & *)",
       "generateBtn": "Создать пароль",
       "copyBtn": "Копировать",
       "copied": "Скопировано!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL изображения",
       "ogUrl": "OG URL",
       "twitterCard": "Тип Twitter Card",
-      "twitterSite": "Twitter @имя_пользователя",
+      "twitterSite": "Twitter имя_пользователя",
       "preview": "Сгенерированный HTML",
       "copyBtn": "Копировать HTML"
     },

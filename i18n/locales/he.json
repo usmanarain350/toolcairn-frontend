@@ -102,7 +102,7 @@
       "uppercase": "אותיות גדולות (A-Z)",
       "lowercase": "אותיות קטנות (a-z)",
       "numbers": "מספרים (0-9)",
-      "symbols": "סמלים (!@#$...)",
+      "symbols": "סמלים (! # & *)",
       "generateBtn": "יצירת סיסמה",
       "copyBtn": "העתקה",
       "copied": "הועתק!",
@@ -175,7 +175,7 @@
       "ogImage": "כתובת תמונת OG",
       "ogUrl": "כתובת OG",
       "twitterCard": "סוג Twitter Card",
-      "twitterSite": "Twitter @שם_משתמש",
+      "twitterSite": "Twitter שם_משתמש",
       "preview": "HTML שנוצר",
       "copyBtn": "העתקת HTML"
     },

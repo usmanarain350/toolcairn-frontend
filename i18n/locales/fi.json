@@ -102,7 +102,7 @@
       "uppercase": "Isot kirjaimet (A-Z)",
       "lowercase": "Pienet kirjaimet (a-z)",
       "numbers": "Numerot (0-9)",
-      "symbols": "Symbolit (!@#$...)",
+      "symbols": "Symbolit (! # & *)",
       "generateBtn": "Luo salasana",
       "copyBtn": "Kopioi",
       "copied": "Kopioitu!",
@@ -175,7 +175,7 @@
       "ogImage": "OG-kuvan URL",
       "ogUrl": "OG-URL",
       "twitterCard": "Twitter Card -tyyppi",
-      "twitterSite": "Twitter @käyttäjänimi",
+      "twitterSite": "Twitter käyttäjänimi",
       "preview": "Luotu HTML",
       "copyBtn": "Kopioi HTML"
     },

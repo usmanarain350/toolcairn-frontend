@@ -102,7 +102,7 @@
       "uppercase": "Nagybetűk (A-Z)",
       "lowercase": "Kisbetűk (a-z)",
       "numbers": "Számok (0-9)",
-      "symbols": "Szimbólumok (!@#$...)",
+      "symbols": "Szimbólumok (! # & *)",
       "generateBtn": "Jelszó generálása",
       "copyBtn": "Másolás",
       "copied": "Másolva!",
@@ -175,7 +175,7 @@
       "ogImage": "OG kép URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card típus",
-      "twitterSite": "Twitter @felhasználónév",
+      "twitterSite": "Twitter felhasználónév",
       "preview": "Generált HTML",
       "copyBtn": "HTML másolása"
     },

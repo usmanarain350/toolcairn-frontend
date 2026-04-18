@@ -102,7 +102,7 @@
       "uppercase": "Store bogstaver (A-Z)",
       "lowercase": "Små bogstaver (a-z)",
       "numbers": "Tal (0-9)",
-      "symbols": "Symboler (!@#$...)",
+      "symbols": "Symboler (! # & *)",
       "generateBtn": "Generer adgangskode",
       "copyBtn": "Kopier",
       "copied": "Kopieret!",
@@ -175,7 +175,7 @@
       "ogImage": "OG-billed-URL",
       "ogUrl": "OG-URL",
       "twitterCard": "Twitter Card-type",
-      "twitterSite": "Twitter @brugernavn",
+      "twitterSite": "Twitter brugernavn",
       "preview": "Genereret HTML",
       "copyBtn": "Kopier HTML"
     },

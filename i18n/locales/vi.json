@@ -102,7 +102,7 @@
       "uppercase": "Chữ hoa (A-Z)",
       "lowercase": "Chữ thường (a-z)",
       "numbers": "Số (0-9)",
-      "symbols": "Ký hiệu (!@#$...)",
+      "symbols": "Ký hiệu (! # & *)",
       "generateBtn": "Tạo mật khẩu",
       "copyBtn": "Sao chép",
       "copied": "Đã sao chép!",
@@ -175,7 +175,7 @@
       "ogImage": "URL hình ảnh OG",
       "ogUrl": "URL OG",
       "twitterCard": "Loại Twitter Card",
-      "twitterSite": "Twitter @tên_người_dùng",
+      "twitterSite": "Twitter tên_người_dùng",
       "preview": "HTML đã tạo",
       "copyBtn": "Sao chép HTML"
     },

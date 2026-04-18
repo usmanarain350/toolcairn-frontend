@@ -102,7 +102,7 @@
       "uppercase": "Büyük harfler (A-Z)",
       "lowercase": "Küçük harfler (a-z)",
       "numbers": "Sayılar (0-9)",
-      "symbols": "Semboller (!@#$...)",
+      "symbols": "Semboller (! # & *)",
       "generateBtn": "Şifre oluştur",
       "copyBtn": "Kopyala",
       "copied": "Kopyalandı!",
@@ -175,7 +175,7 @@
       "ogImage": "OG resim URL'si",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card türü",
-      "twitterSite": "Twitter @kullanıcı_adı",
+      "twitterSite": "Twitter kullanıcı_adı",
       "preview": "Oluşturulan HTML",
       "copyBtn": "HTML'yi kopyala"
     },

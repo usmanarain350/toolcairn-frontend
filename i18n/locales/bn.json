@@ -102,7 +102,7 @@
       "uppercase": "বড় হাতের অক্ষর (A-Z)",
       "lowercase": "ছোট হাতের অক্ষর (a-z)",
       "numbers": "সংখ্যা (0-9)",
-      "symbols": "চিহ্ন (!@#$...)",
+      "symbols": "চিহ্ন (! # & *)",
       "generateBtn": "পাসওয়ার্ড তৈরি করুন",
       "copyBtn": "কপি",
       "copied": "কপি হয়েছে!",
@@ -175,7 +175,7 @@
       "ogImage": "OG ছবির URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card ধরন",
-      "twitterSite": "Twitter @ব্যবহারকারী_নাম",
+      "twitterSite": "Twitter ব্যবহারকারী_নাম",
       "preview": "তৈরি করা HTML",
       "copyBtn": "HTML কপি করুন"
     },

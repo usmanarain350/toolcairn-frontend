@@ -102,7 +102,7 @@
       "uppercase": "Hástafir (A-Z)",
       "lowercase": "Lágstafir (a-z)",
       "numbers": "Tölur (0-9)",
-      "symbols": "Tákn (!@#$...)",
+      "symbols": "Tákn (! # & *)",
       "generateBtn": "Búa til lykilorð",
       "copyBtn": "Afrita",
       "copied": "Afritað!",
@@ -175,7 +175,7 @@
       "ogImage": "OG mynd vefslóð",
       "ogUrl": "OG vefslóð",
       "twitterCard": "Twitter Card tegund",
-      "twitterSite": "Twitter @notendanafn",
+      "twitterSite": "Twitter notendanafn",
       "preview": "Búið til HTML",
       "copyBtn": "Afrita HTML"
     },

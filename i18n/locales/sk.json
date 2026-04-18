@@ -102,7 +102,7 @@
       "uppercase": "Veľké písmená (A-Z)",
       "lowercase": "Malé písmená (a-z)",
       "numbers": "Čísla (0-9)",
-      "symbols": "Symboly (!@#$...)",
+      "symbols": "Symboly (! # & *)",
       "generateBtn": "Vygenerovať heslo",
       "copyBtn": "Kopírovať",
       "copied": "Skopírované!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL obrázku",
       "ogUrl": "OG URL",
       "twitterCard": "Typ Twitter Card",
-      "twitterSite": "Twitter @používateľ",
+      "twitterSite": "Twitter používateľ",
       "preview": "Vygenerovaný HTML",
       "copyBtn": "Kopírovať HTML"
     },

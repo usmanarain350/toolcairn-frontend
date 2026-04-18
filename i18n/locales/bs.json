@@ -102,7 +102,7 @@
       "uppercase": "Velika slova (A-Z)",
       "lowercase": "Mala slova (a-z)",
       "numbers": "Brojevi (0-9)",
-      "symbols": "Simboli (!@#$...)",
+      "symbols": "Simboli (! # & *)",
       "generateBtn": "Generiraj lozinku",
       "copyBtn": "Kopiraj",
       "copied": "Kopirano!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL slike",
       "ogUrl": "OG URL",
       "twitterCard": "Tip Twitter Card",
-      "twitterSite": "Twitter @korisničkoime",
+      "twitterSite": "Twitter korisničkoime",
       "preview": "Generirani HTML",
       "copyBtn": "Kopiraj HTML"
     },

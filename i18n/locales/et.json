@@ -102,7 +102,7 @@
       "uppercase": "Suurtähed (A-Z)",
       "lowercase": "Väiketähed (a-z)",
       "numbers": "Numbrid (0-9)",
-      "symbols": "Sümbolid (!@#$...)",
+      "symbols": "Sümbolid (! # & *)",
       "generateBtn": "Genereeri parool",
       "copyBtn": "Kopeeri",
       "copied": "Kopeeritud!",
@@ -175,7 +175,7 @@
       "ogImage": "OG pildi URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card tüüp",
-      "twitterSite": "Twitter @kasutajanimi",
+      "twitterSite": "Twitter kasutajanimi",
       "preview": "Genereeritud HTML",
       "copyBtn": "Kopeeri HTML"
     },

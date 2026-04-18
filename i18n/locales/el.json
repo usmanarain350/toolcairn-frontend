@@ -102,7 +102,7 @@
       "uppercase": "Κεφαλαία (A-Z)",
       "lowercase": "Πεζά (a-z)",
       "numbers": "Αριθμοί (0-9)",
-      "symbols": "Σύμβολα (!@#$...)",
+      "symbols": "Σύμβολα (! # & *)",
       "generateBtn": "Δημιουργία κωδικού",
       "copyBtn": "Αντιγραφή",
       "copied": "Αντιγράφηκε!",
@@ -175,7 +175,7 @@
       "ogImage": "URL εικόνας OG",
       "ogUrl": "URL OG",
       "twitterCard": "Τύπος Twitter Card",
-      "twitterSite": "Twitter @χρήστης",
+      "twitterSite": "Twitter χρήστης",
       "preview": "Δημιουργημένο HTML",
       "copyBtn": "Αντιγραφή HTML"
     },

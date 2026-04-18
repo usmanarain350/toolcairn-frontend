@@ -102,7 +102,7 @@
       "uppercase": "Velike črke (A-Z)",
       "lowercase": "Male črke (a-z)",
       "numbers": "Številke (0-9)",
-      "symbols": "Simboli (!@#$...)",
+      "symbols": "Simboli (! # & *)",
       "generateBtn": "Ustvari geslo",
       "copyBtn": "Kopiraj",
       "copied": "Kopirano!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL slike",
       "ogUrl": "OG URL",
       "twitterCard": "Vrsta Twitter Card",
-      "twitterSite": "Twitter @uporabniško_ime",
+      "twitterSite": "Twitter uporabniško_ime",
       "preview": "Ustvarjen HTML",
       "copyBtn": "Kopiraj HTML"
     },

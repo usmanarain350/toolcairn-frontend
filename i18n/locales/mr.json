@@ -102,7 +102,7 @@
       "uppercase": "मोठी अक्षरे (A-Z)",
       "lowercase": "लहान अक्षरे (a-z)",
       "numbers": "अंक (0-9)",
-      "symbols": "चिन्हे (!@#$...)",
+      "symbols": "चिन्हे (! # & *)",
       "generateBtn": "पासवर्ड तयार करा",
       "copyBtn": "कॉपी करा",
       "copied": "कॉपी झाले!",
@@ -175,7 +175,7 @@
       "ogImage": "OG प्रतिमा URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card प्रकार",
-      "twitterSite": "Twitter @वापरकर्तानाव",
+      "twitterSite": "Twitter वापरकर्तानाव",
       "preview": "तयार केलेला HTML",
       "copyBtn": "HTML कॉपी करा"
     },

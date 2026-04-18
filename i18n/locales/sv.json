@@ -102,7 +102,7 @@
       "uppercase": "Versaler (A-Z)",
       "lowercase": "Gemener (a-z)",
       "numbers": "Siffror (0-9)",
-      "symbols": "Symboler (!@#$...)",
+      "symbols": "Symboler (! # & *)",
       "generateBtn": "Generera lösenord",
       "copyBtn": "Kopiera",
       "copied": "Kopierat!",
@@ -175,7 +175,7 @@
       "ogImage": "OG-bild-URL",
       "ogUrl": "OG-URL",
       "twitterCard": "Twitter Card-typ",
-      "twitterSite": "Twitter @användarnamn",
+      "twitterSite": "Twitter användarnamn",
       "preview": "Genererad HTML",
       "copyBtn": "Kopiera HTML"
     },

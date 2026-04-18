@@ -102,7 +102,7 @@
       "uppercase": "Ceannlitreacha (A-Z)",
       "lowercase": "Litreacha beaga (a-z)",
       "numbers": "Uimhreacha (0-9)",
-      "symbols": "Siombailí (!@#$...)",
+      "symbols": "Siombailí (! # & *)",
       "generateBtn": "Gin pasfhocal",
       "copyBtn": "Cóipeáil",
       "copied": "Cóipeáilte!",
@@ -175,7 +175,7 @@
       "ogImage": "URL íomhá OG",
       "ogUrl": "URL OG",
       "twitterCard": "Cineál Twitter Card",
-      "twitterSite": "Twitter @ainm_úsáideora",
+      "twitterSite": "Twitter ainm_úsáideora",
       "preview": "HTML ginte",
       "copyBtn": "Cóipeáil HTML"
     },

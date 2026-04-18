@@ -102,7 +102,7 @@
       "uppercase": "Ittri kbar (A-Z)",
       "lowercase": "Ittri żgħar (a-z)",
       "numbers": "Numri (0-9)",
-      "symbols": "Simboli (!@#$...)",
+      "symbols": "Simboli (! # & *)",
       "generateBtn": "Iġġenera password",
       "copyBtn": "Ikkopja",
       "copied": "Ikkopjat!",
@@ -175,7 +175,7 @@
       "ogImage": "URL tal-immaġni OG",
       "ogUrl": "URL OG",
       "twitterCard": "Tip ta' Twitter Card",
-      "twitterSite": "Twitter @isem_tal-utent",
+      "twitterSite": "Twitter isem_tal-utent",
       "preview": "HTML iġġenerat",
       "copyBtn": "Ikkopja HTML"
     },

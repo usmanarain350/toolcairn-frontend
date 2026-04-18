@@ -102,7 +102,7 @@
       "uppercase": "ตัวพิมพ์ใหญ่ (A-Z)",
       "lowercase": "ตัวพิมพ์เล็ก (a-z)",
       "numbers": "ตัวเลข (0-9)",
-      "symbols": "สัญลักษณ์ (!@#$...)",
+      "symbols": "สัญลักษณ์ (! # & *)",
       "generateBtn": "สร้างรหัสผ่าน",
       "copyBtn": "คัดลอก",
       "copied": "คัดลอกแล้ว!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL รูปภาพ",
       "ogUrl": "OG URL",
       "twitterCard": "ประเภท Twitter Card",
-      "twitterSite": "Twitter @ชื่อผู้ใช้",
+      "twitterSite": "Twitter ชื่อผู้ใช้",
       "preview": "HTML ที่สร้างขึ้น",
       "copyBtn": "คัดลอก HTML"
     },

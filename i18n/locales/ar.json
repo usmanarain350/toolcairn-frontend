@@ -102,7 +102,7 @@
       "uppercase": "أحرف كبيرة (A-Z)",
       "lowercase": "أحرف صغيرة (a-z)",
       "numbers": "أرقام (0-9)",
-      "symbols": "رموز (!@#$...)",
+      "symbols": "رموز (! # & *)",
       "generateBtn": "إنشاء كلمة مرور",
       "copyBtn": "نسخ",
       "copied": "تم النسخ!",
@@ -175,7 +175,7 @@
       "ogImage": "رابط صورة OG",
       "ogUrl": "رابط OG",
       "twitterCard": "نوع Twitter Card",
-      "twitterSite": "Twitter @اسم_المستخدم",
+      "twitterSite": "Twitter اسم_المستخدم",
       "preview": "HTML المُنشأ",
       "copyBtn": "نسخ HTML"
     },

@@ -102,7 +102,7 @@
       "uppercase": "పెద్ద అక్షరాలు (A-Z)",
       "lowercase": "చిన్న అక్షరాలు (a-z)",
       "numbers": "సంఖ్యలు (0-9)",
-      "symbols": "చిహ్నాలు (!@#$...)",
+      "symbols": "చిహ్నాలు (! # & *)",
       "generateBtn": "పాస్‌వర్డ్ సృష్టించండి",
       "copyBtn": "కాపీ",
       "copied": "కాపీ అయింది!",
@@ -175,7 +175,7 @@
       "ogImage": "OG చిత్రం URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card రకం",
-      "twitterSite": "Twitter @వినియోగదారు_పేరు",
+      "twitterSite": "Twitter వినియోగదారు_పేరు",
       "preview": "సృష్టించిన HTML",
       "copyBtn": "HTML కాపీ చేయండి"
     },

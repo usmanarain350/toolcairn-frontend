@@ -102,7 +102,7 @@
       "uppercase": "Hoofdletters (A-Z)",
       "lowercase": "Kleine letters (a-z)",
       "numbers": "Cijfers (0-9)",
-      "symbols": "Symbolen (!@#$...)",
+      "symbols": "Symbolen (! # & *)",
       "generateBtn": "Wachtwoord genereren",
       "copyBtn": "Kopiëren",
       "copied": "Gekopieerd!",
@@ -175,7 +175,7 @@
       "ogImage": "OG-afbeeldings-URL",
       "ogUrl": "OG-URL",
       "twitterCard": "Twitter Card-type",
-      "twitterSite": "Twitter @gebruikersnaam",
+      "twitterSite": "Twitter gebruikersnaam",
       "preview": "Gegenereerde HTML",
       "copyBtn": "HTML kopiëren"
     },

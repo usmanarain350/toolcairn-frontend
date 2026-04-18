@@ -102,7 +102,7 @@
       "uppercase": "대문자 (A-Z)",
       "lowercase": "소문자 (a-z)",
       "numbers": "숫자 (0-9)",
-      "symbols": "기호 (!@#$...)",
+      "symbols": "기호 (! # & *)",
       "generateBtn": "비밀번호 생성",
       "copyBtn": "복사",
       "copied": "복사됨!",
@@ -175,7 +175,7 @@
       "ogImage": "OG 이미지 URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card 유형",
-      "twitterSite": "Twitter @사용자명",
+      "twitterSite": "Twitter 사용자명",
       "preview": "생성된 HTML",
       "copyBtn": "HTML 복사"
     },

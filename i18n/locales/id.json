@@ -102,7 +102,7 @@
       "uppercase": "Huruf Besar (A-Z)",
       "lowercase": "Huruf Kecil (a-z)",
       "numbers": "Angka (0-9)",
-      "symbols": "Simbol (!@#$...)",
+      "symbols": "Simbol (! # & *)",
       "generateBtn": "Buat Kata Sandi",
       "copyBtn": "Salin",
       "copied": "Tersalin!",
@@ -175,7 +175,7 @@
       "ogImage": "URL Gambar OG",
       "ogUrl": "URL OG",
       "twitterCard": "Jenis Twitter Card",
-      "twitterSite": "Twitter @namapengguna",
+      "twitterSite": "Twitter namapengguna",
       "preview": "HTML yang Dihasilkan",
       "copyBtn": "Salin HTML"
     },

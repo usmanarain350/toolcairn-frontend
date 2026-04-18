@@ -102,7 +102,7 @@
       "uppercase": "ਵੱਡੇ ਅੱਖਰ (A-Z)",
       "lowercase": "ਛੋਟੇ ਅੱਖਰ (a-z)",
       "numbers": "ਨੰਬਰ (0-9)",
-      "symbols": "ਚਿੰਨ੍ਹ (!@#$...)",
+      "symbols": "ਚਿੰਨ੍ਹ (! # & *)",
       "generateBtn": "ਪਾਸਵਰਡ ਬਣਾਓ",
       "copyBtn": "ਕਾਪੀ",
       "copied": "ਕਾਪੀ ਹੋ ਗਿਆ!",
@@ -175,7 +175,7 @@
       "ogImage": "OG ਤਸਵੀਰ URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card ਕਿਸਮ",
-      "twitterSite": "Twitter @ਵਰਤੋਂਕਾਰ_ਨਾਮ",
+      "twitterSite": "Twitter ਵਰਤੋਂਕਾਰ_ਨਾਮ",
       "preview": "ਬਣਾਇਆ ਗਿਆ HTML",
       "copyBtn": "HTML ਕਾਪੀ ਕਰੋ"
     },

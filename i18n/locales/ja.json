@@ -102,7 +102,7 @@
       "uppercase": "大文字 (A-Z)",
       "lowercase": "小文字 (a-z)",
       "numbers": "数字 (0-9)",
-      "symbols": "記号 (!@#$...)",
+      "symbols": "記号 (! # & *)",
       "generateBtn": "パスワードを生成",
       "copyBtn": "コピー",
       "copied": "コピーしました！",
@@ -175,7 +175,7 @@
       "ogImage": "OG画像URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Cardタイプ",
-      "twitterSite": "Twitter @ユーザー名",
+      "twitterSite": "Twitter ユーザー名",
       "preview": "生成されたHTML",
       "copyBtn": "HTMLをコピー"
     },

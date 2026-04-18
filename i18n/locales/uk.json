@@ -102,7 +102,7 @@
       "uppercase": "Великі літери (A-Z)",
       "lowercase": "Малі літери (a-z)",
       "numbers": "Цифри (0-9)",
-      "symbols": "Символи (!@#$...)",
+      "symbols": "Символи (! # & *)",
       "generateBtn": "Створити пароль",
       "copyBtn": "Копіювати",
       "copied": "Скопійовано!",
@@ -175,7 +175,7 @@
       "ogImage": "OG URL зображення",
       "ogUrl": "OG URL",
       "twitterCard": "Тип Twitter Card",
-      "twitterSite": "Twitter @ім'я_користувача",
+      "twitterSite": "Twitter ім'я_користувача",
       "preview": "Згенерований HTML",
       "copyBtn": "Копіювати HTML"
     },

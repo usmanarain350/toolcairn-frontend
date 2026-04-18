@@ -102,7 +102,7 @@
       "uppercase": "Majuscule (A-Z)",
       "lowercase": "Minuscule (a-z)",
       "numbers": "Numere (0-9)",
-      "symbols": "Simboluri (!@#$...)",
+      "symbols": "Simboluri (! # & *)",
       "generateBtn": "Generează parolă",
       "copyBtn": "Copiază",
       "copied": "Copiat!",
@@ -175,7 +175,7 @@
       "ogImage": "URL imagine OG",
       "ogUrl": "URL OG",
       "twitterCard": "Tip Twitter Card",
-      "twitterSite": "Twitter @utilizator",
+      "twitterSite": "Twitter utilizator",
       "preview": "HTML generat",
       "copyBtn": "Copiază HTML"
     },

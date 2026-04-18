@@ -102,7 +102,7 @@
       "uppercase": "Lielie burti (A-Z)",
       "lowercase": "Mazie burti (a-z)",
       "numbers": "Cipari (0-9)",
-      "symbols": "Simboli (!@#$...)",
+      "symbols": "Simboli (! # & *)",
       "generateBtn": "Ģenerēt paroli",
       "copyBtn": "Kopēt",
       "copied": "Nokopēts!",
@@ -175,7 +175,7 @@
       "ogImage": "OG attēla URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card tips",
-      "twitterSite": "Twitter @lietotājvārds",
+      "twitterSite": "Twitter lietotājvārds",
       "preview": "Ģenerēts HTML",
       "copyBtn": "Kopēt HTML"
     },

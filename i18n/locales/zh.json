@@ -102,7 +102,7 @@
       "uppercase": "大写字母 (A-Z)",
       "lowercase": "小写字母 (a-z)",
       "numbers": "数字 (0-9)",
-      "symbols": "符号 (!@#$...)",
+      "symbols": "符号 (! # & *)",
       "generateBtn": "生成密码",
       "copyBtn": "复制",
       "copied": "已复制！",
@@ -175,7 +175,7 @@
       "ogImage": "OG图片URL",
       "ogUrl": "OG URL",
       "twitterCard": "Twitter Card类型",
-      "twitterSite": "Twitter @用户名",
+      "twitterSite": "Twitter 用户名",
       "preview": "生成的HTML",
       "copyBtn": "复制HTML"
     },
