@@ -105,7 +105,7 @@
             <li><strong>Copy your slug</strong> — The slug updates in real-time. Click "Copy" to save it to your clipboard.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare Slug Generator</h2>
+          <h2>Benefits of Using Toolcairn Slug Generator</h2>
           <ul>
             <li><strong>Real-Time Conversion</strong> — See your slug update instantly as you type, no button click needed.</li>
             <li><strong>SEO-Friendly</strong> — Generates clean, readable slugs that follow URL best practices for search engine optimization.</li>
@@ -155,7 +155,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare URL Slug Generator',
+    name: 'Toolcairn URL Slug Generator',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',
     offers: { price: '0', priceCurrency: 'USD' },

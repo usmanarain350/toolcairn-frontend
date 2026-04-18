@@ -107,7 +107,7 @@
             <li><strong>Convert and copy</strong> — Click the convert button and copy the result with one click.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare Base64 Tool</h2>
+          <h2>Benefits of Using Toolcairn Base64 Tool</h2>
           <ul>
             <li><strong>Instant Conversion</strong> — Encode or decode Base64 with a single click, no waiting.</li>
             <li><strong>Full Unicode Support</strong> — Properly handles special characters, emojis, and multilingual text.</li>
@@ -157,7 +157,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Base64 Encoder/Decoder',
+    name: 'Toolcairn Base64 Encoder/Decoder',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',
     offers: { price: '0', priceCurrency: 'USD' },

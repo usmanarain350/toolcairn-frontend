@@ -172,7 +172,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare PDF Compressor',
+    name: 'Toolcairn PDF Compressor',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

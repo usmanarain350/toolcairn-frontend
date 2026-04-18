@@ -93,7 +93,7 @@
             <li><strong>Download</strong> — Get your PDF instantly, ready to share or print.</li>
           </ol>
 
-          <h2>Why Use ToolFlare Word to PDF?</h2>
+          <h2>Why Use Toolcairn Word to PDF?</h2>
           <ul>
             <li><strong>Multiple formats</strong> — Supports DOCX, DOC, ODT, and RTF files.</li>
             <li><strong>Accurate layout</strong> — Preserves fonts, tables, images, and formatting.</li>
@@ -134,7 +134,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Word to PDF Converter',
+    name: 'Toolcairn Word to PDF Converter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

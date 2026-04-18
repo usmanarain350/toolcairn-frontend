@@ -116,7 +116,7 @@
             <li><strong>Copy the result</strong> — Use the copy button to save the formatted output to your clipboard.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare JSON Formatter</h2>
+          <h2>Benefits of Using Toolcairn JSON Formatter</h2>
           <ul>
             <li><strong>Instant Formatting</strong> — Beautify messy JSON with proper indentation in one click.</li>
             <li><strong>Validation with Error Details</strong> — Get clear error messages pointing to exactly where your JSON is broken.</li>
@@ -166,7 +166,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare JSON Formatter',
+    name: 'Toolcairn JSON Formatter',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',
     offers: { price: '0', priceCurrency: 'USD' },
@@ -226,7 +226,7 @@ function validateJson() {
 
 function loadSample() {
   inputJson.value = JSON.stringify({
-    name: 'ToolFlare',
+    name: 'Toolcairn',
     version: '1.0.0',
     description: 'Free online developer tools',
     features: ['JSON Formatter', 'Base64 Encoder', 'Password Generator'],

@@ -102,7 +102,7 @@
             <li><strong>Download</strong> — Click "Compress Image" and download your optimized file.</li>
           </ol>
 
-          <h2>Why Use ToolFlare Image Compressor?</h2>
+          <h2>Why Use Toolcairn Image Compressor?</h2>
           <ul>
             <li><strong>100% Free</strong> — No hidden costs or premium tiers.</li>
             <li><strong>Multiple Formats</strong> — Supports JPG, PNG, and WebP.</li>
@@ -142,7 +142,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Image Compressor',
+    name: 'Toolcairn Image Compressor',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

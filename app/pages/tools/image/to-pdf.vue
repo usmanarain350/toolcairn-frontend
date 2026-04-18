@@ -99,7 +99,7 @@
             <li><strong>Download</strong> — Click convert and get your PDF instantly.</li>
           </ol>
 
-          <h2>Why Use ToolFlare Image to PDF?</h2>
+          <h2>Why Use Toolcairn Image to PDF?</h2>
           <ul>
             <li><strong>Multiple formats</strong> — Supports JPG, PNG, and WebP images.</li>
             <li><strong>Up to 20 images</strong> — Combine many images into one PDF.</li>
@@ -140,7 +140,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Image to PDF Converter',
+    name: 'Toolcairn Image to PDF Converter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

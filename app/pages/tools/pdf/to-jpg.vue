@@ -111,7 +111,7 @@
             <li><strong>Download</strong> — Each page becomes a separate image. Multi-page PDFs download as ZIP.</li>
           </ol>
 
-          <h2>Why Use ToolFlare PDF to JPG?</h2>
+          <h2>Why Use Toolcairn PDF to JPG?</h2>
           <ul>
             <li><strong>High quality</strong> — Up to 300 DPI for crisp, sharp images.</li>
             <li><strong>JPG or PNG</strong> — Choose the format that works best for you.</li>
@@ -148,7 +148,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare PDF to JPG Converter',
+    name: 'Toolcairn PDF to JPG Converter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

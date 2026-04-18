@@ -100,7 +100,7 @@
             <li><strong>Download</strong> — Click "Merge" and download your combined PDF.</li>
           </ol>
 
-          <h2>Why Use ToolFlare PDF Merger?</h2>
+          <h2>Why Use Toolcairn PDF Merger?</h2>
           <ul>
             <li><strong>100% Free</strong> — Merge unlimited PDFs at no cost.</li>
             <li><strong>Up to 20 files</strong> — Combine up to 20 PDFs in one go.</li>
@@ -137,7 +137,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare PDF Merger',
+    name: 'Toolcairn PDF Merger',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

@@ -90,7 +90,7 @@
             <li><strong>Generate and download</strong> — Click "Generate QR Code" and download the PNG image instantly.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare QR Code Generator</h2>
+          <h2>Benefits of Using Toolcairn QR Code Generator</h2>
           <ul>
             <li><strong>100% Free</strong> — No hidden fees, no watermarks, no premium plan needed.</li>
             <li><strong>No Signup Required</strong> — Generate QR codes immediately without creating an account.</li>
@@ -140,7 +140,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare QR Code Generator',
+    name: 'Toolcairn QR Code Generator',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

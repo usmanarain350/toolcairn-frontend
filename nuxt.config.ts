@@ -77,8 +77,8 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://toolflare.nl',
-    name: 'ToolFlare',
+    url: 'https://toolcairn.com',
+    name: 'Toolcairn',
     description: 'Free Online Tools — No Signup Required',
     defaultLocale: 'en',
   },

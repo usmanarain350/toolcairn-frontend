@@ -160,7 +160,7 @@
             <li><strong>Download</strong> — Download your split PDF or ZIP archive instantly.</li>
           </ol>
 
-          <h2>Why Use ToolFlare PDF Splitter?</h2>
+          <h2>Why Use Toolcairn PDF Splitter?</h2>
           <ul>
             <li><strong>100% Free</strong> — No cost, no subscription required.</li>
             <li><strong>No Signup</strong> — Start splitting immediately with no account needed.</li>
@@ -201,7 +201,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare PDF Splitter',
+    name: 'Toolcairn PDF Splitter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

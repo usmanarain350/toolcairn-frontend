@@ -64,7 +64,7 @@
             <li><strong>Check reading time</strong> — Estimated reading and speaking times help you gauge content length for articles, speeches, and presentations.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare Word Counter</h2>
+          <h2>Benefits of Using Toolcairn Word Counter</h2>
           <ul>
             <li><strong>Real-Time Analysis</strong> — All statistics update instantly as you type or edit your text.</li>
             <li><strong>Comprehensive Stats</strong> — Track words, characters (with and without spaces), sentences, and paragraphs all at once.</li>
@@ -114,7 +114,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Word Counter',
+    name: 'Toolcairn Word Counter',
     operatingSystem: 'Web',
     applicationCategory: 'UtilitiesApplication',
     offers: { price: '0', priceCurrency: 'USD' },

@@ -233,7 +233,7 @@
             <li><strong>Copy the HTML</strong> — Click "Copy" to get the generated meta tags and paste them into your page's &lt;head&gt; section.</li>
           </ol>
 
-          <h2>Benefits of Using ToolFlare Meta Tag Generator</h2>
+          <h2>Benefits of Using Toolcairn Meta Tag Generator</h2>
           <ul>
             <li><strong>Complete Coverage</strong> — Generates basic SEO tags, Open Graph tags, and Twitter Card tags all in one place.</li>
             <li><strong>Character Counters</strong> — Stay within Google's recommended title (60 chars) and description (160 chars) limits.</li>
@@ -283,7 +283,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineSoftwareApp({
-    name: 'ToolFlare Meta Tag Generator',
+    name: 'Toolcairn Meta Tag Generator',
     operatingSystem: 'Web',
     applicationCategory: 'DeveloperApplication',
     offers: { price: '0', priceCurrency: 'USD' },
