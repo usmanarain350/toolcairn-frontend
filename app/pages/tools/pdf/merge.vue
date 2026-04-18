@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.mergePdf.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.mergePdf.pageSubtitle') }}</template>
@@ -121,11 +119,11 @@
           <ToolCard :tool="{ name: $t('tools.imageCompressor.name'), description: $t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 const { t } = useI18n()
 
 useSeoMeta({

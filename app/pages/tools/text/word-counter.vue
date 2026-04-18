@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.wordCounter.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.wordCounter.pageSubtitle') }}</template>
@@ -98,11 +96,11 @@
           <ToolCard :tool="{ name: $t('tools.jsonFormatter.name'), description: $t('tools.jsonFormatter.description'), icon: '{}', path: '/tools/developer/json-formatter', category: 'Developer' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 const { t } = useI18n()
 
 useSeoMeta({

@@ -7,14 +7,16 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  position: 'top' | 'bottom' | 'sidebar'
+  position: 'top' | 'bottom' | 'left' | 'right' | 'sidebar'
 }>()
 
 const sizeClass = computed(() => {
   switch (props.position) {
     case 'top': return 'h-24 w-full'
     case 'bottom': return 'h-[250px] max-w-[300px] mx-auto'
-    case 'sidebar': return 'h-[600px] w-[160px]'
+    case 'left':
+    case 'right':
+    case 'sidebar': return 'h-full w-full min-h-[600px] sticky top-20'
     default: return 'h-24 w-full'
   }
 })

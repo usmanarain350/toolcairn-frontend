@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.splitPdf.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.splitPdf.pageSubtitle') }}</template>
@@ -183,11 +181,11 @@
           <ToolCard :tool="{ name: $t('tools.pdfToJpg.name'), description: $t('tools.pdfToJpg.description'), icon: '🖼️', path: '/tools/pdf/to-jpg', category: 'PDF' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()

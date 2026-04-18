@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.jsonFormatter.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.jsonFormatter.pageSubtitle') }}</template>
@@ -150,11 +148,11 @@
           <ToolCard :tool="{ name: $t('tools.metaTagGenerator.name'), description: $t('tools.metaTagGenerator.description'), icon: '🏷️', path: '/tools/seo/meta-tag-generator', category: 'SEO' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 const { t } = useI18n()
 
 useSeoMeta({

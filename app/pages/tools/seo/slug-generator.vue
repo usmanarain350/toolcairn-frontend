@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.slugGenerator.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.slugGenerator.pageSubtitle') }}</template>
@@ -139,11 +137,11 @@
           <ToolCard :tool="{ name: $t('tools.qrCode.name'), description: $t('tools.qrCode.description'), icon: '📱', path: '/tools/utility/qr-code', category: 'Utility' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 const { t } = useI18n()
 
 useSeoMeta({

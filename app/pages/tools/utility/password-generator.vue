@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtLayout name="tool">
       <ToolLayout>
         <template #title>{{ $t('tools.passwordGenerator.pageTitle') }}</template>
         <template #subtitle>{{ $t('tools.passwordGenerator.pageSubtitle') }}</template>
@@ -134,11 +132,11 @@
           <ToolCard :tool="{ name: $t('tools.wordCounter.name'), description: $t('tools.wordCounter.description'), icon: '📝', path: '/tools/text/word-counter', category: 'Text' }" />
         </template>
       </ToolLayout>
-    </NuxtLayout>
-  </div>
 </template>
 
 <script setup lang="ts">
+definePageMeta({ layout: 'tool' })
+
 const { t } = useI18n()
 
 useSeoMeta({
