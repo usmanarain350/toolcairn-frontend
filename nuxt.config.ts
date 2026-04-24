@@ -114,20 +114,50 @@ export default defineNuxtConfig({
     xsl: false,
     sitemaps: {
       pages: {
-        include: ['/', '/about', '/about/**', '/blog', '/blog/**'],
-        defaults: { changefreq: 'monthly', priority: 0.7 },
+        urls: [
+          { loc: '/', changefreq: 'weekly', priority: 1.0 },
+          { loc: '/about', changefreq: 'monthly', priority: 0.6 },
+          { loc: '/blog', changefreq: 'weekly', priority: 0.7 },
+        ],
       },
       'tools-pdf': {
-        include: ['/tools/pdf', '/tools/pdf/**'],
         defaults: { changefreq: 'weekly', priority: 0.9 },
+        urls: [
+          '/tools/pdf',
+          '/tools/pdf/compress',
+          '/tools/pdf/merge',
+          '/tools/pdf/split',
+          '/tools/pdf/protect',
+          '/tools/pdf/to-jpg',
+          '/tools/pdf/to-png',
+        ],
       },
       'tools-image': {
-        include: ['/tools/image', '/tools/image/**'],
         defaults: { changefreq: 'weekly', priority: 0.9 },
+        urls: [
+          '/tools/image',
+          '/tools/image/compress',
+          '/tools/image/to-pdf',
+        ],
       },
       'tools-seo': {
-        include: ['/tools/seo', '/tools/seo/**'],
         defaults: { changefreq: 'weekly', priority: 0.9 },
+        urls: [
+          '/tools/seo',
+          '/tools/seo/meta-tag-generator',
+          '/tools/seo/slug-generator',
+        ],
+      },
+      'tools-other': {
+        defaults: { changefreq: 'weekly', priority: 0.8 },
+        urls: [
+          '/tools/developer/base64',
+          '/tools/developer/json-formatter',
+          '/tools/utility/qr-code',
+          '/tools/utility/password-generator',
+          '/tools/text/word-counter',
+          '/tools/word/to-pdf',
+        ],
       },
     },
   },

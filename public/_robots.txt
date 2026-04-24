@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://toolcairn.com/sitemap_index.xml
+Sitemap: https://toolcairn.com/sitemap.xml
