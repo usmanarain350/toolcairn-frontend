@@ -113,14 +113,14 @@ export default defineNuxtConfig({
   sitemap: {
     xsl: false,
     sitemaps: {
-      pages: {
+      'pages-v2': {
         urls: [
           { loc: '/', changefreq: 'weekly', priority: 1.0 },
           { loc: '/about', changefreq: 'monthly', priority: 0.6 },
           { loc: '/blog', changefreq: 'weekly', priority: 0.7 },
         ],
       },
-      'tools-pdf': {
+      'tools-pdf-v2': {
         defaults: { changefreq: 'weekly', priority: 0.9 },
         urls: [
           '/tools/pdf',
@@ -132,7 +132,7 @@ export default defineNuxtConfig({
           '/tools/pdf/to-png',
         ],
       },
-      'tools-image': {
+      'tools-image-v2': {
         defaults: { changefreq: 'weekly', priority: 0.9 },
         urls: [
           '/tools/image',
@@ -140,7 +140,7 @@ export default defineNuxtConfig({
           '/tools/image/to-pdf',
         ],
       },
-      'tools-seo': {
+      'tools-seo-v2': {
         defaults: { changefreq: 'weekly', priority: 0.9 },
         urls: [
           '/tools/seo',
