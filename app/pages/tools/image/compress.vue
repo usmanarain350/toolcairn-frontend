@@ -131,11 +131,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.imageCompressor.seoTitle'),
+useToolSeo({
+  name: t('tools.imageCompressor.name'),
   description: t('tools.imageCompressor.seoDescription'),
-  ogTitle: t('tools.imageCompressor.seoTitle'),
-  ogDescription: t('tools.imageCompressor.pageSubtitle'),
+  path: '/tools/image/compress',
 })
 
 useSchemaOrg([

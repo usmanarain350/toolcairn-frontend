@@ -6,11 +6,11 @@
         <span>{{ $t('site.name') }}</span>
       </NuxtLink>
       <nav aria-label="Primary" class="hidden lg:flex items-center gap-5 text-sm font-medium text-gray-600">
-        <NuxtLink to="/tools/pdf/" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.pdfTools') }}</NuxtLink>
-        <NuxtLink to="/tools/image/" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.imageTools') }}</NuxtLink>
-        <NuxtLink to="/tools/seo/" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.seoTools') }}</NuxtLink>
-        <NuxtLink to="/blog/" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.blog') }}</NuxtLink>
-        <NuxtLink to="/about/" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.about') }}</NuxtLink>
+        <NuxtLink to="/tools/pdf" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.pdfTools') }}</NuxtLink>
+        <NuxtLink to="/tools/image" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.imageTools') }}</NuxtLink>
+        <NuxtLink to="/tools/seo" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.seoTools') }}</NuxtLink>
+        <NuxtLink to="/blog" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.blog') }}</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.about') }}</NuxtLink>
         <LanguageSwitcher />
       </nav>
       <div class="flex items-center gap-2 lg:hidden">
@@ -23,11 +23,11 @@
       </div>
     </div>
     <nav v-if="mobileOpen" aria-label="Primary mobile" class="lg:hidden border-t border-gray-100 bg-white px-4 py-3 space-y-2">
-      <NuxtLink to="/tools/pdf/" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.pdfTools') }}</NuxtLink>
-      <NuxtLink to="/tools/image/" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.imageTools') }}</NuxtLink>
-      <NuxtLink to="/tools/seo/" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.seoTools') }}</NuxtLink>
-      <NuxtLink to="/blog/" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.blog') }}</NuxtLink>
-      <NuxtLink to="/about/" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.about') }}</NuxtLink>
+      <NuxtLink to="/tools/pdf" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.pdfTools') }}</NuxtLink>
+      <NuxtLink to="/tools/image" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.imageTools') }}</NuxtLink>
+      <NuxtLink to="/tools/seo" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.seoTools') }}</NuxtLink>
+      <NuxtLink to="/blog" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.blog') }}</NuxtLink>
+      <NuxtLink to="/about" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.about') }}</NuxtLink>
     </nav>
   </header>
 </template>

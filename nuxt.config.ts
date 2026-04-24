@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
+    '@nuxt/image',
     '@pinia/nuxt',
   ],
 
@@ -89,8 +90,15 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      titleTemplate: '%s | Toolcairn',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+      meta: [
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@toolcairn' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Toolcairn' },
       ],
     },
   },
@@ -106,18 +114,30 @@ export default defineNuxtConfig({
     xsl: false,
     sitemaps: {
       pages: {
-        include: ['/', '/about/**', '/blog/**'],
+        include: ['/', '/about', '/about/**', '/blog', '/blog/**'],
+        defaults: { changefreq: 'monthly', priority: 0.7 },
       },
       'tools-pdf': {
-        include: ['/tools/pdf/**'],
+        include: ['/tools/pdf', '/tools/pdf/**'],
+        defaults: { changefreq: 'weekly', priority: 0.9 },
       },
       'tools-image': {
-        include: ['/tools/image/**'],
+        include: ['/tools/image', '/tools/image/**'],
+        defaults: { changefreq: 'weekly', priority: 0.9 },
       },
       'tools-seo': {
-        include: ['/tools/seo/**'],
+        include: ['/tools/seo', '/tools/seo/**'],
+        defaults: { changefreq: 'weekly', priority: 0.9 },
       },
     },
+  },
+
+  robots: {
+    disallow: ['/admin/', '/api/'],
+  },
+
+  image: {
+    format: ['webp', 'avif'],
   },
 
   runtimeConfig: {

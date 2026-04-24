@@ -12,7 +12,12 @@
 
     <!-- Tool Grid -->
     <section v-for="category in categories" :key="category.name" class="mb-10">
-      <h2 class="text-xl font-bold text-gray-900 mb-4">{{ category.name }}</h2>
+      <h2 class="text-xl font-bold text-gray-900 mb-4">
+        <NuxtLink v-if="category.hubPath" :to="category.hubPath" class="hover:text-orange-600 transition">
+          {{ category.name }}
+        </NuxtLink>
+        <span v-else>{{ category.name }}</span>
+      </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <ToolCard v-for="tool in category.tools" :key="tool.path" :tool="tool" />
       </div>
@@ -69,6 +74,7 @@ useHead({
 const categories = computed(() => [
   {
     name: t('home.categoryPdf'),
+    hubPath: '/tools/pdf',
     tools: [
       { name: t('tools.pdfCompressor.name'), description: t('tools.pdfCompressor.description'), icon: '📄', path: '/tools/pdf/compress', category: 'PDF' },
       { name: t('tools.mergePdf.name'), description: t('tools.mergePdf.description'), icon: '📎', path: '/tools/pdf/merge', category: 'PDF' },
@@ -80,6 +86,7 @@ const categories = computed(() => [
   },
   {
     name: t('home.categoryImage'),
+    hubPath: '/tools/image',
     tools: [
       { name: t('tools.imageCompressor.name'), description: t('tools.imageCompressor.description'), icon: '🖼️', path: '/tools/image/compress', category: 'Image' },
       { name: t('tools.imageToPdf.name'), description: t('tools.imageToPdf.description'), icon: '📄', path: '/tools/image/to-pdf', category: 'Image' },
@@ -87,6 +94,7 @@ const categories = computed(() => [
   },
   {
     name: t('home.categoryUtility'),
+    hubPath: null,
     tools: [
       { name: t('tools.qrCode.name'), description: t('tools.qrCode.description'), icon: '📱', path: '/tools/utility/qr-code', category: 'Utility' },
       { name: t('tools.passwordGenerator.name'), description: t('tools.passwordGenerator.description'), icon: '🔑', path: '/tools/utility/password-generator', category: 'Utility' },
@@ -94,6 +102,7 @@ const categories = computed(() => [
   },
   {
     name: t('home.categoryDeveloper'),
+    hubPath: null,
     tools: [
       { name: t('tools.jsonFormatter.name'), description: t('tools.jsonFormatter.description'), icon: '{ }', path: '/tools/developer/json-formatter', category: 'Developer' },
       { name: t('tools.base64.name'), description: t('tools.base64.description'), icon: '🔤', path: '/tools/developer/base64', category: 'Developer' },
@@ -101,12 +110,14 @@ const categories = computed(() => [
   },
   {
     name: t('home.categoryText'),
+    hubPath: null,
     tools: [
       { name: t('tools.wordCounter.name'), description: t('tools.wordCounter.description'), icon: '📝', path: '/tools/text/word-counter', category: 'Text' },
     ],
   },
   {
     name: t('home.categorySeo'),
+    hubPath: '/tools/seo',
     tools: [
       { name: t('tools.metaTagGenerator.name'), description: t('tools.metaTagGenerator.description'), icon: '🏷️', path: '/tools/seo/meta-tag-generator', category: 'SEO' },
       { name: t('tools.slugGenerator.name'), description: t('tools.slugGenerator.description'), icon: '🔗', path: '/tools/seo/slug-generator', category: 'SEO' },

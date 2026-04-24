@@ -190,11 +190,10 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.splitPdf.seoTitle'),
+useToolSeo({
+  name: t('tools.splitPdf.name'),
   description: t('tools.splitPdf.seoDescription'),
-  ogTitle: t('tools.splitPdf.seoTitle'),
-  ogDescription: t('tools.splitPdf.pageSubtitle'),
+  path: '/tools/pdf/split',
 })
 
 useSchemaOrg([

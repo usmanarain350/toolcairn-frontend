@@ -161,11 +161,17 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.pdfCompressor.seoTitle'),
+useToolSeo({
+  name: t('tools.pdfCompressor.name'),
   description: t('tools.pdfCompressor.seoDescription'),
-  ogTitle: t('tools.pdfCompressor.seoTitle'),
-  ogDescription: t('tools.pdfCompressor.pageSubtitle'),
+  path: '/tools/pdf/compress',
+  faqs: [
+    { question: t('tools.pdfCompressor.faqFreeQ'), answer: t('tools.pdfCompressor.faqFreeA') },
+    { question: t('tools.pdfCompressor.faqSafeQ'), answer: t('tools.pdfCompressor.faqSafeA') },
+    { question: t('tools.pdfCompressor.faqSizeQ'), answer: t('tools.pdfCompressor.faqSizeA') },
+    { question: t('tools.pdfCompressor.faqQualityQ'), answer: t('tools.pdfCompressor.faqQualityA') },
+    { question: t('tools.pdfCompressor.faqBatchQ'), answer: t('tools.pdfCompressor.faqBatchA') },
+  ],
 })
 
 useSchemaOrg([

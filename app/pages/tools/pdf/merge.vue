@@ -126,11 +126,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.mergePdf.seoTitle'),
+useToolSeo({
+  name: t('tools.mergePdf.name'),
   description: t('tools.mergePdf.seoDescription'),
-  ogTitle: t('tools.mergePdf.seoTitle'),
-  ogDescription: t('tools.mergePdf.pageSubtitle'),
+  path: '/tools/pdf/merge',
 })
 
 useSchemaOrg([

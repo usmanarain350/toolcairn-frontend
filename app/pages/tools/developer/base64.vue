@@ -146,11 +146,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.base64.seoTitle'),
+useToolSeo({
+  name: t('tools.base64.name'),
   description: t('tools.base64.seoDescription'),
-  ogTitle: t('tools.base64.seoTitle'),
-  ogDescription: t('tools.base64.pageSubtitle'),
+  path: '/tools/developer/base64',
 })
 
 useSchemaOrg([

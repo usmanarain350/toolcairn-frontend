@@ -125,11 +125,10 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.pdfToPng.seoTitle'),
+useToolSeo({
+  name: t('tools.pdfToPng.name'),
   description: t('tools.pdfToPng.seoDescription'),
-  ogTitle: t('tools.pdfToPng.seoTitle'),
-  ogDescription: t('tools.pdfToPng.pageSubtitle'),
+  path: '/tools/pdf/to-png',
 })
 
 useSchemaOrg([

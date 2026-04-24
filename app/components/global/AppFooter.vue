@@ -18,10 +18,11 @@
         <div>
           <h4 class="text-white font-semibold mb-3">{{ $t('footer.categories') }}</h4>
           <ul class="space-y-2 text-sm">
-            <li><NuxtLink to="/tools/pdf/compress" class="hover:text-orange-400 transition">{{ $t('home.categoryPdf') }}</NuxtLink></li>
-            <li><NuxtLink to="/tools/developer/json-formatter" class="hover:text-orange-400 transition">{{ $t('home.categoryDeveloper') }}</NuxtLink></li>
-            <li><NuxtLink to="/tools/seo/meta-tag-generator" class="hover:text-orange-400 transition">{{ $t('home.categorySeo') }}</NuxtLink></li>
-            <li><NuxtLink to="/tools/utility/qr-code" class="hover:text-orange-400 transition">{{ $t('home.categoryUtility') }}</NuxtLink></li>
+            <li><NuxtLink to="/tools/pdf" class="hover:text-orange-400 transition">{{ $t('nav.pdfTools') }}</NuxtLink></li>
+            <li><NuxtLink to="/tools/image" class="hover:text-orange-400 transition">{{ $t('nav.imageTools') }}</NuxtLink></li>
+            <li><NuxtLink to="/tools/seo" class="hover:text-orange-400 transition">{{ $t('nav.seoTools') }}</NuxtLink></li>
+            <li><NuxtLink to="/blog" class="hover:text-orange-400 transition">{{ $t('nav.blog') }}</NuxtLink></li>
+            <li><NuxtLink to="/about" class="hover:text-orange-400 transition">{{ $t('nav.about') }}</NuxtLink></li>
           </ul>
         </div>
       </div>

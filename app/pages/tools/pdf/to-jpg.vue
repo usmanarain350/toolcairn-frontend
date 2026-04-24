@@ -137,11 +137,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.pdfToJpg.seoTitle'),
+useToolSeo({
+  name: t('tools.pdfToJpg.name'),
   description: t('tools.pdfToJpg.seoDescription'),
-  ogTitle: t('tools.pdfToJpg.seoTitle'),
-  ogDescription: t('tools.pdfToJpg.pageSubtitle'),
+  path: '/tools/pdf/to-jpg',
 })
 
 useSchemaOrg([

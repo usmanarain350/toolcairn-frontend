@@ -1,4 +1,6 @@
-User-Agent: *
+User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /api/
 
-Sitemap: https://toolcairn.com/sitemap.xml
+Sitemap: https://toolcairn.com/sitemap_index.xml

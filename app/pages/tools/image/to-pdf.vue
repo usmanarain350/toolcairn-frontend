@@ -129,11 +129,10 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.imageToPdf.seoTitle'),
+useToolSeo({
+  name: t('tools.imageToPdf.name'),
   description: t('tools.imageToPdf.seoDescription'),
-  ogTitle: t('tools.imageToPdf.seoTitle'),
-  ogDescription: t('tools.imageToPdf.pageSubtitle'),
+  path: '/tools/image/to-pdf',
 })
 
 useSchemaOrg([

@@ -155,11 +155,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.jsonFormatter.seoTitle'),
+useToolSeo({
+  name: t('tools.jsonFormatter.name'),
   description: t('tools.jsonFormatter.seoDescription'),
-  ogTitle: t('tools.jsonFormatter.seoTitle'),
-  ogDescription: t('tools.jsonFormatter.pageSubtitle'),
+  path: '/tools/developer/json-formatter',
 })
 
 useSchemaOrg([

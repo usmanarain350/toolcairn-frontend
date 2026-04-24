@@ -141,11 +141,10 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.protectPdf.seoTitle'),
+useToolSeo({
+  name: t('tools.protectPdf.name'),
   description: t('tools.protectPdf.seoDescription'),
-  ogTitle: t('tools.protectPdf.seoTitle'),
-  ogDescription: t('tools.protectPdf.pageSubtitle'),
+  path: '/tools/pdf/protect',
 })
 
 useSchemaOrg([

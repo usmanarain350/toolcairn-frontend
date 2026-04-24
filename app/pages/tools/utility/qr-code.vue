@@ -129,11 +129,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.qrCode.seoTitle'),
+useToolSeo({
+  name: t('tools.qrCode.name'),
   description: t('tools.qrCode.seoDescription'),
-  ogTitle: t('tools.qrCode.seoTitle'),
-  ogDescription: t('tools.qrCode.pageSubtitle'),
+  path: '/tools/utility/qr-code',
 })
 
 useSchemaOrg([

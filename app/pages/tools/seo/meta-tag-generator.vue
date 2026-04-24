@@ -272,11 +272,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.metaTagGenerator.seoTitle'),
+useToolSeo({
+  name: t('tools.metaTagGenerator.name'),
   description: t('tools.metaTagGenerator.seoDescription'),
-  ogTitle: t('tools.metaTagGenerator.seoTitle'),
-  ogDescription: t('tools.metaTagGenerator.pageSubtitle'),
+  path: '/tools/seo/meta-tag-generator',
 })
 
 useSchemaOrg([

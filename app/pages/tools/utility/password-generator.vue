@@ -139,11 +139,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.passwordGenerator.seoTitle'),
+useToolSeo({
+  name: t('tools.passwordGenerator.name'),
   description: t('tools.passwordGenerator.seoDescription'),
-  ogTitle: t('tools.passwordGenerator.seoTitle'),
-  ogDescription: t('tools.passwordGenerator.pageSubtitle'),
+  path: '/tools/utility/password-generator',
 })
 
 useSchemaOrg([

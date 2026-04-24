@@ -123,11 +123,10 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.wordToPdf.seoTitle'),
+useToolSeo({
+  name: t('tools.wordToPdf.name'),
   description: t('tools.wordToPdf.seoDescription'),
-  ogTitle: t('tools.wordToPdf.seoTitle'),
-  ogDescription: t('tools.wordToPdf.pageSubtitle'),
+  path: '/tools/word/to-pdf',
 })
 
 useSchemaOrg([

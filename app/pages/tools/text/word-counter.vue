@@ -103,11 +103,10 @@ definePageMeta({ layout: 'tool' })
 
 const { t } = useI18n()
 
-useSeoMeta({
-  title: t('tools.wordCounter.seoTitle'),
+useToolSeo({
+  name: t('tools.wordCounter.name'),
   description: t('tools.wordCounter.seoDescription'),
-  ogTitle: t('tools.wordCounter.seoTitle'),
-  ogDescription: t('tools.wordCounter.pageSubtitle'),
+  path: '/tools/text/word-counter',
 })
 
 useSchemaOrg([
