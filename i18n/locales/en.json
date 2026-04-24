@@ -6,6 +6,10 @@
   },
   "nav": {
     "pdfTools": "PDF Tools",
+    "imageTools": "Image Tools",
+    "seoTools": "SEO Tools",
+    "blog": "Blog",
+    "about": "About",
     "developer": "Developer",
     "utility": "Utility",
     "seo": "SEO",

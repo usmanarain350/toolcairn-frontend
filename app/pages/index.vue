@@ -22,12 +22,48 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
+const route = useRoute()
 
 useSeoMeta({
   title: `${t('site.name')} — ${t('site.tagline')}`,
   description: t('site.description'),
   ogTitle: `${t('site.name')} — ${t('site.tagline')}`,
   ogDescription: t('home.subtitle'),
+})
+
+useHead({
+  link: [
+    { rel: 'canonical', href: `https://toolcairn.com${route.path === '/' ? '/' : route.path}` },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Toolcairn',
+        url: 'https://toolcairn.com/',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: 'https://toolcairn.com/search?q={search_term_string}',
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Toolcairn',
+        url: 'https://toolcairn.com/',
+        logo: 'https://toolcairn.com/logo.png',
+      }),
+    },
+  ],
 })
 
 const categories = computed(() => [

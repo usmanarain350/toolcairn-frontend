@@ -102,6 +102,24 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
   },
 
+  sitemap: {
+    xsl: false,
+    sitemaps: {
+      pages: {
+        include: ['/', '/about/**', '/blog/**'],
+      },
+      'tools-pdf': {
+        include: ['/tools/pdf/**'],
+      },
+      'tools-image': {
+        include: ['/tools/image/**'],
+      },
+      'tools-seo': {
+        include: ['/tools/seo/**'],
+      },
+    },
+  },
+
   runtimeConfig: {
     public: {
       apiBase: 'http://localhost:8000/api/v1',
