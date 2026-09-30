@@ -16,13 +16,20 @@
     "text": "Text",
     "home": "Home",
     "image": "Image",
-    "word": "Word"
+    "word": "Word",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   },
   "footer": {
     "description": "Free online tools for everyone. No signup required. Fast, secure, and easy to use.",
     "popularTools": "Popular Tools",
     "categories": "Categories",
+    "legal": "Legal",
     "rights": "All rights reserved."
+  },
+  "legal": {
+    "lastUpdated": "Last updated"
   },
   "home": {
     "title": "Free Online Tools — {highlight}",

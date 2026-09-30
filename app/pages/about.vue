@@ -16,7 +16,12 @@
     <h2>Contact</h2>
     <p>
       Questions or a tool you wish existed?
-      <a href="mailto:hello@toolcairn.com">hello@toolcairn.com</a>.
+      <a href="mailto:hello@toolcairn.com">hello@toolcairn.com</a> or visit our
+      <NuxtLink to="/contact">contact page</NuxtLink>.
+    </p>
+    <p>
+      Legal? Read our <NuxtLink to="/privacy">Privacy Policy</NuxtLink> and
+      <NuxtLink to="/terms">Terms of Service</NuxtLink>.
     </p>
   </article>
 </template>

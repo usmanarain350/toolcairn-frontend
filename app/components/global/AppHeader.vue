@@ -2,7 +2,7 @@
   <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
       <NuxtLink to="/" class="flex items-center gap-2 text-xl font-bold text-orange-600 hover:text-orange-600 transition shrink-0">
-        <span class="text-2xl">🔥</span>
+        <NuxtImg src="/logo.png" alt="Toolcairn logo" width="36" height="36" class="w-9 h-9" />
         <span>{{ $t('site.name') }}</span>
       </NuxtLink>
       <nav aria-label="Primary" class="hidden lg:flex items-center gap-5 text-sm font-medium text-gray-600">
@@ -11,6 +11,7 @@
         <NuxtLink to="/tools/seo" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.seoTools') }}</NuxtLink>
         <NuxtLink to="/blog" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.blog') }}</NuxtLink>
         <NuxtLink to="/about" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.about') }}</NuxtLink>
+        <NuxtLink to="/contact" class="hover:text-orange-600 transition whitespace-nowrap">{{ $t('nav.contact') }}</NuxtLink>
         <LanguageSwitcher />
       </nav>
       <div class="flex items-center gap-2 lg:hidden">
@@ -28,6 +29,7 @@
       <NuxtLink to="/tools/seo" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.seoTools') }}</NuxtLink>
       <NuxtLink to="/blog" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.blog') }}</NuxtLink>
       <NuxtLink to="/about" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.about') }}</NuxtLink>
+      <NuxtLink to="/contact" class="block text-sm text-gray-600 hover:text-orange-600" @click="mobileOpen = false">{{ $t('nav.contact') }}</NuxtLink>
     </nav>
   </header>
 </template>

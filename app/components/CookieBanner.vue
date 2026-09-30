@@ -5,6 +5,7 @@ function choose(v: 'granted' | 'denied') {
   localStorage.setItem('tc_consent', v)
   const s = { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v }
   ;(window as any).gtag?.('consent', 'update', s)
+  window.dispatchEvent(new CustomEvent('tc-consent', { detail: v }))
   show.value = false
 }
 </script>

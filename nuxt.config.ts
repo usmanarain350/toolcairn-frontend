@@ -84,7 +84,10 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       titleTemplate: "%s | Toolcairn",
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/png", href: "/favicon.png" },
+        { rel: "apple-touch-icon", type: "image/png", href: "/favicon.png" },
+      ],
       meta: [
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:site", content: "@toolcairn" },
@@ -120,6 +123,9 @@ gtag('js',new Date());gtag('config','G-3K5GSSLXJG');`,
         urls: [
           { loc: "/", changefreq: "weekly", priority: 1.0 },
           { loc: "/about", changefreq: "monthly", priority: 0.6 },
+          { loc: "/contact", changefreq: "monthly", priority: 0.6 },
+          { loc: "/privacy", changefreq: "monthly", priority: 0.3 },
+          { loc: "/terms", changefreq: "monthly", priority: 0.3 },
           { loc: "/blog", changefreq: "weekly", priority: 0.7 },
         ],
       },
@@ -172,6 +178,14 @@ gtag('js',new Date());gtag('config','G-3K5GSSLXJG');`,
   runtimeConfig: {
     public: {
       apiBase: "http://localhost:8000/api/v1",
+      adsense: {
+        publisher: "",
+        slots: {
+          top: "",
+          bottom: "",
+          sidebar: "",
+        },
+      },
     },
   },
 

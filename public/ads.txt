@@ -1,0 +1,7 @@
+# ads.txt — Toolcairn (toolcairn.com)
+#
+# Once you are approved for Google AdSense, Google will give you the exact
+# line to publish here. Replace the placeholder below with your real ID.
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# (the number after "pub-" must be your own AdSense publisher ID)
