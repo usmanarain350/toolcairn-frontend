@@ -91,6 +91,10 @@
             <li><strong>Download</strong> — Get your PDF instantly, ready to share or print.</li>
           </ol>
 
+          <h2>What Is Word to PDF Conversion?</h2>
+          <p>Word to PDF conversion turns a DOCX, DOC, ODT, or RTF document into a fixed-layout PDF that looks the same on every device. PDFs are the safest format for sharing reports, resumes, and proposals because the layout, fonts, and page breaks never shift the way they can in word processors.</p>
+          <p>The conversion is handled by LibreOffice, which carefully preserves your formatting — fonts, tables, images, headings, and paragraph styles. You do not need Microsoft Office or any plugin; everything runs in your browser and it is completely free.</p>
+
           <h2>Why Use Toolcairn Word to PDF?</h2>
           <ul>
             <li><strong>Multiple formats</strong> — Supports DOCX, DOC, ODT, and RTF files.</li>
@@ -127,6 +131,11 @@ useToolSeo({
   name: t('tools.wordToPdf.name'),
   description: t('tools.wordToPdf.seoDescription'),
   path: '/tools/word/to-pdf',
+  faqs: [
+    { question: 'What file formats are supported?', answer: 'DOCX, DOC, ODT (OpenDocument Text), and RTF. All are converted via LibreOffice for accurate rendering.' },
+    { question: 'Will the formatting be preserved?', answer: 'Yes. LibreOffice preserves fonts, paragraph styles, tables, and embedded images as faithfully as possible.' },
+    { question: 'How large a file can I upload?', answer: 'Up to 20MB per file.' },
+  ],
 })
 
 useSchemaOrg([

@@ -110,11 +110,15 @@
           </ol>
 
           <h2>Why Password Protect a PDF?</h2>
+          <p>Password protection keeps the contents of a PDF private so only someone with the password can open it. This matters for contracts, financial statements, employee documents, and any file a business shares through email or cloud storage. Our tool applies industry-standard encryption in your browser and is free, with no signup required.</p>
+          <p>The protected file still works in every major PDF reader, so you can share it confidently with clients and colleagues without worrying about unauthorized access.</p>
+
+          <h2>Use Cases</h2>
           <ul>
-            <li><strong>Prevent unauthorized access</strong> — Only people with the password can open the file.</li>
-            <li><strong>128-bit encryption</strong> — Industry-standard AES encryption keeps your file secure.</li>
-            <li><strong>Restrict permissions</strong> — Prevents copying, printing, and editing.</li>
-            <li><strong>Free & private</strong> — No signup, files auto-deleted after 1 hour.</li>
+            <li><strong>Contracts and agreements</strong> — Keep signed legal documents read-only for the intended party.</li>
+            <li><strong>HR and payroll</strong> — Send payslips and employee files securely.</li>
+            <li><strong>Financial reports</strong> — Protect balance sheets and invoices before sharing.</li>
+            <li><strong>Personal records</strong> — Lock medical, tax, or identification documents.</li>
           </ul>
 
           <h2>FAQ</h2>
@@ -145,6 +149,11 @@ useToolSeo({
   name: t('tools.protectPdf.name'),
   description: t('tools.protectPdf.seoDescription'),
   path: '/tools/pdf/protect',
+  faqs: [
+    { question: 'What encryption is used?', answer: 'Your PDF is protected with 128-bit RC4 encryption via Ghostscript, which is compatible with all major PDF readers.' },
+    { question: 'Can I remove the password later?', answer: 'Yes — use a PDF unlock tool with your password to remove protection.' },
+    { question: 'Is my PDF secure on your servers?', answer: 'Yes. Files are automatically deleted after 1 hour and never stored permanently.' },
+  ],
 })
 
 useSchemaOrg([

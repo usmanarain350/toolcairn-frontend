@@ -8,6 +8,20 @@
       </p>
     </section>
 
+    <section class="mb-10 text-gray-600 leading-relaxed max-w-3xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">A Handful of SEO Tools, No Heavy Lifting</h2>
+      <p class="mb-4">
+        Search engine optimization comes down to a lot of small, repetitive tasks. Toolcairn's SEO tools
+        handle the fiddly ones for you. Generate optimized meta tags with correct title and description
+        lengths, and build clean, search-friendly URL slugs from any headline — all with live previews and
+        copy-ready output.
+      </p>
+      <p>
+        Both tools follow current best practices, run entirely in your browser, and are free to use with no
+        signup and no usage limits.
+      </p>
+    </section>
+
     <section aria-label="SEO tools">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <ToolCard v-for="tool in tools" :key="tool.path" :tool="tool" />

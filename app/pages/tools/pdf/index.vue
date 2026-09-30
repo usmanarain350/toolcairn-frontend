@@ -8,6 +8,20 @@
       </p>
     </section>
 
+    <section class="mb-10 text-gray-600 leading-relaxed max-w-3xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">Everything You Need to Work with PDFs</h2>
+      <p class="mb-4">
+        PDF is the universal format for sharing documents, but working with it used to mean installing
+        expensive desktop software. Toolcairn's PDF tools run entirely in your browser — compress oversized
+        files for email, merge multiple documents into one, split page ranges, protect files with a password,
+        or convert pages to JPG and PNG images. No account, no downloads, no watermarks.
+      </p>
+      <p>
+        Every file you process is handled securely and automatically deleted from our servers after one hour.
+        Start with the compressor, the most-used tool on the site, or explore the full set below.
+      </p>
+    </section>
+
     <section aria-label="PDF tools">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <ToolCard v-for="tool in tools" :key="tool.path" :tool="tool" />

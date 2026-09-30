@@ -166,6 +166,18 @@
             <li><strong>Secure</strong> — Files are automatically deleted after 1 hour.</li>
           </ul>
 
+          <h2>What Is a PDF Splitter?</h2>
+          <p>A PDF splitter divides a large PDF document into smaller, more manageable files. Splitting is useful whenever you only need part of a document: a single chapter from a book, a form from a bundle, or a summary page from a long report. Toolcairn makes this a three-step task that runs entirely in your browser, with no signup and no cost.</p>
+          <p>With two built-in modes you can split every page into its own file, or pull out just the range of pages you actually need — no more sharing an entire 100-page document when only one page matters.</p>
+
+          <h2>When Should You Split a PDF?</h2>
+          <ul>
+            <li><strong>Share one page</strong> — Send a single page instead of the whole document.</li>
+            <li><strong>Extract a chapter</strong> — Pull out the section that is relevant to your reader.</li>
+            <li><strong>Reduce file size</strong> — Small single-page files are easier to email and upload.</li>
+            <li><strong>Reorganize content</strong> — Split a document, then reorder the parts as needed.</li>
+          </ul>
+
           <h2>FAQ</h2>
           <h3>What is the maximum file size?</h3>
           <p>You can upload PDF files up to 50MB in size.</p>
@@ -194,6 +206,11 @@ useToolSeo({
   name: t('tools.splitPdf.name'),
   description: t('tools.splitPdf.seoDescription'),
   path: '/tools/pdf/split',
+  faqs: [
+    { question: 'What is the maximum file size?', answer: 'You can upload PDF files up to 50MB in size.' },
+    { question: 'What is the difference between the two modes?', answer: '"Split all pages" creates one PDF per page and packages them in a ZIP file. "Extract page range" creates a single PDF containing only the pages you specify.' },
+    { question: 'Are my files secure?', answer: 'Yes. All uploaded files are automatically deleted from our servers after 1 hour.' },
+  ],
 })
 
 useSchemaOrg([

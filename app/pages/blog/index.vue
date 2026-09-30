@@ -22,6 +22,7 @@ useSeoMeta({
   ogDescription: 'Guides and how-tos for using free online tools.',
   ogUrl: 'https://toolcairn.com/blog',
   ogType: 'website',
+  robots: 'noindex, nofollow',
 })
 
 useHead({

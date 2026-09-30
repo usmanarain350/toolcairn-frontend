@@ -276,6 +276,13 @@ useToolSeo({
   name: t('tools.metaTagGenerator.name'),
   description: t('tools.metaTagGenerator.seoDescription'),
   path: '/tools/seo/meta-tag-generator',
+  faqs: [
+    { question: 'What are meta tags?', answer: 'Meta tags are HTML elements that provide metadata about a web page. They are placed in the <head> section of your HTML and help search engines understand your content, control how your pages appear in search results, and define how your content looks when shared on social media.' },
+    { question: 'What is the ideal title length?', answer: 'Google typically displays the first 50-60 characters of a title tag. Keeping your title under 60 characters ensures it won\'t be truncated in search results. Include your target keyword near the beginning for best results.' },
+    { question: 'What is the ideal description length?', answer: 'Meta descriptions should be between 120-160 characters. Google may display up to 160 characters, but often truncates at around 155. Write a compelling description that encourages clicks.' },
+    { question: 'What are Open Graph tags?', answer: 'Open Graph (OG) tags control how your content appears when shared on social media platforms like Facebook, LinkedIn, and Pinterest. They define the title, description, and image that appear in the social media preview card.' },
+    { question: 'What is a Twitter Card?', answer: 'Twitter Cards are special meta tags that control how your content appears when shared on X (Twitter). "Summary with Large Image" is the most popular type, showing a large image preview with your title and description.' },
+  ],
 })
 
 useSchemaOrg([

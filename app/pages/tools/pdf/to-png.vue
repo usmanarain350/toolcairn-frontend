@@ -101,6 +101,17 @@
             <li><strong>Free & secure</strong> — No signup, files auto-deleted after 1 hour.</li>
           </ul>
 
+          <h2>What Is a PDF to PNG Converter?</h2>
+          <p>A PDF to PNG converter renders every page of a PDF as a high-quality PNG image. PNG is lossless and supports transparency, which makes it ideal for text-heavy documents, diagrams, logos, and any image that must stay razor sharp at every size. The tool is entirely free, runs in your browser, and needs no account.</p>
+          <p>Because PNG never introduces compression artifacts, pages with fine print, charts, and vector graphics convert cleanly. You can pick 72 DPI for screen use, 150 DPI for standard documents, or 300 DPI for crisp print output.</p>
+
+          <h2>PNG vs JPG — Which Should You Choose?</h2>
+          <ul>
+            <li><strong>PNG</strong> — Lossless and supports transparency. Best for text, diagrams, and logos.</li>
+            <li><strong>JPG</strong> — Smaller file size but lossy. Better for photos and image-heavy pages.</li>
+            <li><strong>Transparency</strong> — Choose PNG when the image will sit on a colored or non-white background.</li>
+          </ul>
+
           <h2>FAQ</h2>
           <h3>Why PNG instead of JPG?</h3>
           <p>PNG is lossless and supports transparency. It's better for PDFs with text, diagrams, or logos. Use JPG for photo-heavy PDFs.</p>
@@ -129,6 +140,11 @@ useToolSeo({
   name: t('tools.pdfToPng.name'),
   description: t('tools.pdfToPng.seoDescription'),
   path: '/tools/pdf/to-png',
+  faqs: [
+    { question: 'Why PNG instead of JPG?', answer: 'PNG is lossless and supports transparency. It is better for PDFs with text, diagrams, or logos. Use JPG for photo-heavy PDFs.' },
+    { question: 'What DPI should I use?', answer: '72 DPI for web/screen use, 150 DPI for general use, 300 DPI for print-quality output.' },
+    { question: 'What happens with multi-page PDFs?', answer: 'Each page is converted to a separate PNG file. Multi-page PDFs are bundled into a ZIP download.' },
+  ],
 })
 
 useSchemaOrg([

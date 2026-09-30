@@ -133,6 +133,13 @@ useToolSeo({
   name: t('tools.qrCode.name'),
   description: t('tools.qrCode.seoDescription'),
   path: '/tools/utility/qr-code',
+  faqs: [
+    { question: 'What can I encode in a QR code?', answer: 'You can encode any text content including URLs, plain text, email addresses, phone numbers, WiFi network credentials, vCard contacts, and more. The most common use is encoding website URLs.' },
+    { question: 'What size should I choose?', answer: 'For web use, 300x300 pixels is ideal. For print materials like posters or business cards, choose 500x500 pixels. The 150x150 option works well for small digital applications.' },
+    { question: 'Is there a character limit?', answer: 'QR codes can encode up to about 4,296 alphanumeric characters. For best scanning reliability, keep your content under 500 characters.' },
+    { question: 'Can I customize the QR code colors?', answer: 'The current generator creates standard black-and-white QR codes for maximum scan compatibility. Color customization is coming in a future update.' },
+    { question: 'Do the QR codes expire?', answer: 'No. QR codes generated here are static and will never expire. The image contains all the data directly, so it works forever.' },
+  ],
 })
 
 useSchemaOrg([

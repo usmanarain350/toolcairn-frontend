@@ -107,6 +107,13 @@ useToolSeo({
   name: t('tools.wordCounter.name'),
   description: t('tools.wordCounter.seoDescription'),
   path: '/tools/text/word-counter',
+  faqs: [
+    { question: 'How are words counted?', answer: 'Words are counted by splitting text on whitespace boundaries. Hyphenated words are counted as single words. Multiple consecutive spaces are treated as a single separator.' },
+    { question: 'How is reading time calculated?', answer: 'Reading time is based on an average adult reading speed of 200 words per minute. Speaking time uses 130 words per minute, which is a comfortable speaking pace for presentations.' },
+    { question: 'Does it count characters with or without spaces?', answer: 'Both! The tool shows total characters (including spaces) and characters without spaces, so you have both metrics available.' },
+    { question: 'How are sentences counted?', answer: 'Sentences are counted by detecting sentence-ending punctuation (periods, question marks, exclamation marks). Abbreviations like "Dr." or "U.S.A." may affect the count slightly.' },
+    { question: 'Is there a text length limit?', answer: 'No hard limit. The tool handles long documents efficiently since all processing happens in your browser.' },
+  ],
 })
 
 useSchemaOrg([

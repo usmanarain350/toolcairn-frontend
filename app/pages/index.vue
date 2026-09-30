@@ -48,14 +48,6 @@ useHead({
         '@type': 'WebSite',
         name: 'Toolcairn',
         url: 'https://toolcairn.com/',
-        potentialAction: {
-          '@type': 'SearchAction',
-          target: {
-            '@type': 'EntryPoint',
-            urlTemplate: 'https://toolcairn.com/search?q={search_term_string}',
-          },
-          'query-input': 'required name=search_term_string',
-        },
       }),
     },
     {

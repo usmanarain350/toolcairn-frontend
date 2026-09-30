@@ -106,11 +106,25 @@
             <li><strong>Secure</strong> — Files auto-deleted after 1 hour.</li>
           </ul>
 
+          <h2>What Is a PDF Merger?</h2>
+          <p>A PDF merger lets you combine multiple PDF files into a single document. It is one of the most common document tasks for students, office workers, and small business owners who want to send one clean file instead of several attachments. Toolcairn combines PDFs for free in your browser, with no account and no desktop software.</p>
+          <p>The tool orders your files exactly as you arrange them, so you can place a cover page first, follow it with chapter files, and finish with an appendix — all in one click.</p>
+
+          <h2>When Should You Merge PDFs?</h2>
+          <ul>
+            <li><strong>Combine invoices</strong> — Group a month of billing documents into one PDF for your accountant.</li>
+            <li><strong>Assemble reports</strong> — Merge a cover, body, and appendix into a single deliverable.</li>
+            <li><strong>Bundle contracts</strong> — Send one file containing all signed pages and addenda.</li>
+            <li><strong>Consolidate scans</strong> — Join separately scanned pages into one document.</li>
+          </ul>
+
           <h2>FAQ</h2>
           <h3>How many PDFs can I merge?</h3>
           <p>Up to 20 PDF files, each up to 50MB in size.</p>
           <h3>Does merging affect quality?</h3>
           <p>No. The merge process preserves the original quality of all pages.</p>
+          <h3>Can I merge PDFs with different page sizes?</h3>
+          <p>Yes. Every page is preserved in its original orientation and size within the combined document.</p>
         </template>
 
         <template #related>
@@ -130,6 +144,11 @@ useToolSeo({
   name: t('tools.mergePdf.name'),
   description: t('tools.mergePdf.seoDescription'),
   path: '/tools/pdf/merge',
+  faqs: [
+    { question: 'How many PDFs can I merge?', answer: 'Up to 20 PDF files, each up to 50MB in size.' },
+    { question: 'Does merging affect quality?', answer: 'No. The merge process preserves the original quality of all pages.' },
+    { question: 'Can I merge PDFs with different page sizes?', answer: 'Yes. Every page is preserved in its original orientation and size within the combined document.' },
+  ],
 })
 
 useSchemaOrg([

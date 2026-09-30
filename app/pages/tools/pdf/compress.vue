@@ -120,6 +120,10 @@
             <li>{{ $t('tools.pdfCompressor.howToStep3') }}</li>
           </ol>
 
+          <h2>What Is PDF Compression?</h2>
+          <p>PDF compression reduces the file size of a document by re-encoding images and removing redundant data, while keeping the text and layout intact. Smaller PDFs upload faster, save email and storage space, and pass the size limits many websites and systems enforce.</p>
+          <p>Choose a compression level that fits your task: light compression keeps near-original quality for documents destined for print, medium is a balanced default for most files, and strong compression produces the smallest size for email and the web.</p>
+
           <h2>{{ $t('tools.pdfCompressor.whyTitle') }}</h2>
           <ul>
             <li>{{ $t('tools.pdfCompressor.whyFree') }}</li>

@@ -159,6 +159,13 @@ useToolSeo({
   name: t('tools.jsonFormatter.name'),
   description: t('tools.jsonFormatter.seoDescription'),
   path: '/tools/developer/json-formatter',
+  faqs: [
+    { question: 'What is JSON?', answer: 'JSON (JavaScript Object Notation) is a lightweight data interchange format. It is easy for humans to read and write and easy for machines to parse and generate. JSON is the most widely used format for API responses and configuration files.' },
+    { question: 'Why should I format JSON?', answer: 'Formatted (or "pretty-printed") JSON is much easier to read and debug. Proper indentation and line breaks make it simple to identify the structure, find values, and spot errors in your data.' },
+    { question: 'When should I minify JSON?', answer: 'Minified JSON removes all unnecessary whitespace, reducing file size. Use minification for production API payloads, configuration files that are read by machines, or any scenario where bandwidth matters.' },
+    { question: 'Is my data safe?', answer: 'Yes. All processing happens entirely in your browser using JavaScript. Your JSON data is never sent to any server or stored anywhere.' },
+    { question: 'What does the validator check?', answer: 'The validator parses your input using the standard JSON specification. It checks for syntax errors like missing commas, unmatched brackets, invalid string escaping, and trailing commas.' },
+  ],
 })
 
 useSchemaOrg([

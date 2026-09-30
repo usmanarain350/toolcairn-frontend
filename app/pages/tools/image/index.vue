@@ -8,6 +8,20 @@
       </p>
     </section>
 
+    <section class="mb-10 text-gray-600 leading-relaxed max-w-3xl">
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">Make Images Smaller, Smarter, and Sharable</h2>
+      <p class="mb-4">
+        Large images slow down websites, fill up inboxes, and get rejected by upload forms. Toolcairn's image
+        tools fix that in seconds, right in your browser. Compress JPG, PNG, and WebP files to a fraction of
+        their size while keeping quality under your control, or turn a stack of photos and scans into a clean
+        single-page-per-image PDF.
+      </p>
+      <p>
+        There is nothing to install and no account to create. Files are processed securely and automatically
+        deleted from our servers after one hour.
+      </p>
+    </section>
+
     <section aria-label="Image tools">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <ToolCard v-for="tool in tools" :key="tool.path" :tool="tool" />

@@ -97,6 +97,10 @@
             <li><strong>Download</strong> — Click convert and get your PDF instantly.</li>
           </ol>
 
+          <h2>What Is Image to PDF Conversion?</h2>
+          <p>Image to PDF conversion turns a photo or scanned graphic into a PDF page. It is the simplest way to combine photos, receipts, scans, or screenshots into a single document that anyone can open on any device. There is no software to install — the whole conversion happens in your browser and it is completely free.</p>
+          <p>Every image you upload becomes one page in the PDF, in the exact order you set. That makes the tool ideal for scanning paperwork into a clean digital file, sending several photos as one attachment, or preparing images for printing.</p>
+
           <h2>Why Use Toolcairn Image to PDF?</h2>
           <ul>
             <li><strong>Multiple formats</strong> — Supports JPG, PNG, and WebP images.</li>
@@ -133,6 +137,11 @@ useToolSeo({
   name: t('tools.imageToPdf.name'),
   description: t('tools.imageToPdf.seoDescription'),
   path: '/tools/image/to-pdf',
+  faqs: [
+    { question: 'What image formats are supported?', answer: 'JPG, JPEG, PNG, and WebP. Each image becomes one page in the PDF.' },
+    { question: 'How many images can I convert?', answer: 'Up to 20 images per conversion, each up to 10MB.' },
+    { question: 'Will image quality be preserved?', answer: 'Yes. Images are embedded in the PDF at their original resolution.' },
+  ],
 })
 
 useSchemaOrg([

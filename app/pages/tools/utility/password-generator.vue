@@ -143,6 +143,13 @@ useToolSeo({
   name: t('tools.passwordGenerator.name'),
   description: t('tools.passwordGenerator.seoDescription'),
   path: '/tools/utility/password-generator',
+  faqs: [
+    { question: 'Is this password generator secure?', answer: 'Yes. Passwords are generated entirely in your browser using the Web Crypto API\'s cryptographically secure random number generator. No data is sent to any server.' },
+    { question: 'What makes a strong password?', answer: 'A strong password is at least 12 characters long and includes a mix of uppercase letters, lowercase letters, numbers, and symbols. Our strength indicator helps you gauge your password\'s security.' },
+    { question: 'How long should my password be?', answer: 'We recommend at least 16 characters for important accounts. For maximum security, use 20 or more characters with all character types enabled.' },
+    { question: 'Should I use a password manager?', answer: 'Absolutely. A password manager lets you use unique, strong passwords for every account without needing to remember them. Generate a strong password here, then save it in your password manager.' },
+    { question: 'Can I generate passwords without symbols?', answer: 'Yes. You can toggle any character type on or off. At least one type must remain enabled.' },
+  ],
 })
 
 useSchemaOrg([

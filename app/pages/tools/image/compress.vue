@@ -100,6 +100,10 @@
             <li><strong>Download</strong> — Click "Compress Image" and download your optimized file.</li>
           </ol>
 
+          <h2>What Is Image Compression?</h2>
+          <p>Image compression reduces the file size of a photo or graphic without visibly changing how it looks. Smaller images load faster on websites, fly through email, and take up less space on your phone and in the cloud. Our compressor works on JPG, PNG, and WebP files, so you can optimize almost anything.</p>
+          <p>The quality slider puts you in control: keep 80–90% for photos that look identical, or drop to 60% or below for lightweight graphics and web images. Your optimized file is ready to download in seconds, and nothing is stored permanently.</p>
+
           <h2>Why Use Toolcairn Image Compressor?</h2>
           <ul>
             <li><strong>100% Free</strong> — No hidden costs or premium tiers.</li>
@@ -135,6 +139,11 @@ useToolSeo({
   name: t('tools.imageCompressor.name'),
   description: t('tools.imageCompressor.seoDescription'),
   path: '/tools/image/compress',
+  faqs: [
+    { question: 'What formats are supported?', answer: 'JPG/JPEG, PNG, and WebP images up to 10MB.' },
+    { question: 'Does compression reduce quality?', answer: 'You control the quality with the slider. Higher quality means larger file, lower quality means smaller file.' },
+    { question: 'Is my image safe?', answer: 'Yes. All files are automatically deleted from our servers after 1 hour.' },
+  ],
 })
 
 useSchemaOrg([

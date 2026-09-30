@@ -148,6 +148,13 @@ useToolSeo({
   name: t('tools.slugGenerator.name'),
   description: t('tools.slugGenerator.seoDescription'),
   path: '/tools/seo/slug-generator',
+  faqs: [
+    { question: 'What is a URL slug?', answer: 'A URL slug is the part of a web address that comes after the domain name and identifies a specific page. For example, in "example.com/my-blog-post", the slug is "my-blog-post". Good slugs are short, descriptive, and use hyphens to separate words.' },
+    { question: 'Should I use hyphens or underscores?', answer: 'Google recommends using hyphens (-) rather than underscores (_) in URLs. Hyphens are treated as word separators by search engines, while underscores are not. For SEO, hyphens are the standard choice.' },
+    { question: 'How long should a URL slug be?', answer: 'Keep slugs between 3-5 words (50-60 characters) for the best balance of readability and SEO. Shorter slugs are easier to remember, share, and tend to perform better in search rankings.' },
+    { question: 'Does case matter in slugs?', answer: 'URLs are technically case-sensitive, but most web servers treat them as case-insensitive. Using lowercase is the universal convention for URL slugs. It prevents duplicate content issues and is easier to type.' },
+    { question: 'What characters are removed?', answer: 'The generator removes all special characters, punctuation, accented letters (converted to ASCII equivalents), and extra whitespace. Only alphanumeric characters and the chosen separator are kept.' },
+  ],
 })
 
 useSchemaOrg([

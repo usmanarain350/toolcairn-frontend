@@ -126,7 +126,6 @@ gtag('js',new Date());gtag('config','G-3K5GSSLXJG');`,
           { loc: "/contact", changefreq: "monthly", priority: 0.6 },
           { loc: "/privacy", changefreq: "monthly", priority: 0.3 },
           { loc: "/terms", changefreq: "monthly", priority: 0.3 },
-          { loc: "/blog", changefreq: "weekly", priority: 0.7 },
         ],
       },
       "tools-pdf-v2": {

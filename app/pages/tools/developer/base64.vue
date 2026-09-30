@@ -150,6 +150,13 @@ useToolSeo({
   name: t('tools.base64.name'),
   description: t('tools.base64.seoDescription'),
   path: '/tools/developer/base64',
+  faqs: [
+    { question: 'What is Base64 encoding?', answer: 'Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format. It uses 64 characters (A-Z, a-z, 0-9, +, /) to represent data, with "=" used for padding. It is commonly used in email, URLs, and data storage.' },
+    { question: 'Why is the encoded output larger than the input?', answer: 'Base64 encoding increases data size by approximately 33%. This is because every 3 bytes of input are represented as 4 Base64 characters. This trade-off is necessary to ensure the data can be safely transmitted through text-based systems.' },
+    { question: 'Can I encode binary files?', answer: 'This tool supports text-to-Base64 encoding. For encoding binary files like images, you would need a file-based encoder. We plan to add file upload support in a future update.' },
+    { question: 'Is Base64 encryption?', answer: 'No. Base64 is an encoding scheme, not encryption. It does not provide any security. Anyone can decode a Base64 string. Never use Base64 to protect sensitive information.' },
+    { question: 'What are common uses for Base64?', answer: 'Common uses include embedding images in HTML/CSS (data URIs), encoding email attachments (MIME), transmitting binary data in JSON APIs, and encoding authentication credentials in HTTP headers (Basic Auth).' },
+  ],
 })
 
 useSchemaOrg([

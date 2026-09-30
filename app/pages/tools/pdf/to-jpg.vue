@@ -117,11 +117,25 @@
             <li><strong>Free & secure</strong> — No signup, files auto-deleted after 1 hour.</li>
           </ul>
 
+          <h2>What Is a PDF to JPG Converter?</h2>
+          <p>A PDF to JPG converter turns the pages of a PDF document into individual JPG images. This is essential for printing pages, inserting them into slide decks, building website thumbnails, or uploading documents to forms that only accept images. Our converter runs in your browser, is completely free, and needs no registration.</p>
+          <p>Every page of your PDF is rendered as a separate image, so extracting all 12 pages of a brochure gives you 12 clean, ready-to-use JPG files. Multi-page documents download as a single ZIP that keeps everything organized.</p>
+
+          <h2>When Is PDF to JPG Useful?</h2>
+          <ul>
+            <li><strong>Website images</strong> — Turn report pages into graphics for posts and landing pages.</li>
+            <li><strong>Presentations</strong> — Bring PDF pages into PowerPoint or Google Slides as images.</li>
+            <li><strong>Printing</strong> — Output pages at up to 300 DPI for sharp, print-ready files.</li>
+            <li><strong>Upload limits</strong> — Convert a PDF to an image where image-only uploads are required.</li>
+          </ul>
+
           <h2>FAQ</h2>
           <h3>What DPI should I use?</h3>
           <p>72 DPI for web/screen, 150 DPI for general use, 300 DPI for print quality.</p>
           <h3>What happens with multi-page PDFs?</h3>
           <p>Each page is converted to a separate image. If your PDF has multiple pages, you'll download a ZIP file containing all images.</p>
+          <h3>Can I get PNG instead of JPG?</h3>
+          <p>Yes. Choose PNG in the settings for lossless output and transparent backgrounds when needed.</p>
         </template>
 
         <template #related>
@@ -141,6 +155,11 @@ useToolSeo({
   name: t('tools.pdfToJpg.name'),
   description: t('tools.pdfToJpg.seoDescription'),
   path: '/tools/pdf/to-jpg',
+  faqs: [
+    { question: 'What DPI should I use?', answer: '72 DPI for web/screen, 150 DPI for general use, 300 DPI for print quality.' },
+    { question: 'What happens with multi-page PDFs?', answer: 'Each page is converted to a separate image. If your PDF has multiple pages, you will download a ZIP file containing all images.' },
+    { question: 'Can I get PNG instead of JPG?', answer: 'Yes. Choose PNG in the settings for lossless output and transparent backgrounds when needed.' },
+  ],
 })
 
 useSchemaOrg([
