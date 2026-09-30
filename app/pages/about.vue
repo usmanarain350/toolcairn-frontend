@@ -16,7 +16,7 @@
     <h2>Contact</h2>
     <p>
       Questions or a tool you wish existed?
-      <a href="mailto:hello@toolcairn.com">hello@toolcairn.com</a> or visit our
+      <a href="mailto:admintoolcairn@gmail.com">admintoolcairn@gmail.com</a> or visit our
       <NuxtLink to="/contact">contact page</NuxtLink>.
     </p>
     <p>

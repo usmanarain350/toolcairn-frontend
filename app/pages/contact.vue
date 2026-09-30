@@ -10,8 +10,8 @@
       <div class="bg-white rounded-xl border border-gray-200 p-6">
         <h2 class="font-semibold text-gray-900 mb-2">📧 General inquiries</h2>
         <p class="text-sm text-gray-500 mb-3">Questions about Toolcairn, our tools, or partnerships.</p>
-        <a href="mailto:hello@toolcairn.com" class="text-orange-600 font-medium hover:underline">
-          hello@toolcairn.com
+        <a href="mailto:admintoolcairn@gmail.com" class="text-orange-600 font-medium hover:underline">
+          admintoolcairn@gmail.com
         </a>
       </div>
       <div class="bg-white rounded-xl border border-gray-200 p-6">
@@ -20,8 +20,8 @@
           Requests about your data, privacy, or rights.
           <NuxtLink to="/privacy" class="text-orange-600 hover:underline">Privacy Policy</NuxtLink>.
         </p>
-        <a href="mailto:privacy@toolcairn.com" class="text-orange-600 font-medium hover:underline">
-          privacy@toolcairn.com
+        <a href="mailto:admintoolcairn@gmail.com" class="text-orange-600 font-medium hover:underline">
+          admintoolcairn@gmail.com
         </a>
       </div>
     </div>

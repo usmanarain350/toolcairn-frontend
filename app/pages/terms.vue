@@ -77,7 +77,7 @@
     <h2>10. Contact</h2>
     <p>
       Questions about these Terms?
-      <a href="mailto:hello@toolcairn.com">hello@toolcairn.com</a> or
+      <a href="mailto:admintoolcairn@gmail.com">admintoolcairn@gmail.com</a> or
       <NuxtLink to="/contact">contact us</NuxtLink>.
     </p>
   </article>
