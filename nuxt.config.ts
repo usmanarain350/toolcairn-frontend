@@ -1,29 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxtjs/i18n',
-    '@nuxtjs/seo',
-    '@nuxt/image',
-    '@pinia/nuxt',
-  ],
+  modules: ["@nuxtjs/i18n", "@nuxtjs/seo", "@nuxt/image", "@pinia/nuxt"],
 
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
 
-  components: [
-    { path: '~/components', pathPrefix: false },
-  ],
+  components: [{ path: "~/components", pathPrefix: false }],
 
   vite: {
     plugins: [tailwindcss()],
   },
 
   nitro: {
-    preset: 'cloudflare_module',
+    preset: "cloudflare_module",
     cloudflare: {
       deployConfig: true,
       nodeCompat: true,
@@ -32,151 +25,157 @@ export default defineNuxtConfig({
 
   i18n: {
     locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'id', name: 'Bahasa Indonesia', file: 'id.json' },
-      { code: 'bs', name: 'Bosanski', file: 'bs.json' },
-      { code: 'da', name: 'Dansk', file: 'da.json' },
-      { code: 'de', name: 'Deutsch', file: 'de.json' },
-      { code: 'et', name: 'Eesti', file: 'et.json' },
-      { code: 'es', name: 'Español', file: 'es.json' },
-      { code: 'fr', name: 'Français', file: 'fr.json' },
-      { code: 'ga', name: 'Gaeilge', file: 'ga.json' },
-      { code: 'hr', name: 'Hrvatski', file: 'hr.json' },
-      { code: 'it', name: 'Italiano', file: 'it.json' },
-      { code: 'lv', name: 'Latviešu', file: 'lv.json' },
-      { code: 'lt', name: 'Lietuvių', file: 'lt.json' },
-      { code: 'hu', name: 'Magyar', file: 'hu.json' },
-      { code: 'mt', name: 'Malti', file: 'mt.json' },
-      { code: 'nl', name: 'Nederlands', file: 'nl.json' },
-      { code: 'no', name: 'Norsk', file: 'no.json' },
-      { code: 'pl', name: 'Polski', file: 'pl.json' },
-      { code: 'pt', name: 'Português', file: 'pt.json' },
-      { code: 'ro', name: 'Română', file: 'ro.json' },
-      { code: 'sk', name: 'Slovenčina', file: 'sk.json' },
-      { code: 'sl', name: 'Slovenščina', file: 'sl.json' },
-      { code: 'fi', name: 'Suomi', file: 'fi.json' },
-      { code: 'sv', name: 'Svenska', file: 'sv.json' },
-      { code: 'vi', name: 'Tiếng Việt', file: 'vi.json' },
-      { code: 'tr', name: 'Türkçe', file: 'tr.json' },
-      { code: 'is', name: 'Íslenska', file: 'is.json' },
-      { code: 'cs', name: 'Čeština', file: 'cs.json' },
-      { code: 'el', name: 'Ελληνικά', file: 'el.json' },
-      { code: 'bg', name: 'Български', file: 'bg.json' },
-      { code: 'ru', name: 'Русский', file: 'ru.json' },
-      { code: 'uk', name: 'Українська', file: 'uk.json' },
-      { code: 'he', name: 'עברית', file: 'he.json', dir: 'rtl' },
-      { code: 'ar', name: 'العربية', file: 'ar.json', dir: 'rtl' },
-      { code: 'mr', name: 'मराठी', file: 'mr.json' },
-      { code: 'hi', name: 'हिन्दी', file: 'hi.json' },
-      { code: 'bn', name: 'বাংলা', file: 'bn.json' },
-      { code: 'pa', name: 'ਪੰਜਾਬੀ', file: 'pa.json' },
-      { code: 'te', name: 'తెలుగు', file: 'te.json' },
-      { code: 'th', name: 'ไทย', file: 'th.json' },
-      { code: 'zh', name: '中文', file: 'zh.json' },
-      { code: 'ja', name: '日本語', file: 'ja.json' },
-      { code: 'ko', name: '한국어', file: 'ko.json' },
+      { code: "en", name: "English", file: "en.json" },
+      { code: "id", name: "Bahasa Indonesia", file: "id.json" },
+      { code: "bs", name: "Bosanski", file: "bs.json" },
+      { code: "da", name: "Dansk", file: "da.json" },
+      { code: "de", name: "Deutsch", file: "de.json" },
+      { code: "et", name: "Eesti", file: "et.json" },
+      { code: "es", name: "Español", file: "es.json" },
+      { code: "fr", name: "Français", file: "fr.json" },
+      { code: "ga", name: "Gaeilge", file: "ga.json" },
+      { code: "hr", name: "Hrvatski", file: "hr.json" },
+      { code: "it", name: "Italiano", file: "it.json" },
+      { code: "lv", name: "Latviešu", file: "lv.json" },
+      { code: "lt", name: "Lietuvių", file: "lt.json" },
+      { code: "hu", name: "Magyar", file: "hu.json" },
+      { code: "mt", name: "Malti", file: "mt.json" },
+      { code: "nl", name: "Nederlands", file: "nl.json" },
+      { code: "no", name: "Norsk", file: "no.json" },
+      { code: "pl", name: "Polski", file: "pl.json" },
+      { code: "pt", name: "Português", file: "pt.json" },
+      { code: "ro", name: "Română", file: "ro.json" },
+      { code: "sk", name: "Slovenčina", file: "sk.json" },
+      { code: "sl", name: "Slovenščina", file: "sl.json" },
+      { code: "fi", name: "Suomi", file: "fi.json" },
+      { code: "sv", name: "Svenska", file: "sv.json" },
+      { code: "vi", name: "Tiếng Việt", file: "vi.json" },
+      { code: "tr", name: "Türkçe", file: "tr.json" },
+      { code: "is", name: "Íslenska", file: "is.json" },
+      { code: "cs", name: "Čeština", file: "cs.json" },
+      { code: "el", name: "Ελληνικά", file: "el.json" },
+      { code: "bg", name: "Български", file: "bg.json" },
+      { code: "ru", name: "Русский", file: "ru.json" },
+      { code: "uk", name: "Українська", file: "uk.json" },
+      { code: "he", name: "עברית", file: "he.json", dir: "rtl" },
+      { code: "ar", name: "العربية", file: "ar.json", dir: "rtl" },
+      { code: "mr", name: "मराठी", file: "mr.json" },
+      { code: "hi", name: "हिन्दी", file: "hi.json" },
+      { code: "bn", name: "বাংলা", file: "bn.json" },
+      { code: "pa", name: "ਪੰਜਾਬੀ", file: "pa.json" },
+      { code: "te", name: "తెలుగు", file: "te.json" },
+      { code: "th", name: "ไทย", file: "th.json" },
+      { code: "zh", name: "中文", file: "zh.json" },
+      { code: "ja", name: "日本語", file: "ja.json" },
+      { code: "ko", name: "한국어", file: "ko.json" },
     ],
-    defaultLocale: 'en',
-    langDir: 'locales',
-    strategy: 'prefix_except_default',
+    defaultLocale: "en",
+    langDir: "locales",
+    strategy: "prefix_except_default",
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
     },
   },
 
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-      titleTemplate: '%s | Toolcairn',
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ],
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      titleTemplate: "%s | Toolcairn",
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       meta: [
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:site', content: '@toolcairn' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Toolcairn' },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:site", content: "@toolcairn" },
+        { property: "og:type", content: "website" },
+        { property: "og:site_name", content: "Toolcairn" },
+      ],
+      script: [
+        {
+          innerHTML: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});
+if(localStorage.getItem('tc_consent')==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}
+gtag('js',new Date());gtag('config','G-3K5GSSLXJG');`,
+        },
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-3K5GSSLXJG",
+          async: true,
+        },
       ],
     },
   },
 
   site: {
-    url: 'https://toolcairn.com',
-    name: 'Toolcairn',
-    description: 'Free Online Tools — No Signup Required',
-    defaultLocale: 'en',
+    url: "https://toolcairn.com",
+    name: "Toolcairn",
+    description: "Free Online Tools — No Signup Required",
+    defaultLocale: "en",
   },
 
   sitemap: {
     xsl: false,
     sitemaps: {
-      'pages-v2': {
+      "pages-v2": {
         urls: [
-          { loc: '/', changefreq: 'weekly', priority: 1.0 },
-          { loc: '/about', changefreq: 'monthly', priority: 0.6 },
-          { loc: '/blog', changefreq: 'weekly', priority: 0.7 },
+          { loc: "/", changefreq: "weekly", priority: 1.0 },
+          { loc: "/about", changefreq: "monthly", priority: 0.6 },
+          { loc: "/blog", changefreq: "weekly", priority: 0.7 },
         ],
       },
-      'tools-pdf-v2': {
-        defaults: { changefreq: 'weekly', priority: 0.9 },
+      "tools-pdf-v2": {
+        defaults: { changefreq: "weekly", priority: 0.9 },
         urls: [
-          '/tools/pdf',
-          '/tools/pdf/compress',
-          '/tools/pdf/merge',
-          '/tools/pdf/split',
-          '/tools/pdf/protect',
-          '/tools/pdf/to-jpg',
-          '/tools/pdf/to-png',
+          "/tools/pdf",
+          "/tools/pdf/compress",
+          "/tools/pdf/merge",
+          "/tools/pdf/split",
+          "/tools/pdf/protect",
+          "/tools/pdf/to-jpg",
+          "/tools/pdf/to-png",
         ],
       },
-      'tools-image-v2': {
-        defaults: { changefreq: 'weekly', priority: 0.9 },
+      "tools-image-v2": {
+        defaults: { changefreq: "weekly", priority: 0.9 },
+        urls: ["/tools/image", "/tools/image/compress", "/tools/image/to-pdf"],
+      },
+      "tools-seo-v2": {
+        defaults: { changefreq: "weekly", priority: 0.9 },
         urls: [
-          '/tools/image',
-          '/tools/image/compress',
-          '/tools/image/to-pdf',
+          "/tools/seo",
+          "/tools/seo/meta-tag-generator",
+          "/tools/seo/slug-generator",
         ],
       },
-      'tools-seo-v2': {
-        defaults: { changefreq: 'weekly', priority: 0.9 },
+      "tools-other": {
+        defaults: { changefreq: "weekly", priority: 0.8 },
         urls: [
-          '/tools/seo',
-          '/tools/seo/meta-tag-generator',
-          '/tools/seo/slug-generator',
-        ],
-      },
-      'tools-other': {
-        defaults: { changefreq: 'weekly', priority: 0.8 },
-        urls: [
-          '/tools/developer/base64',
-          '/tools/developer/json-formatter',
-          '/tools/utility/qr-code',
-          '/tools/utility/password-generator',
-          '/tools/text/word-counter',
-          '/tools/word/to-pdf',
+          "/tools/developer/base64",
+          "/tools/developer/json-formatter",
+          "/tools/utility/qr-code",
+          "/tools/utility/password-generator",
+          "/tools/text/word-counter",
+          "/tools/word/to-pdf",
         ],
       },
     },
   },
 
   robots: {
-    disallow: ['/admin/', '/api/'],
+    disallow: ["/admin/", "/api/"],
   },
 
   image: {
-    format: ['webp', 'avif'],
+    format: ["webp", "avif"],
   },
 
   runtimeConfig: {
     public: {
-      apiBase: 'http://localhost:8000/api/v1',
+      apiBase: "http://localhost:8000/api/v1",
     },
   },
 
   routeRules: {
-    '/tools/**': { prerender: false },
+    "/tools/**": { prerender: false },
   },
-})
+});
